@@ -1,5 +1,10 @@
 # courses
 
+### Extract courses from Wilma
+1. Open [course tray](https://wilma.espoo.fi/selection/view?)
+2. Select all trays you want to add
+3. Save source of page as HTML to scripts/courses.json
+
 ## Project setup
 ```
 yarn install
