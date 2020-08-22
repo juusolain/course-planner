@@ -5,15 +5,15 @@
 </template>
 
 <script>
-import store from "@/store.js";
+import store from '@/store.js'
 
 export default {
-  name: "CourseList",
-  data() {
+  name: 'CourseList',
+  data () {
     return {
       data: store.courseList,
-      columns: [{ field: "name", label: "name" }]
-    };
+      columns: [{ field: 'name', label: 'name' }]
+    }
   }
-};
+}
 </script>

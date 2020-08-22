@@ -6,10 +6,10 @@
 </template>
 
 <script>
-import CourseList from "@/components/CourseList.vue";
+import CourseList from '@/components/CourseList.vue'
 export default {
   components: {
     CourseList
   }
-};
+}
 </script>
