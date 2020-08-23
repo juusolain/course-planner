@@ -9,7 +9,7 @@
 
 <script>
 import CourseBar from '@/components/Tray/CourseBar.vue'
-import store from '@/store.js'
+import CourseManager from '@/scripts/courses.js'
 
 export default {
   components: {
@@ -17,7 +17,7 @@ export default {
   },
   data () {
     return {
-      trays: store.trays
+      trays: CourseManager.trays
     }
   }
 }

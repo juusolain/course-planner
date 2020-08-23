@@ -1,17 +1,28 @@
 <template>
-  <div>
-    <b-table :data="data" :columns="columns"> </b-table>
+  <div class="container">
+    <div class="columns" v-for="(courseNumbers, courseName) in courses" :key="courseName">
+      <div class="column is-1">
+        <p>{{courseName}}</p>
+      </div>
+      <div class="column">
+        <div class="is-flex">
+          <div v-for="(courseNumber, index) of courseNumbers" :key="courseName+courseNumber+index">
+            <b-button size="is-small">{{courseNumber}}</b-button>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
 </template>
 
 <script>
-import store from '@/store.js'
+import CourseManager from '@/scripts/courses.js'
 
 export default {
   name: 'CourseList',
   data () {
     return {
-      data: store.courseList,
+      courses: CourseManager.allCourses,
       columns: [{ field: 'name', label: 'name' }]
     }
   }

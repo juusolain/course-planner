@@ -12,7 +12,7 @@ class Courses {
       0: ['MAY01'],
       1: ['MAA02', 'MAA03', 'HI01', 'ENA01']
     }
-    this.currentyear = 1
+    this.currentYear = 1
     this.trays = {}
     this.selections = {} // group selections
     this.loadTrays()
@@ -72,7 +72,7 @@ class Courses {
 
   isCourseCompleted = courseKey => {
     let result = false
-    for (let i = 0; i++; i < this.currentyear) {
+    for (let i = 0; i++; i < this.currentYear) {
       if (this.courseSelections[i]) {
         const courses = this.courseSelections[i]
         courses.forEach(course => {
@@ -87,8 +87,8 @@ class Courses {
 
   isCourseWanted = courseKey => {
     let result = false
-    if (this.courseSelections[this.currentyear]) {
-      const courses = this.courseSelections[this.currentyear]
+    if (this.courseSelections[this.currentYear]) {
+      const courses = this.courseSelections[this.currentYear]
       courses.forEach(course => {
         if (course === courseKey) {
           result = true
@@ -96,6 +96,11 @@ class Courses {
       })
     }
     return result
+  }
+
+  addWantedCourse = courseKey => {
+    this.courseSelections[this.currentYear] = this.courseSelections[this.currentYear] || []
+    this.courseSelections[this.currentYear].push(courseKey)
   }
 
   getSelection = (tray, bar) => {
@@ -131,6 +136,9 @@ class Courses {
     if (this.canSelect(group, true)) {
       this.setSelection(group.tray, group.bar, group)
       this.setCourseSelections(group.courseKey)
+      if (!this.isCourseWanted(group.courseKey)) {
+        this.addWantedCourse(group.courseKey)
+      }
     }
   }
 

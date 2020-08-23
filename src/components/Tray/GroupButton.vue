@@ -27,13 +27,16 @@ export default {
       if (!this.group.selected && this.group.courseSelected) {
         return `${light} is-warning`
       }
-      if (CourseManager.isCourseWanted(this.group.courseKey)) {
-        return `${light} is-success`
-      }
       if (!CourseManager.canSelect(this.group, true)) {
         return `${light} is-danger`
       }
-      return light
+      if (CourseManager.isCourseWanted(this.group.courseKey)) {
+        return `${light} is-success`
+      } else if (this.group.selected) {
+        return 'is-dark'
+      } else {
+        return 'is-light'
+      }
     }
   }
 }
