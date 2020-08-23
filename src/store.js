@@ -14,6 +14,7 @@ class Store {
     this.trays = courses.trays
     this.selections = {}
     this.completed = []
+    this.loading = false
   }
 }
 

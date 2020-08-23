@@ -14,6 +14,7 @@
     "eslint-plugin-standard": "^4.0.1",
     "standard": "^14.3.4",
     "vue": "^2.6.12",
+    "vue-nprogress": "^0.1.5",
     "vue-router": "^3.2.0"
   },
   "devDependencies": {
