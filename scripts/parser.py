@@ -42,7 +42,9 @@ for ti, div in enumerate(trayDivs):
                 'courseKey': courseKey,
                 'courseNumber': courseNumber,
                 'courseBaseKey': courseBaseKey,
-                'teacher': teacher
+                'teacher': teacher,
+                'bar': str(barNumber),
+                'tray': trayName
             }
             trayResult[barNumber].append(groupObject)
     result[trayName] = trayResult
