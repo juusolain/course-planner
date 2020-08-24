@@ -1,12 +1,24 @@
 <template>
   <div id="app">
+    <nprogress-container></nprogress-container>
     <div id="nav">
       <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
+      <router-link to="/courses">Courses</router-link> |
+      <router-link to="/trays">Trays</router-link>
     </div>
     <router-view />
   </div>
 </template>
+
+<script>
+import NprogressContainer from 'vue-nprogress/src/NprogressContainer'
+
+export default {
+  components: {
+    NprogressContainer
+  }
+}
+</script>
 
 <style lang="scss">
 #app {
