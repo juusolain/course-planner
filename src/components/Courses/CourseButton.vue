@@ -1,12 +1,12 @@
 <template>
-    <b-button size="is-small" :type="type" @click="toggleWanted">{{courseNum}}</b-button>
+    <b-button size="is-small" :type="type" @click="toggleWanted">{{courseObj.courseNumber}}{{selectionYear}}</b-button>
 </template>
 
 <script>
 import CourseManager from '@/scripts/courses.js'
 
 export default {
-  props: ['courseNum', 'courseName', 'activeYear'],
+  props: ['courseObj', 'courseName', 'activeYear'],
   data () {
     return {
       wantedCourses: CourseManager.wantedCourses
@@ -15,36 +15,43 @@ export default {
   computed: {
     type () {
       const year = this.getSelectionYear()
+      let val = ''
+      switch (this.courseObj.courseType) {
+        case 'P':
+          val = 'is-success'
+          break
+        case 'VS':
+          val = 'is-danger'
+          break
+        case 'K':
+          val = 'is-primary'
+          break
+        default:
+          break
+      }
       if (year === null) {
-        return ''
+        val += 'is-light'
+      }
+      return val
+    },
+    selectionYear () {
+      const year = this.getSelectionYear()
+      if (year !== null) {
+        return ` (${year})`
       } else {
-        let val = ''
-        switch (year) {
-          case '1':
-            val = 'is-danger'
-            break
-          case '2':
-            val = 'is-warning'
-            break
-          case '3':
-            val = 'is-success'
-            break
-          default:
-            break
-        }
-        return val
+        return ''
       }
     }
   },
   methods: {
     getSelectionYear () {
-      return CourseManager.getCourseWantedYear(this.courseName + this.courseNum)
+      return CourseManager.getCourseWantedYear(this.courseObj.courseKey)
     },
     toggleWanted () {
-      if (!CourseManager.isCourseWanted(this.courseName + this.courseNum)) {
-        CourseManager.addWantedCourse(this.courseName + this.courseNum, this.activeYear)
+      if (!CourseManager.isCourseWanted(this.courseObj.courseKey)) {
+        CourseManager.addWantedCourse(this.courseObj.courseKey, this.activeYear)
       } else {
-        CourseManager.removeWantedCourse(this.courseName + this.courseNum, this.activeYear)
+        CourseManager.removeWantedCourse(this.courseObj.courseKey, this.activeYear)
       }
     }
   }

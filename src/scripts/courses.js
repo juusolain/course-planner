@@ -7,7 +7,8 @@ class Courses {
   constructor () {
     this.allCourses = courseJSON
     this.originalTrays = courseTrayJSON
-    // selected and completed courses by year
+
+    // selected and completed courses by year - can be accessed with [n] or ['n']
     this.wantedCourses = {
       0: ['MAY01'],
       1: ['MAA02', 'MAA03', 'HI01', 'ENA01'],
@@ -15,8 +16,10 @@ class Courses {
       3: []
     }
     this.currentYear = 1
+    // group trays
     this.trays = {}
-    this.selections = {} // group selections
+    // group selections
+    this.selections = {}
     this.loadTrays()
   }
 
@@ -73,18 +76,12 @@ class Courses {
   }
 
   isCourseCompleted = (courseKey, year) => {
-    let result = false
-    for (let i = 0; i++; i < year) {
-      if (this.wantedCourses[i]) {
-        const courses = this.wantedCourses[i]
-        courses.forEach(course => {
-          if (course === courseKey) {
-            result = true
-          }
-        })
+    for (let i = 0; i++; i < Number(year)) {
+      if (this.isCourseWanted(courseKey, String(year))) {
+        return true
       }
     }
-    return result
+    return false
   }
 
   isCourseWanted = (courseKey, wantedYear) => {
