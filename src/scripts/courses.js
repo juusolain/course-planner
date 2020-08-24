@@ -8,9 +8,11 @@ class Courses {
     this.allCourses = courseJSON
     this.originalTrays = courseTrayJSON
     // selected and completed courses by year
-    this.courseSelections = {
+    this.wantedCourses = {
       0: ['MAY01'],
-      1: ['MAA02', 'MAA03', 'HI01', 'ENA01']
+      1: ['MAA02', 'MAA03', 'HI01', 'ENA01'],
+      2: [],
+      3: []
     }
     this.currentYear = 1
     this.trays = {}
@@ -70,11 +72,11 @@ class Courses {
     }
   }
 
-  isCourseCompleted = courseKey => {
+  isCourseCompleted = (courseKey, year) => {
     let result = false
-    for (let i = 0; i++; i < this.currentYear) {
-      if (this.courseSelections[i]) {
-        const courses = this.courseSelections[i]
+    for (let i = 0; i++; i < year) {
+      if (this.wantedCourses[i]) {
+        const courses = this.wantedCourses[i]
         courses.forEach(course => {
           if (course === courseKey) {
             result = true
@@ -85,22 +87,44 @@ class Courses {
     return result
   }
 
-  isCourseWanted = courseKey => {
-    let result = false
-    if (this.courseSelections[this.currentYear]) {
-      const courses = this.courseSelections[this.currentYear]
+  isCourseWanted = (courseKey, wantedYear) => {
+    if (wantedYear === undefined) {
+      return this.getCourseWantedYear(courseKey) !== null
+    } else {
+      return this.getCourseWantedYear(courseKey) === wantedYear
+    }
+  }
+
+  getCourseWantedYear = courseKey => {
+    let result = null
+    for (const year in this.wantedCourses) {
+      const courses = this.wantedCourses[year]
       courses.forEach(course => {
         if (course === courseKey) {
-          result = true
+          result = year
         }
       })
     }
     return result
   }
 
-  addWantedCourse = courseKey => {
-    this.courseSelections[this.currentYear] = this.courseSelections[this.currentYear] || []
-    this.courseSelections[this.currentYear].push(courseKey)
+  addWantedCourse = (courseKey, year) => {
+    if (this.wantedCourses[year] === undefined) {
+      Vue.set(this.wantedCourses, year, [])
+    }
+    Vue.set(this.wantedCourses[year], this.wantedCourses[year].length, courseKey)
+  }
+
+  removeWantedCourse = courseKey => {
+    for (const year in this.wantedCourses) {
+      const courses = this.wantedCourses[year]
+      courses.forEach((course, index, arr) => {
+        if (course === courseKey) {
+          arr.splice(index, 1)
+        }
+      })
+      Vue.set(this.wantedCourses, year, courses)
+    }
   }
 
   getSelection = (tray, bar) => {
@@ -135,7 +159,7 @@ class Courses {
   selectGroup = group => {
     if (this.canSelect(group, true)) {
       this.setSelection(group.tray, group.bar, group)
-      this.setCourseSelections(group.courseKey)
+      this.setSelectedCourses(group.courseKey)
       if (!this.isCourseWanted(group.courseKey)) {
         this.addWantedCourse(group.courseKey)
       }
@@ -144,7 +168,7 @@ class Courses {
 
   removeGroup = group => {
     this.setSelection(group.tray, group.bar, null)
-    this.setCourseSelections(group.courseKey)
+    this.setSelectedCourses(group.courseKey)
   }
 
   isGroupSelected = group => {
@@ -160,7 +184,7 @@ class Courses {
     return res
   }
 
-  setCourseSelections = (courseKey) => {
+  setSelectedCourses = (courseKey) => {
     const newValue = this.isCourseSelected(courseKey)
     loopTrays(this.trays, (elem, index, arr) => {
       if (elem) {

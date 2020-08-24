@@ -8,7 +8,7 @@
 import CourseManager from '@/scripts/courses.js'
 
 export default {
-  props: ['group'],
+  props: ['group', 'activeYear'],
   methods: {
     toggle () {
       if (!this.group.selected) {
@@ -30,7 +30,7 @@ export default {
       if (!CourseManager.canSelect(this.group, true)) {
         return `${light} is-danger`
       }
-      if (CourseManager.isCourseWanted(this.group.courseKey)) {
+      if (CourseManager.isCourseWanted(this.group.courseKey, this.activeYear)) {
         return `${light} is-success`
       } else if (this.group.selected) {
         return 'is-dark'

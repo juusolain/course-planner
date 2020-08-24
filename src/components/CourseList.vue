@@ -7,7 +7,7 @@
       <div class="column">
         <div class="is-flex">
           <div v-for="(courseNumber, index) of courseNumbers" :key="courseName+courseNumber+index">
-            <b-button size="is-small">{{courseNumber}}</b-button>
+            <CourseButton :courseNum="courseNumber" :courseName="courseName" :activeYear="activeYear" />
           </div>
         </div>
       </div>
@@ -17,9 +17,12 @@
 
 <script>
 import CourseManager from '@/scripts/courses.js'
+import CourseButton from '@/components/Courses/CourseButton.vue'
 
 export default {
   name: 'CourseList',
+  components: { CourseButton },
+  props: ['activeYear'],
   data () {
     return {
       courses: CourseManager.allCourses,

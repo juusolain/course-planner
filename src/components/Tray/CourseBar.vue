@@ -2,7 +2,7 @@
     <div class="box" >
         <p>{{name}}</p>
         <div class="is-flex" style="flex-wrap: wrap">
-            <GroupButton v-for="group in groups" :key="group.groupKey" :group="group"/>
+            <GroupButton v-for="group in groups" :key="group.groupKey" :activeYear="activeYear" :group="group"/>
         </div>
     </div>
 </template>
@@ -11,7 +11,7 @@
 import GroupButton from './GroupButton.vue'
 
 export default {
-  props: ['groups', 'name'],
+  props: ['groups', 'name', 'activeYear'],
   components: { GroupButton }
 }
 </script>
