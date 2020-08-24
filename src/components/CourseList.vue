@@ -6,8 +6,8 @@
       </div>
       <div class="column">
         <div class="is-flex">
-          <div v-for="(courseNumber, index) of courseNumbers" :key="courseName+courseNumber+index">
-            <CourseButton :courseNum="courseNumber" :courseName="courseName" :activeYear="activeYear" />
+          <div v-for="(courseObj, index) of courseNumbers" :key="courseObj.courseKey+index">
+            <CourseButton :courseObj="courseObj" :courseName="courseName" :activeYear="activeYear" />
           </div>
         </div>
       </div>

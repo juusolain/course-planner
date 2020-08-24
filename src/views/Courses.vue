@@ -1,11 +1,11 @@
 <template>
   <section class="courselist section">
     <div class="courselist-buttons box notification is-primary is-light">
-      <b-button :type="getButtonStyle('1', 'is-danger')" @click="setActive('1')">1</b-button>
-      <b-button :type="getButtonStyle('2', 'is-warning')" @click="setActive('2')">2</b-button>
-      <b-button :type="getButtonStyle('3', 'is-success')" @click="setActive('3')">3</b-button>
+      <b-button :type="getButtonStyle('1')" @click="setActive('1')">1</b-button>
+      <b-button :type="getButtonStyle('2')" @click="setActive('2')">2</b-button>
+      <b-button :type="getButtonStyle('3')" @click="setActive('3')">3</b-button>
     </div>
-    <div class="box is-light is-success notification">
+    <div class="box is-light is-info notification">
       <CourseList :activeYear="activeYear" />
     </div>
   </section>
@@ -24,9 +24,9 @@ export default {
     }
   },
   methods: {
-    getButtonStyle (year, baseStyle) {
+    getButtonStyle (year) {
       if (year === this.activeYear) {
-        return baseStyle
+        return 'is-primary'
       } else {
         return ''
       }
