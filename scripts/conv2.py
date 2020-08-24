@@ -19,12 +19,12 @@ for courseBaseKey in jsonobj:
             else:
                 newAfter = str(newNumber)
             course['after'] = newAfter
-            course['courseBaseKey'] = courseBaseKey
-            course['courseKey'] = courseBaseKey+course['courseNumber']
-            print(course)
-            result[courseBaseKey].append(course)
         except:
             print("no after")
+        course['courseBaseKey'] = courseBaseKey
+        course['courseKey'] = courseBaseKey+course['courseNumber']
+        print(course)
+        result[courseBaseKey].append(course)
 
 out = json.dumps(result, sort_keys=True, indent=4, ensure_ascii=False)
 
