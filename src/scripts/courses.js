@@ -105,7 +105,7 @@ class Courses {
     return result
   }
 
-  addWantedCourse = (courseKey, year) => {
+  addWantedCourse = (courseKey, year = this.currentYear) => {
     if (this.wantedCourses[year] === undefined) {
       Vue.set(this.wantedCourses, year, [])
     }
@@ -130,7 +130,7 @@ class Courses {
     return this.selections[tray][bar]
   }
 
-  // set null if set to none
+  // set null if set to none - returns oldselection coursekey if needed
   setSelection = (tray, bar, newGroup) => {
     var oldSelection = this.getSelection(tray, bar)
     this.selections[tray] = this.selections[tray] || {}
@@ -151,15 +151,21 @@ class Courses {
     }
 
     Vue.set(this.selections[tray], bar, newGroup)
+    if (oldSelection) {
+      return oldSelection.courseKey
+    }
   }
 
   selectGroup = group => {
     if (this.canSelect(group, true)) {
-      this.setSelection(group.tray, group.bar, group)
-      this.setSelectedCourses(group.courseKey)
       if (!this.isCourseWanted(group.courseKey)) {
         this.addWantedCourse(group.courseKey)
       }
+      const returnedKey = this.setSelection(group.tray, group.bar, group)
+      if (returnedKey) {
+        this.setSelectedCourses(returnedKey)
+      }
+      this.setSelectedCourses(group.courseKey)
     }
   }
 

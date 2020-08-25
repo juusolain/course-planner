@@ -30,7 +30,7 @@ export default {
           break
       }
       if (year === null) {
-        val += 'is-light'
+        val = `${val} is-light`
       }
       return val
     },
@@ -57,3 +57,9 @@ export default {
   }
 }
 </script>
+
+<style lang="scss" scoped>
+button{
+  margin: 0.1em;
+}
+</style>
