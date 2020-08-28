@@ -1,11 +1,12 @@
 <template>
   <div class="container">
-    <div class="columns" v-for="(courseNumbers, courseName) in courses" :key="courseName">
-      <div class="column is-1">
-        <p>{{courseName}}</p>
+    <div class="columns box notification" v-for="(courseNumbers, courseName) in visibileCourses" :key="courseName">
+      <div class="column is-1 is-flex">
+        <p class="is-size-5 coursetext">{{courseName}}</p>
+        <b-button type="is-small is-primary is-light" @click="hideCourses(courseName)" icon-right="eye-off"></b-button>
       </div>
       <div class="column">
-        <div class="is-flex">
+        <div class="is-flex courselist">
           <div v-for="(courseObj, index) of courseNumbers" :key="courseObj.courseKey+index">
             <CourseButton :courseObj="courseObj" :courseName="courseName" :activeYear="activeYear" />
           </div>
@@ -26,8 +27,36 @@ export default {
   data () {
     return {
       courses: CourseManager.allCourses,
-      columns: [{ field: 'name', label: 'name' }]
+      hiddenCourseBaseKeys: CourseManager.hiddenCourseBaseKeys
+    }
+  },
+  computed: {
+    visibileCourses () {
+      const returnObj = {}
+      for (const courseBaseKey in this.courses) {
+        if (!this.hiddenCourseBaseKeys.includes(courseBaseKey)) {
+          returnObj[courseBaseKey] = this.courses[courseBaseKey]
+        }
+      }
+      return returnObj
+    }
+  },
+  methods: {
+    hideCourses (courseBaseKey) {
+      CourseManager.hideCourses(courseBaseKey)
     }
   }
 }
 </script>
+
+<style lang="scss" scoped>
+.courselist{
+  flex-wrap: wrap;
+}
+.coursetext{
+  margin: auto;
+}
+.columns{
+  margin: 1em;
+}
+</style>

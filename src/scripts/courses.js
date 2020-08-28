@@ -9,17 +9,18 @@ class Courses {
     this.originalTrays = courseTrayJSON
 
     // selected and completed courses by year - can be accessed with [n] or ['n']
-    this.wantedCourses = {
-      0: ['MAY01'],
-      1: ['MAA02', 'MAA03', 'HI01', 'ENA01'],
+    this.wantedCourses = JSON.parse(window.localStorage.getItem('wantedCourses')) || {
+      0: [],
+      1: [],
       2: [],
       3: []
     }
+    this.hiddenCourseBaseKeys = JSON.parse(window.localStorage.getItem('hiddenCourseBaseKeys')) || []
     this.currentYear = 1
     // group trays
     this.trays = {}
     // group selections
-    this.selections = {}
+    this.selections = JSON.parse(window.localStorage.getItem('selections')) || {}
     this.loadTrays()
   }
 
@@ -31,7 +32,8 @@ class Courses {
         for (const group of bar) {
           this.trays[trayNum] = this.trays[trayNum] || {}
           this.trays[trayNum][barNum] = this.trays[trayNum][barNum] || []
-          this.trays[trayNum][barNum].push({ selected: this.isGroupSelected(group), courseSelected: this.isCourseSelected(group.courseKey), ...group })
+          const isSelected = this.isGroupSelected(group)
+          this.trays[trayNum][barNum].push({ selected: isSelected, courseSelected: this.isCourseSelected(group.courseKey), areDependenciesMet: this.areCourseDependenciesMet(group.courseKey, group.tray, this.currentYear), ...group })
         }
       }
     }
@@ -45,6 +47,23 @@ class Courses {
           res.push(this.selections[trayNum][barName])
         }
       }
+    }
+  }
+
+  isGroupSelected = group => {
+    const isSelected = this.selections[group.tray][group.bar].groupKey === group.groupKey
+    return isSelected
+  }
+
+  getCourseData = courseKey => {
+    try {
+      const courseBaseKey = courseKey.match(/[A-Ö]{1,5}/)[0]
+      const courseArray = this.allCourses[courseBaseKey]
+      const courseData = courseArray.find(elem => elem.courseKey === courseKey)
+      return courseData
+    } catch (error) {
+      console.error(error)
+      return null
     }
   }
 
@@ -64,24 +83,46 @@ class Courses {
   }
 
   canSelect = (group, allowOverlap = false) => {
-    if (this.getSelection(group.tray, group.bar) === undefined || allowOverlap) { // is some other course selected currently
-      if (!this.isCourseCompleted(group.courseKey)) {
-        return true
-      } else {
-        return false
-      }
-    } else {
-      return false
-    }
-  }
-
-  isCourseCompleted = (courseKey, year) => {
-    for (let i = 0; i++; i < Number(year)) {
-      if (this.isCourseWanted(courseKey, String(year))) {
+    if (this.getSelection(group.tray, group.bar) === null || allowOverlap) { // is some other course selected currently
+      if (!this.isCourseWantedBeforeYear(group.courseKey, this.currentYear)) { // if course is not completed before
         return true
       }
     }
     return false
+  }
+
+  isCourseWantedBeforeYear = (courseKey, year) => {
+    for (var i = 0; i < Number(year); i++) {
+      if (this.isCourseWanted(courseKey, String(i))) {
+        return true
+      }
+    }
+    return false
+  }
+
+  getCourseDependencies = (courseKey, dependencyArray = []) => {
+    const courseData = this.getCourseData(courseKey)
+    if (courseData && courseData.after) {
+      const afterKey = courseData.courseBaseKey + courseData.after
+      dependencyArray.push(afterKey)
+      return this.getCourseDependencies(afterKey, dependencyArray)
+    } else {
+      return dependencyArray
+    }
+  }
+
+  areCourseDependenciesMet = (courseKey, tray, year = this.currentYear) => {
+    const dependencies = this.getCourseDependencies(courseKey)
+    let result = true
+    if (!dependencies) return result
+    dependencies.forEach(dependency => {
+      if (!this.isCourseWantedBeforeYear(dependency, year)) {
+        if (!this.isCourseSelected(dependency, tray)) {
+          result = false
+        }
+      }
+    })
+    return result
   }
 
   isCourseWanted = (courseKey, wantedYear) => {
@@ -110,6 +151,7 @@ class Courses {
       Vue.set(this.wantedCourses, year, [])
     }
     Vue.set(this.wantedCourses[year], this.wantedCourses[year].length, courseKey)
+    saveCourses(this.wantedCourses)
   }
 
   removeWantedCourse = courseKey => {
@@ -122,6 +164,7 @@ class Courses {
       })
       Vue.set(this.wantedCourses, year, courses)
     }
+    saveCourses(this.wantedCourses)
   }
 
   getSelection = (tray, bar) => {
@@ -136,12 +179,9 @@ class Courses {
     this.selections[tray] = this.selections[tray] || {}
 
     if (oldSelection) {
-      console.log(oldSelection)
       const oldIndex = this.trays[tray][bar].findIndex((elem) => elem.groupKey === oldSelection.groupKey)
       oldSelection.selected = false
-      console.log(oldIndex)
       Vue.set(this.trays[tray][bar], oldIndex, oldSelection)
-      console.log(this.trays[tray][bar][oldIndex])
     }
 
     if (newGroup) {
@@ -151,52 +191,69 @@ class Courses {
     }
 
     Vue.set(this.selections[tray], bar, newGroup)
+
     if (oldSelection) {
       return oldSelection.courseKey
     }
   }
 
   selectGroup = group => {
-    if (this.canSelect(group, true)) {
+    if (this.canSelect(group, true) !== 'notmet') { // allow selection even if completed before
       if (!this.isCourseWanted(group.courseKey)) {
         this.addWantedCourse(group.courseKey)
       }
       const returnedKey = this.setSelection(group.tray, group.bar, group)
       if (returnedKey) {
-        this.setSelectedCourses(returnedKey)
+        this.setSelectedCoursesAndDependencies(returnedKey)
       }
-      this.setSelectedCourses(group.courseKey)
+      this.setSelectedCoursesAndDependencies(group.courseKey)
     }
   }
 
   removeGroup = group => {
     this.setSelection(group.tray, group.bar, null)
-    this.setSelectedCourses(group.courseKey)
+    this.setSelectedCoursesAndDependencies(group.courseKey)
   }
 
   isGroupSelected = group => {
     return this.getSelection(group.tray, group.bar) === group
   }
 
-  isCourseSelected = courseKey => {
+  isCourseSelected = (courseKey, before) => {
     let res = false
-    loopSelections(this.selections, group => {
-      console.log(group.courseKey, courseKey)
+    loopSelections(this.selections, before, group => {
       if (group.courseKey === courseKey) res = true
     })
     return res
   }
 
-  setSelectedCourses = (courseKey) => {
+  setSelectedCoursesAndDependencies = (courseKey) => {
     const newValue = this.isCourseSelected(courseKey)
     loopTrays(this.trays, (elem, index, arr) => {
       if (elem) {
         if (elem.courseKey === courseKey) {
-          console.log('setting courseselected', newValue)
           Vue.set(arr[index], 'courseSelected', newValue)
+        }
+        const courseBaseKey = courseKey.match(/[A-Ö]{1,5}/)[0]
+        if (elem.courseBaseKey === courseBaseKey) {
+          Vue.set(arr[index], 'areDependenciesMet', this.areCourseDependenciesMet(elem.courseKey, elem.tray, this.currentYear))
         }
       }
     })
+    saveSelections(this.selections)
+  }
+
+  hideCourses = courseBaseKey => {
+    Vue.set(this.hiddenCourseBaseKeys, this.hiddenCourseBaseKeys.length, courseBaseKey)
+    saveHiddenCourses(this.hiddenCourseBaseKeys)
+  }
+
+  unHideCourses = courseBaseKey => {
+    const index = this.hiddenCourseBaseKeys.indexOf(courseBaseKey)
+    if (index !== -1) {
+      this.hiddenCourseBaseKeys.splice(index, 1)
+    }
+    saveHiddenCourses(this.hiddenCourseBaseKeys)
   }
 }
 
@@ -204,7 +261,6 @@ function loopTrays (trays, cb) {
   for (const trayNum in trays) {
     const tray = trays[trayNum]
     for (const barNum in tray) {
-      console.log('BEGIN')
       var arr = trays[trayNum][barNum]
       arr.forEach(cb)
       Vue.set(trays[trayNum], barNum, arr)
@@ -212,14 +268,27 @@ function loopTrays (trays, cb) {
   }
 }
 
-function loopSelections (selections, cb) {
+function loopSelections (selections, before, cb) {
   for (const trayNum in selections) {
+    if (trayNum === before) return
     const tray = selections[trayNum]
     for (const courseNum in tray) {
       const group = tray[courseNum]
       if (group) cb(group)
     }
   }
+}
+
+function saveCourses (newCourses) {
+  localStorage.setItem('wantedCourses', JSON.stringify(newCourses))
+}
+
+function saveSelections (newSelections) {
+  localStorage.setItem('selections', JSON.stringify(newSelections))
+}
+
+function saveHiddenCourses (newHiddenCourses) {
+  localStorage.setItem('hiddenCourseBaseKeys', JSON.stringify(newHiddenCourses))
 }
 
 export default new Courses()

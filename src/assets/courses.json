@@ -89,7 +89,7 @@
             "courseBaseKey": "EAA",
             "courseKey": "EAA01",
             "courseNumber": "01",
-            "courseType": "P"
+            "cowurseType": "P"
         },
         {
             "after": "01",
@@ -2671,7 +2671,6 @@
     ],
     "RUB": [
         {
-            "after": "10",
             "courseBaseKey": "RUB",
             "courseKey": "RUB11",
             "courseNumber": "11",
