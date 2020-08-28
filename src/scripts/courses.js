@@ -15,6 +15,7 @@ class Courses {
       2: [],
       3: []
     }
+    this.hiddenCourseBaseKeys = JSON.parse(window.localStorage.getItem('hiddenCourseBaseKeys')) || []
     this.currentYear = 1
     // group trays
     this.trays = {}
@@ -51,7 +52,6 @@ class Courses {
 
   isGroupSelected = group => {
     const isSelected = this.selections[group.tray][group.bar].groupKey === group.groupKey
-    console.log('isselected', isSelected, group.groupKey)
     return isSelected
   }
 
@@ -242,6 +242,19 @@ class Courses {
     })
     saveSelections(this.selections)
   }
+
+  hideCourses = courseBaseKey => {
+    Vue.set(this.hiddenCourseBaseKeys, this.hiddenCourseBaseKeys.length, courseBaseKey)
+    saveHiddenCourses(this.hiddenCourseBaseKeys)
+  }
+
+  unHideCourses = courseBaseKey => {
+    const index = this.hiddenCourseBaseKeys.indexOf(courseBaseKey)
+    if (index !== -1) {
+      this.hiddenCourseBaseKeys.splice(index, 1)
+    }
+    saveHiddenCourses(this.hiddenCourseBaseKeys)
+  }
 }
 
 function loopTrays (trays, cb) {
@@ -272,6 +285,10 @@ function saveCourses (newCourses) {
 
 function saveSelections (newSelections) {
   localStorage.setItem('selections', JSON.stringify(newSelections))
+}
+
+function saveHiddenCourses (newHiddenCourses) {
+  localStorage.setItem('hiddenCourseBaseKeys', JSON.stringify(newHiddenCourses))
 }
 
 export default new Courses()
