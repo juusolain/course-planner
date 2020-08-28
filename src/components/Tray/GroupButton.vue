@@ -28,15 +28,19 @@ export default {
         return `${light} is-warning`
       }
       if (!CourseManager.canSelect(this.group, true)) {
-        return `${light} is-danger`
+        return `${light} is-warning`
       }
-      if (CourseManager.isCourseWanted(this.group.courseKey, this.activeYear)) {
-        return `${light} is-success`
-      } else if (this.group.selected) {
-        return 'is-dark'
-      } else {
-        return 'is-light'
+      if (!CourseManager.isCourseWanted(this.group.courseKey, this.activeYear)) {
+        if (this.group.selected) {
+          return 'is-dark'
+        } else {
+          return 'is-light'
+        }
       }
+      if (!this.group.areDependenciesMet) {
+        return `${light} is-warning`
+      }
+      return `${light} is-success`
     }
   }
 }
