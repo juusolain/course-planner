@@ -2738,58 +2738,59 @@
             "courseKey": "RUB110",
             "courseNumber": "110",
             "courseType": "K"
-        },
+        }],
+    "RUBK": [
         {
-            "courseBaseKey": "RUB",
+            "courseBaseKey": "RUBK",
             "courseKey": "RUB31",
             "courseNumber": "31",
             "courseType": "VS"
         },
         {
             "after": "31",
-            "courseBaseKey": "RUB",
+            "courseBaseKey": "RUBK",
             "courseKey": "RUB32",
             "courseNumber": "32",
             "courseType": "VS"
         },
         {
             "after": "32",
-            "courseBaseKey": "RUB",
+            "courseBaseKey": "RUBK",
             "courseKey": "RUB33",
             "courseNumber": "33",
             "courseType": "VS"
         },
         {
             "after": "33",
-            "courseBaseKey": "RUB",
+            "courseBaseKey": "RUBK",
             "courseKey": "RUB34",
             "courseNumber": "34",
             "courseType": "VS"
         },
         {
             "after": "34",
-            "courseBaseKey": "RUB",
+            "courseBaseKey": "RUBK",
             "courseKey": "RUB35",
             "courseNumber": "35",
             "courseType": "VS"
         },
         {
             "after": "35",
-            "courseBaseKey": "RUB",
+            "courseBaseKey": "RUBK",
             "courseKey": "RUB36",
             "courseNumber": "36",
             "courseType": "VS"
         },
         {
             "after": "36",
-            "courseBaseKey": "RUB",
+            "courseBaseKey": "RUBK",
             "courseKey": "RUB37",
             "courseNumber": "37",
             "courseType": "VS"
         },
         {
             "after": "37",
-            "courseBaseKey": "RUB",
+            "courseBaseKey": "RUBK",
             "courseKey": "RUB38",
             "courseNumber": "38",
             "courseType": "VS"
