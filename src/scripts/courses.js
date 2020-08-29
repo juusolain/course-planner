@@ -32,8 +32,7 @@ class Courses {
         for (const group of bar) {
           this.trays[trayNum] = this.trays[trayNum] || {}
           this.trays[trayNum][barNum] = this.trays[trayNum][barNum] || []
-          const isSelected = this.isGroupSelected(group)
-          this.trays[trayNum][barNum].push({ selected: isSelected, courseSelected: this.isCourseSelected(group.courseKey), areDependenciesMet: this.areCourseDependenciesMet(group.courseKey, group.tray, this.currentYear), ...group })
+          this.trays[trayNum][barNum].push({ selected: this.isGroupSelected(group), courseSelected: this.isCourseSelected(group.courseKey), areDependenciesMet: this.areCourseDependenciesMet(group.courseKey, group.tray, this.currentYear), ...group })
         }
       }
     }
@@ -48,11 +47,6 @@ class Courses {
         }
       }
     }
-  }
-
-  isGroupSelected = group => {
-    const isSelected = this.selections[group.tray][group.bar].groupKey === group.groupKey
-    return isSelected
   }
 
   getCourseData = courseKey => {
@@ -216,7 +210,10 @@ class Courses {
   }
 
   isGroupSelected = group => {
-    return this.getSelection(group.tray, group.bar) === group
+    if (group.tray && group.bar && this.selections[group.tray] && this.selections[group.tray][group.bar]) {
+      return this.selections[group.tray][group.bar].groupKey === group.groupKey
+    }
+    return false
   }
 
   isCourseSelected = (courseKey, before) => {
