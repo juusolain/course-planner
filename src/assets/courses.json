@@ -1255,7 +1255,6 @@
             "courseType": "P"
         },
         {
-            "after": "01",
             "courseBaseKey": "MAA",
             "courseKey": "MAA02",
             "courseNumber": "02",
@@ -1417,7 +1416,6 @@
             "courseType": "P"
         },
         {
-            "after": "01",
             "courseBaseKey": "MAB",
             "courseKey": "MAB02",
             "courseNumber": "02",
