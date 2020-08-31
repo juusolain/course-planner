@@ -17,6 +17,14 @@ import NprogressContainer from 'vue-nprogress/src/NprogressContainer'
 export default {
   components: {
     NprogressContainer
+  },
+  created () {
+    try {
+      // NOTE: 45min refresh policy is what google recommends
+      window.setInterval(this.$refreshToken(), 45 * 60 * 1000)
+    } catch (e) {
+      console.error(e)
+    }
   }
 }
 </script>
