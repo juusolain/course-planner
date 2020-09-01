@@ -26,35 +26,116 @@ class SyncManager {
 
   }
 
-  async saveFile (fileName, data) {
-    const gapi = await main.$gapi.getGapiClient()
-    console.log(fileName)
-    const fileMedia = {
-      mimeType: 'application/json',
-      body: JSON.stringify(data)
-    }
-    console.log(gapi.client.drive.files)
-    const res = await gapi.client.drive.files.create({
-      uploadType: 'multipart',
-      mimeType: 'application/json',
-      name: 'test-',
-      parents: ['appDataFolder'],
-      resource: fileMedia
-    })
-    console.log(res)
+  async syncSelections (localData, localTimestamp) {
+    return this.sync(localData, localTimestamp, 'selections.json')
   }
 
-  async getFiles () {
+  async syncHidden (localData, localTimestamp) {
+    return this.sync(localData, localTimestamp, 'hidden.json')
+  }
+
+  async syncWanted (localData, localTimestamp) {
+    return this.sync(localData, localTimestamp, 'wanted.json')
+  }
+
+  async sync (localData, localTimestamp, fileName) {
+    const fileMeta = await this.getFileMeta(fileName)
+    const fileData = await this.getFile(fileName)
+    const remoteTimestamp = fileMeta.modifiedTime
+    const remoteData = JSON.parse(fileData)
+
+    const newData = this.merge(localData, localTimestamp, remoteData, remoteTimestamp)
+
+    await this.saveFile(fileName, newData)
+    return newData
+  }
+
+  merge (localData, localTimestamp, remoteData, remoteTimestamp) {
+    console.log(localTimestamp, remoteTimestamp)
+    if (localTimestamp > remoteTimestamp) {
+      console.log('selecting local data')
+      return localData
+    } else {
+      console.log('selecting remote data')
+      return remoteData
+    }
+  }
+
+  async saveFile (fileName, data) {
+    const fileMeta = await this.getFileMeta(fileName)
+    const fileId = fileMeta.id
+    if (fileId) {
+      updateFile(fileId, data)
+    } else {
+      createFile(fileName, data)
+    }
+  }
+
+  async getFile (filename) {
+    const fileMeta = await this.getFileMeta(filename)
+    const id = fileMeta.id
+    if (id === null) return null
+    const gapi = await main.$gapi.getGapiClient()
+    const fileData = await gapi.client.drive.files.get({
+      fileId: id,
+      alt: 'media'
+    })
+    return fileData
+  }
+
+  async getFileMeta (filename) {
     const gapi = await main.$gapi.getGapiClient()
     const res = await gapi.client.drive.files.list({
-      spaces: 'appDataFolder',
-      fields: 'nextPageToken, files(id, name)',
-      pageSize: 100
+      // spaces: 'appDataFolder',
+      q: `trashed=false and name='${filename}'`
     })
     console.log(res)
     const result = res.result
     console.log(result)
+    if (result.files.length > 0) {
+      return result.files[0]
+    } else {
+      return null
+    }
   }
+}
+
+async function updateFile (fileId, data) {
+  const gapi = await main.$gapi.getGapiClient()
+  const res = await gapi.client.request({
+    path: `https://www.googleapis.com/upload/drive/v3/files/${fileId}`,
+    method: 'PATCH',
+    params: { uploadType: 'media' },
+    headers: {
+      'Content-Type': 'application/json'
+    },
+    body: JSON.stringify(data)
+  })
+  return res
+}
+
+async function createFile (fileName, data) {
+  const gapi = await main.$gapi.getGapiClient()
+  const fileMeta = {
+    mimeType: 'application/json',
+    name: fileName
+  }
+  const contentType = 'application/json'
+  const boundary = 'ADBWON2242nfDjna2d!ds'
+
+  const delimiter = '\r\n--' + boundary + '\r\n'
+  const closeDelim = '\r\n--' + boundary + '--'
+  var multipartRequestBody = delimiter + 'Content-Type: application/json; charset=UTF-8\r\n\r\n' + JSON.stringify(fileMeta) + delimiter + 'Content-Type: ' + contentType + '\r\n\r\n' + JSON.stringify(data) + '\r\n' + closeDelim
+  const res = await gapi.client.request({
+    path: 'https://www.googleapis.com/upload/drive/v3/files',
+    method: 'POST',
+    params: { uploadType: 'multipart' },
+    headers: {
+      'Content-Type': 'multipart/related; boundary=' + boundary + ''
+    },
+    body: multipartRequestBody
+  })
+  return res
 }
 
 export default new SyncManager()
