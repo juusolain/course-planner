@@ -12,18 +12,21 @@ class SyncManager {
   constructor () {
     console.log('Start syncmanager')
     this.googleConfig = googleConfig
+    this.syncing = window.localStorage.getItem('syncEnabled') || false
   }
 
   async enableSync () {
-    if (main.$gapi.isSignedIn()) {
+    if (await main.$gapi.isSignedIn()) {
       this.syncing = true
     } else {
       this.syncing = false
     }
+    window.localStorage.setItem('syncEnabled', this.syncing)
   }
 
   disableSync () {
-
+    this.syncing = false
+    window.localStorage.setItem('syncEnabled', this.syncing)
   }
 
   async syncSelections (localData, localTimestamp) {
@@ -41,8 +44,12 @@ class SyncManager {
   async sync (localData, localTimestamp, fileName) {
     const fileMeta = await this.getFileMeta(fileName)
     const fileData = await this.getFile(fileName)
-    const remoteTimestamp = fileMeta.modifiedTime
-    const remoteData = JSON.parse(fileData)
+    var remoteTimestamp = 0
+    if (fileMeta !== null) {
+      remoteTimestamp = Date.parse(fileMeta.modifiedTime)
+    }
+
+    const remoteData = fileData
 
     const newData = this.merge(localData, localTimestamp, remoteData, remoteTimestamp)
 
@@ -50,7 +57,7 @@ class SyncManager {
     return newData
   }
 
-  merge (localData, localTimestamp, remoteData, remoteTimestamp) {
+  merge (localData, localTimestamp, remoteData, remoteTimestamp = 0) {
     console.log(localTimestamp, remoteTimestamp)
     if (localTimestamp > remoteTimestamp) {
       console.log('selecting local data')
@@ -63,9 +70,8 @@ class SyncManager {
 
   async saveFile (fileName, data) {
     const fileMeta = await this.getFileMeta(fileName)
-    const fileId = fileMeta.id
-    if (fileId) {
-      updateFile(fileId, data)
+    if (fileMeta !== null) {
+      updateFile(fileMeta.id, data)
     } else {
       createFile(fileName, data)
     }
@@ -73,21 +79,21 @@ class SyncManager {
 
   async getFile (filename) {
     const fileMeta = await this.getFileMeta(filename)
-    const id = fileMeta.id
-    if (id === null) return null
+    if (fileMeta === null) return null
     const gapi = await main.$gapi.getGapiClient()
-    const fileData = await gapi.client.drive.files.get({
-      fileId: id,
+    const res = await gapi.client.drive.files.get({
+      fileId: fileMeta.id,
       alt: 'media'
     })
-    return fileData
+    return res.result
   }
 
   async getFileMeta (filename) {
     const gapi = await main.$gapi.getGapiClient()
     const res = await gapi.client.drive.files.list({
       // spaces: 'appDataFolder',
-      q: `trashed=false and name='${filename}'`
+      q: `trashed=false and name='${filename}'`,
+      fields: 'files(id, name, modifiedTime)'
     })
     console.log(res)
     const result = res.result
