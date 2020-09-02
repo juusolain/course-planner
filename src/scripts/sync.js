@@ -5,7 +5,7 @@ const googleConfig = {
   clientId: process.env.VUE_APP_GOOGLE_CLIENTID,
   scope: 'https://www.googleapis.com/auth/drive.appdata https://www.googleapis.com/auth/drive.file https://www.googleapis.com/auth/drive.install',
   discoveryDocs: ['https://www.googleapis.com/discovery/v1/apis/drive/v3/rest'],
-  ux_mode: 'redirect'
+  ux_mode: 'popup'
 }
 
 class SyncManager {
@@ -43,7 +43,7 @@ class SyncManager {
 
   async sync (localData, localTimestamp, fileName) {
     const fileMeta = await this.getFileMeta(fileName)
-    const fileData = await this.getFile(fileName)
+    const fileData = await this.getFile(fileName, fileMeta)
     var remoteTimestamp = 0
     if (fileMeta !== null) {
       remoteTimestamp = Date.parse(fileMeta.modifiedTime)
@@ -53,14 +53,14 @@ class SyncManager {
 
     const newData = this.merge(localData, localTimestamp, remoteData, remoteTimestamp)
 
-    await this.saveFile(fileName, newData)
+    await this.saveFile(fileName, newData, fileMeta)
     console.log('returning: ', newData)
     return newData
   }
 
   merge (localData, localTimestamp, remoteData, remoteTimestamp = 0) {
     console.log(localTimestamp, remoteTimestamp)
-    if (localTimestamp > remoteTimestamp) {
+    if (localTimestamp >= remoteTimestamp) {
       console.log('selecting local data')
       return localData
     } else {
@@ -69,8 +69,7 @@ class SyncManager {
     }
   }
 
-  async saveFile (fileName, data) {
-    const fileMeta = await this.getFileMeta(fileName)
+  async saveFile (fileName, data, fileMeta) {
     if (fileMeta !== null) {
       updateFile(fileMeta.id, data)
     } else {
@@ -78,8 +77,7 @@ class SyncManager {
     }
   }
 
-  async getFile (filename) {
-    const fileMeta = await this.getFileMeta(filename)
+  async getFile (filename, fileMeta) {
     if (fileMeta === null) return null
     const gapi = await main.$gapi.getGapiClient()
     const res = await gapi.client.drive.files.get({
@@ -91,6 +89,7 @@ class SyncManager {
 
   async getFileMeta (filename) {
     const gapi = await main.$gapi.getGapiClient()
+    console.log('gapi gotten')
     const res = await gapi.client.drive.files.list({
       // spaces: 'appDataFolder',
       q: `trashed=false and name='${filename}'`,

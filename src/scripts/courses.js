@@ -23,7 +23,7 @@ class Courses {
     this.wantedModifyTimestamp = window.localStorage.getItem('wantedCoursesTime') || 0
     this.hiddenCourseBaseKeys = JSON.parse(window.localStorage.getItem('hiddenCourseBaseKeys')) || []
     this.hiddenModifyTimestamp = window.localStorage.getItem('hiddenCourseBaseKeysTime') || 0
-    this.currentYear = 1
+    this.currentYear = window.localStorage.getItem('currentYear') || '1'
     // group trays
     this.trays = {}
     // group selections
@@ -265,6 +265,11 @@ class Courses {
     this.saveHiddenCourses(this.hiddenCourseBaseKeys)
   }
 
+  setCurrentYear = newYear => {
+    this.currentYear = newYear
+    localStorage.setItem('currentYear', newYear)
+  }
+
   saveCourses = (newCourses) => {
     this.wantedModifyTimestamp = Date.now()
     localStorage.setItem('wantedCourses', JSON.stringify(newCourses))
@@ -284,6 +289,7 @@ class Courses {
   }
 
   syncAll = async () => {
+    console.log('syncing all')
     this.selections = await SyncManager.syncSelections(this.selections, this.selectionsModifyTimestamp)
     this.wantedCourses = await SyncManager.syncWanted(this.wantedCourses, this.wantedModifyTimestamp)
     localStorage.setItem('wantedCourses', JSON.stringify(this.wantedCourses))

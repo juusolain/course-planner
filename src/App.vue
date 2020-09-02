@@ -21,6 +21,7 @@
 
 <script>
 import NprogressContainer from 'vue-nprogress/src/NprogressContainer'
+import CourseManager from './scripts/courses'
 
 export default {
   components: {
@@ -33,6 +34,11 @@ export default {
     } catch (e) {
       console.error(e)
     }
+  },
+  mounted () {
+    this.$nextTick(() => {
+      CourseManager.syncAll()
+    })
   }
 }
 </script>
