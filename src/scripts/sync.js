@@ -54,6 +54,7 @@ class SyncManager {
     const newData = this.merge(localData, localTimestamp, remoteData, remoteTimestamp)
 
     await this.saveFile(fileName, newData)
+    console.log('returning: ', newData)
     return newData
   }
 
@@ -95,9 +96,7 @@ class SyncManager {
       q: `trashed=false and name='${filename}'`,
       fields: 'files(id, name, modifiedTime)'
     })
-    console.log(res)
     const result = res.result
-    console.log(result)
     if (result.files.length > 0) {
       return result.files[0]
     } else {

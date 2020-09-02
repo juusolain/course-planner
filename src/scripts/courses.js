@@ -10,6 +10,9 @@ class Courses {
     this.allCourses = courseJSON
     this.originalTrays = courseTrayJSON
 
+    this.syncNeeded = false
+    this.timeout = null
+
     // selected and completed courses by year - can be accessed with [n] or ['n']
     this.wantedCourses = JSON.parse(window.localStorage.getItem('wantedCourses')) || {
       0: [],
@@ -27,12 +30,13 @@ class Courses {
     this.selections = JSON.parse(window.localStorage.getItem('selections')) || {}
     this.selectionsModifyTimestamp = window.localStorage.getItem('selectionsTime') || 0
     if (SyncManager.syncing) {
-      this.syncAll()
+      // this.syncAll()
     }
     this.loadTrays()
   }
 
   loadTrays = () => {
+    this.trays = {}
     for (const trayNum in this.originalTrays) {
       const tray = this.originalTrays[trayNum]
       for (const barNum in tray) {
@@ -265,14 +269,14 @@ class Courses {
     this.wantedModifyTimestamp = Date.now()
     localStorage.setItem('wantedCourses', JSON.stringify(newCourses))
     localStorage.setItem('wantedCoursesTime', this.wantedModifyTimestamp)
-    SyncManager.syncWanted(newCourses, this.wantedModifyTimestamp)
+    this.queueSync()
   }
 
   saveSelections = (newSelections) => {
     this.selectionsModifyTimestamp = Date.now()
     localStorage.setItem('selections', JSON.stringify(newSelections))
     localStorage.setItem('selectionsTime', this.selectionsModifyTimestamp)
-    SyncManager.syncSelections(newSelections, this.selectionsModifyTimestamp)
+    this.queueSync()
   }
 
   saveHiddenCourses = (newHiddenCourses) => {
@@ -284,6 +288,34 @@ class Courses {
     this.wantedCourses = await SyncManager.syncWanted(this.wantedCourses, this.wantedModifyTimestamp)
     localStorage.setItem('wantedCourses', JSON.stringify(this.wantedCourses))
     localStorage.setItem('selections', JSON.stringify(this.selections))
+    this.loadTrays()
+    this.syncNeeded = false
+  }
+
+  forceSyncLocal = async () => {
+    await SyncManager.syncSelections(this.selections, Infinity)
+    await SyncManager.syncWanted(this.wantedCourses, Infinity)
+  }
+
+  forceSyncRemote = async () => {
+    this.selections = await SyncManager.syncSelections(this.selections, 0)
+    this.wantedCourses = await SyncManager.syncWanted(this.wantedCourses, 0)
+    localStorage.setItem('wantedCourses', JSON.stringify(this.wantedCourses))
+    localStorage.setItem('selections', JSON.stringify(this.selections))
+    this.loadTrays()
+  }
+
+  queueSync = () => {
+    if (SyncManager.syncing) {
+      if (!this.syncNeeded) {
+        this.syncNeeded = true
+      } else {
+        clearTimeout(this.timeout)
+      }
+      this.timeout = setTimeout(() => {
+        this.syncAll()
+      }, 5000)
+    }
   }
 }
 

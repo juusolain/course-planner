@@ -7,6 +7,7 @@ import VueGAPI from 'vue-gapi'
 import Buefy from 'buefy'
 import 'buefy/dist/buefy.css'
 import SyncManager from './scripts/sync'
+import CourseManager from './scripts/courses'
 
 Vue.config.productionTip = false
 
@@ -15,6 +16,7 @@ Vue.use(Buefy)
 Vue.use(VueGAPI, SyncManager.googleConfig)
 
 window.sync = SyncManager
+window.courses = CourseManager
 
 const nprogress = new NProgress({ latencyThreshold: 25 })
 

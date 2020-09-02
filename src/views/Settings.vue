@@ -8,6 +8,12 @@
       <b-field label="Sign in to enable sync">
         <b-button @click="login">Sign in with Google</b-button>
       </b-field>
+      <b-field label="Force sync, overwrite with: ">
+        <div>
+          <b-button @click="forceSync('local')">Local data</b-button>
+          <b-button @click="forceSync('remote')">Remote data</b-button>
+        </div>
+      </b-field>
     </section>
     <section class="container section box notification is-light is-danger">
       <p>Hidden courses:</p>
@@ -27,7 +33,7 @@ export default {
   data () {
     return {
       hiddenKeys: CourseManager.hiddenCourseBaseKeys,
-      isSyncing: false
+      isSyncing: SyncManager.syncing
     }
   },
   methods: {
@@ -47,6 +53,18 @@ export default {
       } catch (error) {
         console.log(error)
         this.isSyncing = false
+      }
+    },
+    forceSync (type) {
+      switch (type) {
+        case 'local':
+          CourseManager.forceSyncLocal()
+          break
+        case 'remote':
+          CourseManager.forceSyncRemote()
+          break
+        default:
+          break
       }
     }
   }
