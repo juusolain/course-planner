@@ -3,10 +3,15 @@ import courseTrayJSON from '../assets/coursetray.json'
 
 import Vue from 'vue'
 
+import SyncManager from './sync.js'
+
 class Courses {
   constructor () {
     this.allCourses = courseJSON
     this.originalTrays = courseTrayJSON
+
+    this.syncNeeded = false
+    this.timeout = null
 
     // selected and completed courses by year - can be accessed with [n] or ['n']
     this.wantedCourses = JSON.parse(window.localStorage.getItem('wantedCourses')) || {
@@ -15,16 +20,23 @@ class Courses {
       2: [],
       3: []
     }
+    this.wantedModifyTimestamp = window.localStorage.getItem('wantedCoursesTime') || 0
     this.hiddenCourseBaseKeys = JSON.parse(window.localStorage.getItem('hiddenCourseBaseKeys')) || []
+    this.hiddenModifyTimestamp = window.localStorage.getItem('hiddenCourseBaseKeysTime') || 0
     this.currentYear = 1
     // group trays
     this.trays = {}
     // group selections
     this.selections = JSON.parse(window.localStorage.getItem('selections')) || {}
+    this.selectionsModifyTimestamp = window.localStorage.getItem('selectionsTime') || 0
+    if (SyncManager.syncing) {
+      // this.syncAll()
+    }
     this.loadTrays()
   }
 
   loadTrays = () => {
+    this.trays = {}
     for (const trayNum in this.originalTrays) {
       const tray = this.originalTrays[trayNum]
       for (const barNum in tray) {
@@ -145,7 +157,7 @@ class Courses {
       Vue.set(this.wantedCourses, year, [])
     }
     Vue.set(this.wantedCourses[year], this.wantedCourses[year].length, courseKey)
-    saveCourses(this.wantedCourses)
+    this.saveCourses(this.wantedCourses)
   }
 
   removeWantedCourse = courseKey => {
@@ -158,7 +170,7 @@ class Courses {
       })
       Vue.set(this.wantedCourses, year, courses)
     }
-    saveCourses(this.wantedCourses)
+    this.saveCourses(this.wantedCourses)
   }
 
   getSelection = (tray, bar) => {
@@ -237,12 +249,12 @@ class Courses {
         }
       }
     })
-    saveSelections(this.selections)
+    this.saveSelections(this.selections)
   }
 
   hideCourses = courseBaseKey => {
     Vue.set(this.hiddenCourseBaseKeys, this.hiddenCourseBaseKeys.length, courseBaseKey)
-    saveHiddenCourses(this.hiddenCourseBaseKeys)
+    this.saveHiddenCourses(this.hiddenCourseBaseKeys)
   }
 
   unHideCourses = courseBaseKey => {
@@ -250,7 +262,60 @@ class Courses {
     if (index !== -1) {
       this.hiddenCourseBaseKeys.splice(index, 1)
     }
-    saveHiddenCourses(this.hiddenCourseBaseKeys)
+    this.saveHiddenCourses(this.hiddenCourseBaseKeys)
+  }
+
+  saveCourses = (newCourses) => {
+    this.wantedModifyTimestamp = Date.now()
+    localStorage.setItem('wantedCourses', JSON.stringify(newCourses))
+    localStorage.setItem('wantedCoursesTime', this.wantedModifyTimestamp)
+    this.queueSync()
+  }
+
+  saveSelections = (newSelections) => {
+    this.selectionsModifyTimestamp = Date.now()
+    localStorage.setItem('selections', JSON.stringify(newSelections))
+    localStorage.setItem('selectionsTime', this.selectionsModifyTimestamp)
+    this.queueSync()
+  }
+
+  saveHiddenCourses = (newHiddenCourses) => {
+    localStorage.setItem('hiddenCourseBaseKeys', JSON.stringify(newHiddenCourses))
+  }
+
+  syncAll = async () => {
+    this.selections = await SyncManager.syncSelections(this.selections, this.selectionsModifyTimestamp)
+    this.wantedCourses = await SyncManager.syncWanted(this.wantedCourses, this.wantedModifyTimestamp)
+    localStorage.setItem('wantedCourses', JSON.stringify(this.wantedCourses))
+    localStorage.setItem('selections', JSON.stringify(this.selections))
+    this.loadTrays()
+    this.syncNeeded = false
+  }
+
+  forceSyncLocal = async () => {
+    await SyncManager.syncSelections(this.selections, Infinity)
+    await SyncManager.syncWanted(this.wantedCourses, Infinity)
+  }
+
+  forceSyncRemote = async () => {
+    this.selections = await SyncManager.syncSelections(this.selections, 0)
+    this.wantedCourses = await SyncManager.syncWanted(this.wantedCourses, 0)
+    localStorage.setItem('wantedCourses', JSON.stringify(this.wantedCourses))
+    localStorage.setItem('selections', JSON.stringify(this.selections))
+    this.loadTrays()
+  }
+
+  queueSync = () => {
+    if (SyncManager.syncing) {
+      if (!this.syncNeeded) {
+        this.syncNeeded = true
+      } else {
+        clearTimeout(this.timeout)
+      }
+      this.timeout = setTimeout(() => {
+        this.syncAll()
+      }, 5000)
+    }
   }
 }
 
@@ -274,18 +339,6 @@ function loopSelections (selections, before, cb) {
       if (group) cb(group)
     }
   }
-}
-
-function saveCourses (newCourses) {
-  localStorage.setItem('wantedCourses', JSON.stringify(newCourses))
-}
-
-function saveSelections (newSelections) {
-  localStorage.setItem('selections', JSON.stringify(newSelections))
-}
-
-function saveHiddenCourses (newHiddenCourses) {
-  localStorage.setItem('hiddenCourseBaseKeys', JSON.stringify(newHiddenCourses))
 }
 
 export default new Courses()
