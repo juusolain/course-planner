@@ -1,6 +1,7 @@
 <template>
   <section class="courselist container section">
     <div class="courselist-buttons box notification is-primary is-light">
+      <b-button :type="getButtonStyle('0')" @click="setActive('0')">S</b-button>
       <b-button :type="getButtonStyle('1')" @click="setActive('1')">1</b-button>
       <b-button :type="getButtonStyle('2')" @click="setActive('2')">2</b-button>
       <b-button :type="getButtonStyle('3')" @click="setActive('3')">3</b-button>
