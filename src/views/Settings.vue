@@ -15,6 +15,12 @@
         </div>
       </b-field>
     </section>
+    <section class="courselist-buttons box notification is-info is-light">
+      <p class="is-size-4">Choose year</p>
+      <b-button :type="getButtonStyle('1')" @click="setActive('1')">1</b-button>
+      <b-button :type="getButtonStyle('2')" @click="setActive('2')">2</b-button>
+      <b-button :type="getButtonStyle('3')" @click="setActive('3')">3</b-button>
+    </section>
     <section class="container section box notification is-light is-danger">
       <p>Hidden courses:</p>
       <div v-for="key in hiddenKeys" :key="key">
@@ -33,7 +39,8 @@ export default {
   data () {
     return {
       hiddenKeys: CourseManager.hiddenCourseBaseKeys,
-      isSyncing: SyncManager.syncing
+      isSyncing: SyncManager.syncing,
+      CourseManager: CourseManager
     }
   },
   methods: {
@@ -66,6 +73,16 @@ export default {
         default:
           break
       }
+    },
+    getButtonStyle (year) {
+      if (year === CourseManager.currentYear) {
+        return 'is-info'
+      } else {
+        return ''
+      }
+    },
+    setActive (newYear) {
+      CourseManager.setCurrentYear(newYear)
     }
   }
 }
