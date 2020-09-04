@@ -17,7 +17,7 @@ class SyncManager {
 
   async enableSync () {
     if (await main.$gapi.isSignedIn()) {
-      this.syncing = true
+      console.log('sync enabled')
     } else {
       this.syncing = false
     }
