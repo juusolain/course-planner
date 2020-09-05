@@ -12,7 +12,7 @@
   <div class="content has-text-centered">
     <p>
       <strong>Course planner</strong> by <a href="https://github.com/jusola">Juuso Laine</a>. Licensed under
-      <a href="https://opensource.org/licenses/GPL-3.0">GPLv3</a>. We don't collect any user data, but if you really want to, read our <router-link to="/privacy">privacy policy</router-link>.
+      <a href="https://opensource.org/licenses/GPL-3.0">GPLv3</a>. User data is not collected, except when using sync, but if you really want to, read our <router-link to="/privacy">privacy statement</router-link>.
     </p>
   </div>
 </footer>
@@ -29,7 +29,7 @@ export default {
   created () {
     try {
       // NOTE: 45min refresh policy is what google recommends
-      window.setInterval(this.$refreshToken(), 45 * 60 * 1000)
+      // window.setInterval(this.$refreshToken(), 45 * 60 * 1000)
     } catch (e) {
       console.error(e)
     }

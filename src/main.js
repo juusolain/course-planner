@@ -1,22 +1,32 @@
 import '@mdi/font/css/materialdesignicons.css'
 import Vue from 'vue'
 import App from './App.vue'
+
 import router from './router'
+
 import NProgress from 'vue-nprogress'
-import VueGAPI from 'vue-gapi'
+
+import AsyncComputed from 'vue-async-computed'
+
 import Buefy from 'buefy'
 import 'buefy/dist/buefy.css'
+
+// remove in prod
 import SyncManager from './scripts/sync'
 import CourseManager from './scripts/courses'
+import Exporter from './scripts/export'
+import GoogleApi from './scripts/googleapi'
 
 Vue.config.productionTip = false
 
 Vue.use(NProgress)
 Vue.use(Buefy)
-Vue.use(VueGAPI, SyncManager.googleConfig)
+Vue.use(AsyncComputed)
 
 window.sync = SyncManager
 window.courses = CourseManager
+window.export = Exporter
+window.google = GoogleApi
 
 const nprogress = new NProgress({ latencyThreshold: 25 })
 
