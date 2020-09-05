@@ -125,7 +125,7 @@ class GoogleApi {
     // Parameters to pass to OAuth 2.0 endpoint.
     var params = {
       client_id: this.googleConfig.auth.client_id,
-      redirect_uri: 'http://localhost:8080/',
+      redirect_uri: process.env.NODE_ENV === 'production' ? 'https://courses.jusola.xyz/' : 'http://localhost:8080/',
       response_type: 'code',
       access_type: 'offline',
       scope: this.googleConfig.auth.scope,
