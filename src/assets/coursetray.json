@@ -1194,7 +1194,7 @@
                 "courseKey": "LI01",
                 "courseNumber": 1,
                 "groupKey": "LI01.4",
-                "teacher": "KNU Kainulainen Mikko",
+                "teacher": "AHO Ahonen Janne",
                 "tray": "1"
             },
             {
@@ -1961,15 +1961,6 @@
             },
             {
                 "bar": "8",
-                "courseBaseKey": "KE",
-                "courseKey": "KE12",
-                "courseNumber": 12,
-                "groupKey": "KE12.1",
-                "teacher": "ROP Ropponen Sanna/VAK Vakkilainen Kirsi",
-                "tray": "1"
-            },
-            {
-                "bar": "8",
                 "courseBaseKey": "KIB",
                 "courseKey": "KIB31",
                 "courseNumber": 31,
@@ -2383,7 +2374,7 @@
                 "courseKey": "FY01",
                 "courseNumber": 1,
                 "groupKey": "FY01.7",
-                "teacher": "PIR Pirkkalainen Sari",
+                "teacher": "OLL Ollikainen Janette",
                 "tray": "2"
             },
             {
@@ -2687,15 +2678,6 @@
             },
             {
                 "bar": "2",
-                "courseBaseKey": "GE",
-                "courseKey": "GE01",
-                "courseNumber": 1,
-                "groupKey": "GE01.2",
-                "teacher": "HAA Haapamäki Kirsi",
-                "tray": "2"
-            },
-            {
-                "bar": "2",
                 "courseBaseKey": "ÄI",
                 "courseKey": "ÄI01",
                 "courseNumber": 1,
@@ -2709,7 +2691,16 @@
                 "courseKey": "FY01",
                 "courseNumber": 1,
                 "groupKey": "FY01.8",
-                "teacher": "OLL Ollikainen Janette",
+                "teacher": "PIR Pirkkalainen Sari",
+                "tray": "2"
+            },
+            {
+                "bar": "2",
+                "courseBaseKey": "GE",
+                "courseKey": "GE01",
+                "courseNumber": 1,
+                "groupKey": "GE01.3",
+                "teacher": "HAA Haapamäki Kirsi",
                 "tray": "2"
             },
             {
@@ -2759,15 +2750,6 @@
             },
             {
                 "bar": "2",
-                "courseBaseKey": "GE",
-                "courseKey": "GE01",
-                "courseNumber": 1,
-                "groupKey": "GE01.3",
-                "teacher": "No teacher",
-                "tray": "2"
-            },
-            {
-                "bar": "2",
                 "courseBaseKey": "FI",
                 "courseKey": "FI02",
                 "courseNumber": 2,
@@ -2790,7 +2772,7 @@
                 "courseKey": "HI02",
                 "courseNumber": 2,
                 "groupKey": "HI02.7",
-                "teacher": "HAL Halavaara Sari",
+                "teacher": "HEK Heikkinen Laura",
                 "tray": "2"
             },
             {
@@ -2871,7 +2853,7 @@
                 "courseKey": "UE06",
                 "courseNumber": 6,
                 "groupKey": "UE06.1",
-                "teacher": "No teacher",
+                "teacher": "PAR Partala Tanja",
                 "tray": "2"
             },
             {
@@ -2950,15 +2932,6 @@
             },
             {
                 "bar": "3",
-                "courseBaseKey": "EAB",
-                "courseKey": "EAB31",
-                "courseNumber": 31,
-                "groupKey": "EAB31.2",
-                "teacher": "VUO Vuorinen Timo",
-                "tray": "2"
-            },
-            {
-                "bar": "3",
                 "courseBaseKey": "KE",
                 "courseKey": "KE01",
                 "courseNumber": 1,
@@ -2972,7 +2945,7 @@
                 "courseKey": "ENA01",
                 "courseNumber": 1,
                 "groupKey": "ENA01.10",
-                "teacher": "No teacher",
+                "teacher": "VUO Vuorinen Timo",
                 "tray": "2"
             },
             {
@@ -3080,7 +3053,7 @@
                 "courseKey": "YH02",
                 "courseNumber": 2,
                 "groupKey": "YH02.6",
-                "teacher": "LEH Lehtonen Juha-Pekka",
+                "teacher": "HAL Halavaara Sari",
                 "tray": "2"
             },
             {
@@ -3130,11 +3103,20 @@
             },
             {
                 "bar": "3",
+                "courseBaseKey": "FI",
+                "courseKey": "FI02",
+                "courseNumber": 2,
+                "groupKey": "FI02.10",
+                "teacher": "SAA Saariaho Aki",
+                "tray": "2"
+            },
+            {
+                "bar": "3",
                 "courseBaseKey": "BI",
                 "courseKey": "BI02",
                 "courseNumber": 2,
                 "groupKey": "BI02.2",
-                "teacher": "No teacher",
+                "teacher": "HET Herranen Tuulianna",
                 "tray": "2"
             },
             {
@@ -3217,15 +3199,6 @@
                 "groupKey": "ENA08.1",
                 "teacher": "TEN Tenhunen Tytti",
                 "tray": "2"
-            },
-            {
-                "bar": "3",
-                "courseBaseKey": "TO",
-                "courseKey": "TO01",
-                "courseNumber": 1,
-                "groupKey": "TO01.3",
-                "teacher": "PAR Partala Tanja/SAA Saariaho Aki",
-                "tray": "2"
             }
         ],
         "4": [
@@ -3298,7 +3271,7 @@
                 "courseKey": "FY01",
                 "courseNumber": 1,
                 "groupKey": "FY01.10",
-                "teacher": "HEI Heikkinen Matti",
+                "teacher": "OLL Ollikainen Janette",
                 "tray": "2"
             },
             {
@@ -3352,7 +3325,7 @@
                 "courseKey": "YH09",
                 "courseNumber": 9,
                 "groupKey": "YH09.1",
-                "teacher": "HEK Heikkinen Laura",
+                "teacher": "LEH Lehtonen Juha-Pekka",
                 "tray": "2"
             },
             {
@@ -3379,7 +3352,7 @@
                 "courseKey": "MAB05",
                 "courseNumber": 5,
                 "groupKey": "MAB05.2",
-                "teacher": "TAH Tahvanainen Jorma",
+                "teacher": "KUK Kukko Anni",
                 "tray": "2"
             },
             {
@@ -3397,7 +3370,7 @@
                 "courseKey": "UE02",
                 "courseNumber": 2,
                 "groupKey": "UE02.3",
-                "teacher": "PAR Partala Tanja",
+                "teacher": "KAE Karjalainen Emma",
                 "tray": "2"
             },
             {
@@ -3487,7 +3460,7 @@
                 "courseKey": "MU03",
                 "courseNumber": 3,
                 "groupKey": "MU03.2",
-                "teacher": "LAA Laakso Kati",
+                "teacher": "VIL Vilppola Matti",
                 "tray": "2"
             },
             {
@@ -3519,20 +3492,11 @@
             },
             {
                 "bar": "4",
-                "courseBaseKey": "TE",
-                "courseKey": "TE03",
-                "courseNumber": 3,
-                "groupKey": "TE03.2",
-                "teacher": "PAA Paasio Riitta",
-                "tray": "2"
-            },
-            {
-                "bar": "4",
                 "courseBaseKey": "MAB",
                 "courseKey": "MAB08",
                 "courseNumber": 8,
                 "groupKey": "MAB08.3",
-                "teacher": "OLL Ollikainen Janette",
+                "teacher": "TAH Tahvanainen Jorma",
                 "tray": "2"
             }
         ],
@@ -3553,6 +3517,15 @@
                 "courseNumber": 31,
                 "groupKey": "SAB31.1",
                 "teacher": "KOS Kosonen Päivi",
+                "tray": "2"
+            },
+            {
+                "bar": "5",
+                "courseBaseKey": "EAB",
+                "courseKey": "EAB31",
+                "courseNumber": 31,
+                "groupKey": "EAB31.2",
+                "teacher": "VUO Vuorinen Timo",
                 "tray": "2"
             },
             {
@@ -3665,6 +3638,15 @@
             },
             {
                 "bar": "5",
+                "courseBaseKey": "IT",
+                "courseKey": "IT01",
+                "courseNumber": 1,
+                "groupKey": "IT01.1",
+                "teacher": "KST Kostiainen Katri",
+                "tray": "2"
+            },
+            {
+                "bar": "5",
                 "courseBaseKey": "BI",
                 "courseKey": "BI02",
                 "courseNumber": 2,
@@ -3746,15 +3728,6 @@
             },
             {
                 "bar": "5",
-                "courseBaseKey": "IT",
-                "courseKey": "IT01",
-                "courseNumber": 1,
-                "groupKey": "IT01.1",
-                "teacher": "No teacher",
-                "tray": "2"
-            },
-            {
-                "bar": "5",
                 "courseBaseKey": "MAA",
                 "courseKey": "MAA07",
                 "courseNumber": 7,
@@ -3831,7 +3804,7 @@
                 "courseKey": "UE02",
                 "courseNumber": 2,
                 "groupKey": "UE02.5",
-                "teacher": "PAR Partala Tanja",
+                "teacher": "KAE Karjalainen Emma",
                 "tray": "2"
             },
             {
@@ -3932,7 +3905,7 @@
                 "courseKey": "BI01",
                 "courseNumber": 1,
                 "groupKey": "BI01.3",
-                "teacher": "No teacher",
+                "teacher": "HET Herranen Tuulianna",
                 "tray": "2"
             },
             {
@@ -3986,7 +3959,7 @@
                 "courseKey": "HI02",
                 "courseNumber": 2,
                 "groupKey": "HI02.9",
-                "teacher": "LEH Lehtonen Juha-Pekka",
+                "teacher": "HEK Heikkinen Laura",
                 "tray": "2"
             },
             {
@@ -4031,7 +4004,7 @@
                 "courseKey": "FI02",
                 "courseNumber": 2,
                 "groupKey": "FI02.4",
-                "teacher": "No teacher",
+                "teacher": "PAR Partala Tanja",
                 "tray": "2"
             },
             {
@@ -4121,7 +4094,7 @@
                 "courseKey": "HI09",
                 "courseNumber": 9,
                 "groupKey": "HI09.1",
-                "teacher": "HEK Heikkinen Laura",
+                "teacher": "LEH Lehtonen Juha-Pekka",
                 "tray": "2"
             },
             {
@@ -4195,7 +4168,7 @@
                 "courseKey": "GE01",
                 "courseNumber": 1,
                 "groupKey": "GE01.5",
-                "teacher": "No teacher",
+                "teacher": "HET Herranen Tuulianna",
                 "tray": "2"
             },
             {
@@ -4409,6 +4382,17 @@
                 "teacher": "KST Kostiainen Katri",
                 "tray": "2"
             }
+        ],
+        "10": [
+            {
+                "bar": "10",
+                "courseBaseKey": "KE",
+                "courseKey": "KE12",
+                "courseNumber": 12,
+                "groupKey": "KE12.1",
+                "teacher": "ROP Ropponen Sanna/UKS Uksila Katja/VAK Vakkilainen Kirsi",
+                "tray": "2"
+            }
         ]
     },
     "3": {
@@ -4437,7 +4421,7 @@
                 "courseKey": "FY02",
                 "courseNumber": 2,
                 "groupKey": "FY02.1",
-                "teacher": "PIR Pirkkalainen Sari",
+                "teacher": "UNK Unkuri Milla",
                 "tray": "3"
             },
             {
@@ -4460,20 +4444,11 @@
             },
             {
                 "bar": "1",
-                "courseBaseKey": "ÄI",
-                "courseKey": "ÄI02",
-                "courseNumber": 2,
-                "groupKey": "ÄI02.6",
-                "teacher": "TAP Tapio Lotta",
-                "tray": "3"
-            },
-            {
-                "bar": "1",
                 "courseBaseKey": "MAA",
                 "courseKey": "MAA03",
                 "courseNumber": 3,
                 "groupKey": "MAA03.2",
-                "teacher": "OLL Ollikainen Janette",
+                "teacher": "KAL Kaliuta Olga",
                 "tray": "3"
             },
             {
@@ -4483,24 +4458,6 @@
                 "courseNumber": 2,
                 "groupKey": "MU02.2",
                 "teacher": "VIL Vilppola Matti",
-                "tray": "3"
-            },
-            {
-                "bar": "1",
-                "courseBaseKey": "ET",
-                "courseKey": "ET01",
-                "courseNumber": 1,
-                "groupKey": "ET01.1",
-                "teacher": "ILK Ilkko-Ervasti Pauliina",
-                "tray": "3"
-            },
-            {
-                "bar": "1",
-                "courseBaseKey": "FI",
-                "courseKey": "FI01",
-                "courseNumber": 1,
-                "groupKey": "FI01.4",
-                "teacher": "No teacher",
                 "tray": "3"
             },
             {
@@ -4518,7 +4475,7 @@
                 "courseKey": "BI01",
                 "courseNumber": 1,
                 "groupKey": "BI01.4",
-                "teacher": "No teacher",
+                "teacher": "SUO Suominen Irene",
                 "tray": "3"
             },
             {
@@ -4786,20 +4743,11 @@
             },
             {
                 "bar": "2",
-                "courseBaseKey": "MAA",
-                "courseKey": "MAA03",
-                "courseNumber": 3,
-                "groupKey": "MAA03.1",
-                "teacher": "HEI Heikkinen Matti",
-                "tray": "3"
-            },
-            {
-                "bar": "2",
                 "courseBaseKey": "GE",
                 "courseKey": "GE01",
                 "courseNumber": 1,
                 "groupKey": "GE01.6",
-                "teacher": "No teacher",
+                "teacher": "SUO Suominen Irene",
                 "tray": "3"
             },
             {
@@ -5013,6 +4961,15 @@
             },
             {
                 "bar": "3",
+                "courseBaseKey": "GE",
+                "courseKey": "GE01",
+                "courseNumber": 1,
+                "groupKey": "GE01.2",
+                "teacher": "SUO Suominen Irene",
+                "tray": "3"
+            },
+            {
+                "bar": "3",
                 "courseBaseKey": "RUB",
                 "courseKey": "RUB12",
                 "courseNumber": 12,
@@ -5072,6 +5029,15 @@
                 "courseNumber": 1,
                 "groupKey": "GE01.7",
                 "teacher": "HAA Haapamäki Kirsi",
+                "tray": "3"
+            },
+            {
+                "bar": "3",
+                "courseBaseKey": "FI",
+                "courseKey": "FI01",
+                "courseNumber": 1,
+                "groupKey": "FI01.4",
+                "teacher": "PAR Partala Tanja",
                 "tray": "3"
             },
             {
@@ -5478,7 +5444,7 @@
                 "courseKey": "ÄI05",
                 "courseNumber": 5,
                 "groupKey": "ÄI05.4",
-                "teacher": "HEL Helenius-Aro Ulla",
+                "teacher": "TAP Tapio Lotta",
                 "tray": "3"
             },
             {
@@ -5620,6 +5586,15 @@
             },
             {
                 "bar": "5",
+                "courseBaseKey": "MAA",
+                "courseKey": "MAA03",
+                "courseNumber": 3,
+                "groupKey": "MAA03.1",
+                "teacher": "KUK Kukko Anni",
+                "tray": "3"
+            },
+            {
+                "bar": "5",
                 "courseBaseKey": "ENA",
                 "courseKey": "ENA02",
                 "courseNumber": 2,
@@ -5674,11 +5649,11 @@
             },
             {
                 "bar": "5",
-                "courseBaseKey": "ÄI",
-                "courseKey": "ÄI02",
-                "courseNumber": 2,
-                "groupKey": "ÄI02.11",
-                "teacher": "HEL Helenius-Aro Ulla",
+                "courseBaseKey": "ET",
+                "courseKey": "ET01",
+                "courseNumber": 1,
+                "groupKey": "ET01.1",
+                "teacher": "ILK Ilkko-Ervasti Pauliina",
                 "tray": "3"
             },
             {
@@ -5750,7 +5725,7 @@
                 "courseKey": "UE02",
                 "courseNumber": 2,
                 "groupKey": "UE02.6",
-                "teacher": "PAR Partala Tanja",
+                "teacher": "KAE Karjalainen Emma",
                 "tray": "3"
             },
             {
@@ -5768,7 +5743,7 @@
                 "courseKey": "ÄI05",
                 "courseNumber": 5,
                 "groupKey": "ÄI05.6",
-                "teacher": "TAP Tapio Lotta",
+                "teacher": "HEL Helenius-Aro Ulla",
                 "tray": "3"
             },
             {
@@ -5849,7 +5824,7 @@
                 "courseKey": "MAA14",
                 "courseNumber": 14,
                 "groupKey": "MAA14.1",
-                "teacher": "KAL Kaliuta Olga",
+                "teacher": "UNK Unkuri Milla",
                 "tray": "3"
             },
             {
@@ -6076,7 +6051,7 @@
                 "courseKey": "UE02",
                 "courseNumber": 2,
                 "groupKey": "UE02.7",
-                "teacher": "ILK Ilkko-Ervasti Pauliina",
+                "teacher": "KAE Karjalainen Emma",
                 "tray": "3"
             },
             {
@@ -6130,7 +6105,7 @@
                 "courseKey": "ENA10",
                 "courseNumber": 10,
                 "groupKey": "ENA10.5",
-                "teacher": "No teacher",
+                "teacher": "HOW Howard Kati",
                 "tray": "3"
             },
             {
@@ -6227,15 +6202,6 @@
             },
             {
                 "bar": "7",
-                "courseBaseKey": "ÄI",
-                "courseKey": "ÄI02",
-                "courseNumber": 2,
-                "groupKey": "ÄI02.12",
-                "teacher": "HAE Hanninen Elina",
-                "tray": "3"
-            },
-            {
-                "bar": "7",
                 "courseBaseKey": "RUB",
                 "courseKey": "RUB12",
                 "courseNumber": 12,
@@ -6249,7 +6215,7 @@
                 "courseKey": "UE01",
                 "courseNumber": 1,
                 "groupKey": "UE01.8",
-                "teacher": "No teacher",
+                "teacher": "KAE Karjalainen Emma",
                 "tray": "3"
             },
             {
@@ -6321,7 +6287,7 @@
                 "courseKey": "FI02",
                 "courseNumber": 2,
                 "groupKey": "FI02.6",
-                "teacher": "ILK Ilkko-Ervasti Pauliina",
+                "teacher": "SAA Saariaho Aki",
                 "tray": "3"
             },
             {
@@ -6380,15 +6346,6 @@
             },
             {
                 "bar": "7",
-                "courseBaseKey": "SAB",
-                "courseKey": "SAB310",
-                "courseNumber": 310,
-                "groupKey": "SAB310.1",
-                "teacher": "HOW Howard Kati",
-                "tray": "3"
-            },
-            {
-                "bar": "7",
                 "courseBaseKey": "HI",
                 "courseKey": "HI06",
                 "courseNumber": 6,
@@ -6407,20 +6364,20 @@
             },
             {
                 "bar": "7",
-                "courseBaseKey": "ENA",
-                "courseKey": "ENA11",
-                "courseNumber": 11,
-                "groupKey": "ENA11.3",
-                "teacher": "SAA Saariaho Aki",
-                "tray": "3"
-            },
-            {
-                "bar": "7",
                 "courseBaseKey": "RUB",
                 "courseKey": "RUB18",
                 "courseNumber": 18,
                 "groupKey": "RUB18.2",
                 "teacher": "VII Viitanen Sari",
+                "tray": "3"
+            },
+            {
+                "bar": "7",
+                "courseBaseKey": "ÄI",
+                "courseKey": "ÄI09",
+                "courseNumber": 9,
+                "groupKey": "ÄI09.9",
+                "teacher": "HEL Helenius-Aro Ulla",
                 "tray": "3"
             }
         ],
@@ -6527,7 +6484,7 @@
                 "courseKey": "LI03",
                 "courseNumber": 3,
                 "groupKey": "LI03.1",
-                "teacher": "AHO Ahonen Janne",
+                "teacher": "KNU Kainulainen Mikko",
                 "tray": "4"
             },
             {
@@ -6537,6 +6494,15 @@
                 "courseNumber": 1,
                 "groupKey": "BI01.7",
                 "teacher": "HIE Hietaranta Seppo",
+                "tray": "4"
+            },
+            {
+                "bar": "1",
+                "courseBaseKey": "FI",
+                "courseKey": "FI01",
+                "courseNumber": 1,
+                "groupKey": "FI01.7",
+                "teacher": "ILK Ilkko-Ervasti Pauliina",
                 "tray": "4"
             },
             {
@@ -6755,15 +6721,6 @@
                 "courseNumber": 1,
                 "groupKey": "PS01.9",
                 "teacher": "KAR Karhumaa Anna",
-                "tray": "4"
-            },
-            {
-                "bar": "2",
-                "courseBaseKey": "FI",
-                "courseKey": "FI01",
-                "courseNumber": 1,
-                "groupKey": "FI01.7",
-                "teacher": "ILK Ilkko-Ervasti Pauliina",
                 "tray": "4"
             },
             {
@@ -7013,15 +6970,6 @@
             },
             {
                 "bar": "3",
-                "courseBaseKey": "FI",
-                "courseKey": "FI01",
-                "courseNumber": 1,
-                "groupKey": "FI01.10",
-                "teacher": "No teacher",
-                "tray": "4"
-            },
-            {
-                "bar": "3",
                 "courseBaseKey": "RUB",
                 "courseKey": "RUB13",
                 "courseNumber": 13,
@@ -7036,15 +6984,6 @@
                 "courseNumber": 2,
                 "groupKey": "KE02.D1",
                 "teacher": "FOR Forsström Päivi",
-                "tray": "4"
-            },
-            {
-                "bar": "3",
-                "courseBaseKey": "GE",
-                "courseKey": "GE01",
-                "courseNumber": 1,
-                "groupKey": "GE01.9",
-                "teacher": "No teacher",
                 "tray": "4"
             },
             {
@@ -7191,6 +7130,15 @@
                 "courseNumber": 12,
                 "groupKey": "RUB12.8",
                 "teacher": "KOS Kosonen Päivi",
+                "tray": "4"
+            },
+            {
+                "bar": "4",
+                "courseBaseKey": "ÄI",
+                "courseKey": "ÄI02",
+                "courseNumber": 2,
+                "groupKey": "ÄI02.11",
+                "teacher": "HEL Helenius-Aro Ulla",
                 "tray": "4"
             },
             {
@@ -7398,7 +7346,7 @@
                 "courseBaseKey": "KE",
                 "courseKey": "KE02",
                 "courseNumber": 2,
-                "groupKey": "KE02.4",
+                "groupKey": "KE02.D3",
                 "teacher": "HON Honkela Maija",
                 "tray": "4"
             },
@@ -7476,6 +7424,24 @@
             },
             {
                 "bar": "5",
+                "courseBaseKey": "FI",
+                "courseKey": "FI01",
+                "courseNumber": 1,
+                "groupKey": "FI01.10",
+                "teacher": "PAR Partala Tanja",
+                "tray": "4"
+            },
+            {
+                "bar": "5",
+                "courseBaseKey": "ÄI",
+                "courseKey": "ÄI02",
+                "courseNumber": 2,
+                "groupKey": "ÄI02.12",
+                "teacher": "HAE Hanninen Elina",
+                "tray": "4"
+            },
+            {
+                "bar": "5",
                 "courseBaseKey": "GE",
                 "courseKey": "GE01",
                 "courseNumber": 1,
@@ -7507,7 +7473,7 @@
                 "courseKey": "MU01",
                 "courseNumber": 1,
                 "groupKey": "MU01.13",
-                "teacher": "LAA Laakso Kati",
+                "teacher": "VIL Vilppola Matti",
                 "tray": "4"
             },
             {
@@ -7543,7 +7509,7 @@
                 "courseKey": "MAB07",
                 "courseNumber": 7,
                 "groupKey": "MAB07.2",
-                "teacher": "INK Inkeroinen Mikael",
+                "teacher": "KUK Kukko Anni",
                 "tray": "4"
             },
             {
@@ -7635,7 +7601,7 @@
                 "courseKey": "ET01",
                 "courseNumber": 1,
                 "groupKey": "ET01.2",
-                "teacher": "ILK Ilkko-Ervasti Pauliina",
+                "teacher": "KAE Karjalainen Emma",
                 "tray": "4"
             },
             {
@@ -7739,6 +7705,15 @@
             },
             {
                 "bar": "6",
+                "courseBaseKey": "HI",
+                "courseKey": "HI11",
+                "courseNumber": 11,
+                "groupKey": "HI11.1",
+                "teacher": "UIT Uitto Jussi",
+                "tray": "4"
+            },
+            {
+                "bar": "6",
                 "courseBaseKey": "FY",
                 "courseKey": "FY06",
                 "courseNumber": 6,
@@ -7816,15 +7791,6 @@
                 "courseNumber": 9,
                 "groupKey": "KU09.1",
                 "teacher": "ROP Ropponen Sanna",
-                "tray": "4"
-            },
-            {
-                "bar": "6",
-                "courseBaseKey": "HI",
-                "courseKey": "HI11",
-                "courseNumber": 11,
-                "groupKey": "HI11.1",
-                "teacher": "UIT Uitto Jussi",
                 "tray": "4"
             },
             {
@@ -7908,6 +7874,15 @@
                 "courseNumber": 2,
                 "groupKey": "FY02.7",
                 "teacher": "UNK Unkuri Milla",
+                "tray": "4"
+            },
+            {
+                "bar": "7",
+                "courseBaseKey": "ÄI",
+                "courseKey": "ÄI02",
+                "courseNumber": 2,
+                "groupKey": "ÄI02.6",
+                "teacher": "TAP Tapio Lotta",
                 "tray": "4"
             },
             {
@@ -8024,16 +7999,7 @@
                 "courseKey": "UE02",
                 "courseNumber": 2,
                 "groupKey": "UE02.8",
-                "teacher": "PAR Partala Tanja",
-                "tray": "4"
-            },
-            {
-                "bar": "7",
-                "courseBaseKey": "ÄI",
-                "courseKey": "ÄI13",
-                "courseNumber": 13,
-                "groupKey": "ÄI13.1",
-                "teacher": "TAP Tapio Lotta",
+                "teacher": "KAE Karjalainen Emma",
                 "tray": "4"
             },
             {
@@ -8204,6 +8170,15 @@
                 "courseNumber": 3,
                 "groupKey": "FY03.5",
                 "teacher": "UNK Unkuri Milla",
+                "tray": "5"
+            },
+            {
+                "bar": "1",
+                "courseBaseKey": "GE",
+                "courseKey": "GE01",
+                "courseNumber": 1,
+                "groupKey": "GE01.9",
+                "teacher": "SUO Suominen Irene",
                 "tray": "5"
             },
             {
@@ -8471,15 +8446,6 @@
             },
             {
                 "bar": "2",
-                "courseBaseKey": "HI",
-                "courseKey": "HI05",
-                "courseNumber": 5,
-                "groupKey": "HI05.3",
-                "teacher": "HAL Halavaara Sari",
-                "tray": "5"
-            },
-            {
-                "bar": "2",
                 "courseBaseKey": "RUB",
                 "courseKey": "RUB13",
                 "courseNumber": 13,
@@ -8493,7 +8459,7 @@
                 "courseKey": "UE01",
                 "courseNumber": 1,
                 "groupKey": "UE01.11",
-                "teacher": "No teacher",
+                "teacher": "KAE Karjalainen Emma",
                 "tray": "5"
             },
             {
@@ -8512,6 +8478,15 @@
                 "courseNumber": 6,
                 "groupKey": "MAB06.3",
                 "teacher": "INK Inkeroinen Mikael",
+                "tray": "5"
+            },
+            {
+                "bar": "2",
+                "courseBaseKey": "HI",
+                "courseKey": "HI05",
+                "courseNumber": 5,
+                "groupKey": "HI05.3",
+                "teacher": "HAL Halavaara Sari",
                 "tray": "5"
             },
             {
@@ -8702,7 +8677,16 @@
                 "courseKey": "UE01",
                 "courseNumber": 1,
                 "groupKey": "UE01.12",
-                "teacher": "KAR Karhumaa Anna",
+                "teacher": "KAE Karjalainen Emma",
+                "tray": "5"
+            },
+            {
+                "bar": "3",
+                "courseBaseKey": "KU",
+                "courseKey": "KU01",
+                "courseNumber": 1,
+                "groupKey": "KU01.15",
+                "teacher": "ROP Ropponen Sanna",
                 "tray": "5"
             },
             {
@@ -8747,7 +8731,7 @@
                 "courseKey": "MAA11",
                 "courseNumber": 11,
                 "groupKey": "MAA11.3",
-                "teacher": "KAL Kaliuta Olga",
+                "teacher": "UNK Unkuri Milla",
                 "tray": "5"
             },
             {
@@ -8920,7 +8904,7 @@
                 "courseKey": "GE01",
                 "courseNumber": 1,
                 "groupKey": "GE01.13",
-                "teacher": "No teacher",
+                "teacher": "SUO Suominen Irene",
                 "tray": "5"
             },
             {
@@ -8965,7 +8949,7 @@
                 "courseKey": "FY06",
                 "courseNumber": 6,
                 "groupKey": "FY06.5",
-                "teacher": "VÄN Vänttinen Simo",
+                "teacher": "OLL Ollikainen Janette",
                 "tray": "5"
             },
             {
@@ -8992,7 +8976,7 @@
                 "courseKey": "BI02",
                 "courseNumber": 2,
                 "groupKey": "BI02.9",
-                "teacher": "No teacher",
+                "teacher": "FOR Forsström Päivi",
                 "tray": "5"
             },
             {
@@ -9383,7 +9367,7 @@
                 "courseKey": "ÄI03",
                 "courseNumber": 3,
                 "groupKey": "ÄI03.12",
-                "teacher": "TAP Tapio Lotta",
+                "teacher": "HAE Hanninen Elina",
                 "tray": "5"
             },
             {
@@ -9583,7 +9567,7 @@
                 "courseKey": "MAA05",
                 "courseNumber": 5,
                 "groupKey": "MAA05.8",
-                "teacher": "OLL Ollikainen Janette",
+                "teacher": "VÄN Vänttinen Simo",
                 "tray": "5"
             },
             {
@@ -9700,7 +9684,7 @@
                 "courseKey": "S206",
                 "courseNumber": 206,
                 "groupKey": "S206.1",
-                "teacher": "HEL Helenius-Aro Ulla",
+                "teacher": "JOU Jouttijärvi Tuula",
                 "tray": "5"
             },
             {
