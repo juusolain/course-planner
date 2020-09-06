@@ -7,7 +7,7 @@
     <section class="container section box notification is-light is-primary">
       <p class="is-size-3 has-text-black">Sync data</p>
       <b-field label="Toggle syncing">
-        <b-switch v-model="isSyncing" @input="setSyncing"></b-switch>
+        <b-switch :value="isSyncing" @input="setSyncing"></b-switch>
       </b-field>
       <b-field label="Sign in to enable sync">
         <b-button v-if="googleSignedIn === false" @click="googleLogin" icon-left="google">Sign in with Google</b-button>
