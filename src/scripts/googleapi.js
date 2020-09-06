@@ -50,7 +50,7 @@ class GoogleApi {
       client_secret: this.googleConfig.auth.client_secret,
       code,
       grant_type: 'authorization_code',
-      redirect_uri: 'http://localhost:8080/'
+      redirect_uri: process.env.NODE_ENV === 'production' ? 'https://courses.jusola.xyz/' : 'http://localhost:8080/'
     })
     console.log(res)
     this.setAccessToken(res.data.access_token, Date.now() + res.data.expires_in)
@@ -125,7 +125,7 @@ class GoogleApi {
     // Parameters to pass to OAuth 2.0 endpoint.
     var params = {
       client_id: this.googleConfig.auth.client_id,
-      redirect_uri: 'http://localhost:8080/',
+      redirect_uri: process.env.NODE_ENV === 'production' ? 'https://courses.jusola.xyz/' : 'http://localhost:8080/',
       response_type: 'code',
       access_type: 'offline',
       scope: this.googleConfig.auth.scope,
