@@ -12,7 +12,7 @@
   <div class="content has-text-centered">
     <p>
       <strong>Course planner</strong> by <a href="https://github.com/jusola">Juuso Laine</a>. Licensed under
-      <a href="https://opensource.org/licenses/GPL-3.0">GPLv3</a>. User data is not collected, except when using sync, but if you really want to, read our <router-link to="/privacy">privacy statement</router-link>.
+      <a href="https://www.gnu.org/licenses/gpl-3.0-standalone.html">GPLv3</a>. User data is not collected, except when using sync, but if you really want to, read our <router-link to="/privacy">privacy statement</router-link>.
     </p>
   </div>
 </footer>

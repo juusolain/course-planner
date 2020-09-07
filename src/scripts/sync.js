@@ -3,7 +3,7 @@ import GoogleApi from './googleapi'
 class SyncManager {
   constructor () {
     console.log('Start syncmanager')
-    this.syncing = window.localStorage.getItem('syncEnabled') || false
+    this.syncing = Boolean(window.localStorage.getItem('syncEnabled')) || false
   }
 
   async enableSync () {

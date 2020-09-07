@@ -951,21 +951,27 @@
     "KED": [
         {
             "courseBaseKey": "KED",
+            "courseKey": "KED7",
+            "courseNumber": "7",
+            "courseType": "K"
+        },
+        {
+            "courseBaseKey": "KED",
             "courseKey": "KED08",
             "courseNumber": "08",
-            "courseType": "P"
+            "courseType": "K"
         },
         {
             "courseBaseKey": "KED",
             "courseKey": "KED09",
             "courseNumber": "09",
-            "courseType": "P"
+            "courseType": "K"
         },
         {
             "courseBaseKey": "KED",
             "courseKey": "KED10",
             "courseNumber": "10",
-            "courseType": "P"
+            "courseType": "K"
         }
     ],
     "KIB": [
