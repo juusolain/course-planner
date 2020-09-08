@@ -1,9 +1,13 @@
 import courseJSON from '../assets/courses.json'
 import courseTrayJSON from '../assets/coursetray.json'
+import { createRxDatabase, addRxPlugin } from 'rxdb'
 
+import { groupSchema, courseSchema } from './schemas'
 import Vue from 'vue'
 
 import SyncManager from './sync.js'
+
+addRxPlugin(require('pouchdb-adapter-indexeddb'))
 
 class Courses {
   constructor () {
@@ -32,7 +36,49 @@ class Courses {
     if (SyncManager.syncing) {
       // this.syncAll()
     }
-    this.loadTrays()
+    this.db = null
+    this.loadDatabase()
+    // this.loadTrays()
+  }
+
+  loadDatabase = async () => {
+    this.db = await createRxDatabase({
+      name: 'courseplannerdb',
+      adapter: 'indexeddb'
+    })
+    this.courses = await this.db.collection({
+      name: 'courses',
+      schema: courseSchema
+    })
+    this.groups = await this.db.collection({
+      name: 'groups',
+      schema: groupSchema
+    })
+    this.doGroupUpdate()
+    this.doCourseUpdate()
+  }
+
+  doCourseUpdate = async () => {
+    this.allCourses.forEach(async course => {
+      console.log(course)
+      const doc = await this.courses.findOne().where('courseKey').eq(course.courseKey).exec()
+      if (doc === null) {
+        this.courses.insert(course)
+      } else {
+        this.courses.upsert({ wanted: doc.wanted, ...course })
+      }
+    })
+  }
+
+  doGroupUpdate = async () => {
+    this.originalTrays.forEach(async group => {
+      const doc = await this.groups.findOne().where('groupKey').eq(group.groupKey).exec()
+      if (doc === null) {
+        this.courses.insert(group)
+      } else {
+        this.courses.upsert({ selected: doc.selected, ...group })
+      }
+    })
   }
 
   loadTrays = () => {

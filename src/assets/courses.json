@@ -1,3965 +1,3825 @@
-{
-    "BI": [
-        {
-            "courseBaseKey": "BI",
-            "courseKey": "BI01",
-            "courseNumber": "01",
-            "courseType": "P"
-        },
-        {
-            "after": "01",
-            "courseBaseKey": "BI",
-            "courseKey": "BI02",
-            "courseNumber": "02",
-            "courseType": "P"
-        },
-        {
-            "after": "02",
-            "courseBaseKey": "BI",
-            "courseKey": "BI03",
-            "courseNumber": "03",
-            "courseType": "VS"
-        },
-        {
-            "after": "03",
-            "courseBaseKey": "BI",
-            "courseKey": "BI04",
-            "courseNumber": "04",
-            "courseType": "VS"
-        },
-        {
-            "after": "04",
-            "courseBaseKey": "BI",
-            "courseKey": "BI05",
-            "courseNumber": "05",
-            "courseType": "VS"
-        },
-        {
-            "after": "05",
-            "courseBaseKey": "BI",
-            "courseKey": "BI06",
-            "courseNumber": "06",
-            "courseType": "K"
-        },
-        {
-            "courseBaseKey": "BI",
-            "courseKey": "BI07",
-            "courseNumber": "07",
-            "courseType": "K"
-        },
-        {
-            "courseBaseKey": "BI",
-            "courseKey": "BI08",
-            "courseNumber": "08",
-            "courseType": "K"
-        },
-        {
-            "courseBaseKey": "BI",
-            "courseKey": "BI09",
-            "courseNumber": "09",
-            "courseType": "K"
-        },
-        {
-            "courseBaseKey": "BI",
-            "courseKey": "BI10",
-            "courseNumber": "10",
-            "courseType": "K"
-        },
-        {
-            "courseBaseKey": "BI",
-            "courseKey": "BI11",
-            "courseNumber": "11",
-            "courseType": "K"
-        },
-        {
-            "courseBaseKey": "BI",
-            "courseKey": "BI12",
-            "courseNumber": "12",
-            "courseType": "K"
-        },
-        {
-            "courseBaseKey": "BI",
-            "courseKey": "BI13",
-            "courseNumber": "13",
-            "courseType": "K"
-        }
-    ],
-    "EAA": [
-        {
-            "courseBaseKey": "EAA",
-            "courseKey": "EAA01",
-            "courseNumber": "01",
-            "cowurseType": "P"
-        },
-        {
-            "after": "01",
-            "courseBaseKey": "EAA",
-            "courseKey": "EAA02",
-            "courseNumber": "02",
-            "courseType": "P"
-        },
-        {
-            "after": "02",
-            "courseBaseKey": "EAA",
-            "courseKey": "EAA03",
-            "courseNumber": "03",
-            "courseType": "P"
-        },
-        {
-            "after": "03",
-            "courseBaseKey": "EAA",
-            "courseKey": "EAA04",
-            "courseNumber": "04",
-            "courseType": "P"
-        },
-        {
-            "after": "04",
-            "courseBaseKey": "EAA",
-            "courseKey": "EAA05",
-            "courseNumber": "05",
-            "courseType": "P"
-        },
-        {
-            "after": "05",
-            "courseBaseKey": "EAA",
-            "courseKey": "EAA06",
-            "courseNumber": "06",
-            "courseType": "P"
-        },
-        {
-            "after": "06",
-            "courseBaseKey": "EAA",
-            "courseKey": "EAA07",
-            "courseNumber": "07",
-            "courseType": "VS"
-        },
-        {
-            "after": "07",
-            "courseBaseKey": "EAA",
-            "courseKey": "EAA08",
-            "courseNumber": "08",
-            "courseType": "VS"
-        }
-    ],
-    "EAB": [
-        {
-            "courseBaseKey": "EAB",
-            "courseKey": "EAB21",
-            "courseNumber": "21",
-            "courseType": "VS"
-        },
-        {
-            "after": "21",
-            "courseBaseKey": "EAB",
-            "courseKey": "EAB22",
-            "courseNumber": "22",
-            "courseType": "VS"
-        },
-        {
-            "after": "22",
-            "courseBaseKey": "EAB",
-            "courseKey": "EAB23",
-            "courseNumber": "23",
-            "courseType": "VS"
-        },
-        {
-            "after": "23",
-            "courseBaseKey": "EAB",
-            "courseKey": "EAB24",
-            "courseNumber": "24",
-            "courseType": "VS"
-        },
-        {
-            "after": "24",
-            "courseBaseKey": "EAB",
-            "courseKey": "EAB25",
-            "courseNumber": "25",
-            "courseType": "VS"
-        },
-        {
-            "after": "25",
-            "courseBaseKey": "EAB",
-            "courseKey": "EAB26",
-            "courseNumber": "26",
-            "courseType": "VS"
-        },
-        {
-            "after": "26",
-            "courseBaseKey": "EAB",
-            "courseKey": "EAB27",
-            "courseNumber": "27",
-            "courseType": "VS"
-        },
-        {
-            "after": "27",
-            "courseBaseKey": "EAB",
-            "courseKey": "EAB28",
-            "courseNumber": "28",
-            "courseType": "VS"
-        },
-        {
-            "after": "38",
-            "courseBaseKey": "EAB",
-            "courseKey": "EAB39",
-            "courseNumber": "39",
-            "courseType": "VS"
-        },
-        {
-            "courseBaseKey": "EAB",
-            "courseKey": "EAB31",
-            "courseNumber": "31",
-            "courseType": "VS"
-        },
-        {
-            "after": "31",
-            "courseBaseKey": "EAB",
-            "courseKey": "EAB32",
-            "courseNumber": "32",
-            "courseType": "VS"
-        },
-        {
-            "after": "32",
-            "courseBaseKey": "EAB",
-            "courseKey": "EAB33",
-            "courseNumber": "33",
-            "courseType": "VS"
-        },
-        {
-            "after": "33",
-            "courseBaseKey": "EAB",
-            "courseKey": "EAB34",
-            "courseNumber": "34",
-            "courseType": "VS"
-        },
-        {
-            "after": "34",
-            "courseBaseKey": "EAB",
-            "courseKey": "EAB35",
-            "courseNumber": "35",
-            "courseType": "VS"
-        },
-        {
-            "after": "35",
-            "courseBaseKey": "EAB",
-            "courseKey": "EAB36",
-            "courseNumber": "36",
-            "courseType": "VS"
-        },
-        {
-            "after": "36",
-            "courseBaseKey": "EAB",
-            "courseKey": "EAB37",
-            "courseNumber": "37",
-            "courseType": "VS"
-        },
-        {
-            "after": "37",
-            "courseBaseKey": "EAB",
-            "courseKey": "EAB38",
-            "courseNumber": "38",
-            "courseType": "VS"
-        },
-        {
-            "courseBaseKey": "EAB",
-            "courseKey": "EAB39",
-            "courseNumber": "39",
-            "courseType": "K"
-        }
-    ],
-    "ENA": [
-        {
-            "courseBaseKey": "ENA",
-            "courseKey": "ENA01",
-            "courseNumber": "01",
-            "courseType": "P"
-        },
-        {
-            "after": "01",
-            "courseBaseKey": "ENA",
-            "courseKey": "ENA02",
-            "courseNumber": "02",
-            "courseType": "P"
-        },
-        {
-            "after": "02",
-            "courseBaseKey": "ENA",
-            "courseKey": "ENA03",
-            "courseNumber": "03",
-            "courseType": "P"
-        },
-        {
-            "after": "03",
-            "courseBaseKey": "ENA",
-            "courseKey": "ENA04",
-            "courseNumber": "04",
-            "courseType": "P"
-        },
-        {
-            "after": "04",
-            "courseBaseKey": "ENA",
-            "courseKey": "ENA05",
-            "courseNumber": "05",
-            "courseType": "P"
-        },
-        {
-            "after": "05",
-            "courseBaseKey": "ENA",
-            "courseKey": "ENA06",
-            "courseNumber": "06",
-            "courseType": "P"
-        },
-        {
-            "after": "06",
-            "courseBaseKey": "ENA",
-            "courseKey": "ENA07",
-            "courseNumber": "07",
-            "courseType": "VS"
-        },
-        {
-            "courseBaseKey": "ENA",
-            "courseKey": "ENA08",
-            "courseNumber": "08",
-            "courseType": "VS"
-        },
-        {
-            "after": "07",
-            "courseBaseKey": "ENA",
-            "courseKey": "ENA09",
-            "courseNumber": "09",
-            "courseType": "VS"
-        },
-        {
-            "courseBaseKey": "ENA",
-            "courseKey": "ENA10",
-            "courseNumber": "10",
-            "courseType": "K"
-        },
-        {
-            "courseBaseKey": "ENA",
-            "courseKey": "ENA11",
-            "courseNumber": "11",
-            "courseType": "K"
-        },
-        {
-            "courseBaseKey": "ENA",
-            "courseKey": "ENA12",
-            "courseNumber": "12",
-            "courseType": "K"
-        },
-        {
-            "courseBaseKey": "ENA",
-            "courseKey": "ENA15",
-            "courseNumber": "15",
-            "courseType": "K"
-        },
-        {
-            "after": "15",
-            "courseBaseKey": "ENA",
-            "courseKey": "ENA16",
-            "courseNumber": "16",
-            "courseType": "K"
-        }
-    ],
-    "ENB": [
-        {
-            "courseBaseKey": "ENB",
-            "courseKey": "ENB31",
-            "courseNumber": "31",
-            "courseType": "VS"
-        },
-        {
-            "after": "31",
-            "courseBaseKey": "ENB",
-            "courseKey": "ENB32",
-            "courseNumber": "32",
-            "courseType": "VS"
-        },
-        {
-            "after": "32",
-            "courseBaseKey": "ENB",
-            "courseKey": "ENB33",
-            "courseNumber": "33",
-            "courseType": "VS"
-        },
-        {
-            "after": "33",
-            "courseBaseKey": "ENB",
-            "courseKey": "ENB34",
-            "courseNumber": "34",
-            "courseType": "VS"
-        },
-        {
-            "after": "34",
-            "courseBaseKey": "ENB",
-            "courseKey": "ENB35",
-            "courseNumber": "35",
-            "courseType": "VS"
-        },
-        {
-            "after": "35",
-            "courseBaseKey": "ENB",
-            "courseKey": "ENB36",
-            "courseNumber": "36",
-            "courseType": "VS"
-        },
-        {
-            "after": "36",
-            "courseBaseKey": "ENB",
-            "courseKey": "ENB37",
-            "courseNumber": "37",
-            "courseType": "VS"
-        },
-        {
-            "after": "37",
-            "courseBaseKey": "ENB",
-            "courseKey": "ENB38",
-            "courseNumber": "38",
-            "courseType": "VS"
-        }
-    ],
-    "EO": [
-        {
-            "courseBaseKey": "EO",
-            "courseKey": "EO01",
-            "courseNumber": "01",
-            "courseType": "P"
-        }
-    ],
-    "ET": [
-        {
-            "courseBaseKey": "ET",
-            "courseKey": "ET01",
-            "courseNumber": "01",
-            "courseType": "P"
-        },
-        {
-            "courseBaseKey": "ET",
-            "courseKey": "ET02",
-            "courseNumber": "02",
-            "courseType": "P"
-        },
-        {
-            "courseBaseKey": "ET",
-            "courseKey": "ET03",
-            "courseNumber": "03",
-            "courseType": "VS"
-        },
-        {
-            "courseBaseKey": "ET",
-            "courseKey": "ET04",
-            "courseNumber": "04",
-            "courseType": "VS"
-        },
-        {
-            "courseBaseKey": "ET",
-            "courseKey": "ET05",
-            "courseNumber": "05",
-            "courseType": "VS"
-        },
-        {
-            "courseBaseKey": "ET",
-            "courseKey": "ET06",
-            "courseNumber": "06",
-            "courseType": "VS"
-        }
-    ],
-    "FI": [
-        {
-            "courseBaseKey": "FI",
-            "courseKey": "FI01",
-            "courseNumber": "01",
-            "courseType": "P"
-        },
-        {
-            "after": "01",
-            "courseBaseKey": "FI",
-            "courseKey": "FI02",
-            "courseNumber": "02",
-            "courseType": "P"
-        },
-        {
-            "after": "01",
-            "courseBaseKey": "FI",
-            "courseKey": "FI03",
-            "courseNumber": "03",
-            "courseType": "VS"
-        },
-        {
-            "after": "01",
-            "courseBaseKey": "FI",
-            "courseKey": "FI04",
-            "courseNumber": "04",
-            "courseType": "VS"
-        },
-        {
-            "after": "01",
-            "courseBaseKey": "FI",
-            "courseKey": "FI05",
-            "courseNumber": "05",
-            "courseType": "K"
-        },
-        {
-            "after": "01",
-            "courseBaseKey": "FI",
-            "courseKey": "FI06",
-            "courseNumber": "06",
-            "courseType": "K"
-        }
-    ],
-    "FY": [
-        {
-            "courseBaseKey": "FY",
-            "courseKey": "FY01",
-            "courseNumber": "01",
-            "courseType": "P"
-        },
-        {
-            "after": "01",
-            "courseBaseKey": "FY",
-            "courseKey": "FY02",
-            "courseNumber": "02",
-            "courseType": "VS"
-        },
-        {
-            "after": "02",
-            "courseBaseKey": "FY",
-            "courseKey": "FY03",
-            "courseNumber": "03",
-            "courseType": "VS"
-        },
-        {
-            "after": "03",
-            "courseBaseKey": "FY",
-            "courseKey": "FY04",
-            "courseNumber": "04",
-            "courseType": "VS"
-        },
-        {
-            "after": "04",
-            "courseBaseKey": "FY",
-            "courseKey": "FY05",
-            "courseNumber": "05",
-            "courseType": "VS"
-        },
-        {
-            "after": "05",
-            "courseBaseKey": "FY",
-            "courseKey": "FY06",
-            "courseNumber": "06",
-            "courseType": "VS"
-        },
-        {
-            "after": "06",
-            "courseBaseKey": "FY",
-            "courseKey": "FY07",
-            "courseNumber": "07",
-            "courseType": "VS"
-        },
-        {
-            "after": "07",
-            "courseBaseKey": "FY",
-            "courseKey": "FY08",
-            "courseNumber": "08",
-            "courseType": "K"
-        },
-        {
-            "courseBaseKey": "FY",
-            "courseKey": "FY09",
-            "courseNumber": "09",
-            "courseType": "K"
-        },
-        {
-            "courseBaseKey": "FY",
-            "courseKey": "FY10",
-            "courseNumber": "10",
-            "courseType": "K"
-        },
-        {
-            "courseBaseKey": "FY",
-            "courseKey": "FY11",
-            "courseNumber": "11",
-            "courseType": "K"
-        },
-        {
-            "courseBaseKey": "FY",
-            "courseKey": "FY12",
-            "courseNumber": "12",
-            "courseType": "K"
-        },
-        {
-            "courseBaseKey": "FY",
-            "courseKey": "FY13",
-            "courseNumber": "13",
-            "courseType": "K"
-        },
-        {
-            "courseBaseKey": "FY",
-            "courseKey": "FY14",
-            "courseNumber": "14",
-            "courseType": "K"
-        },
-        {
-            "courseBaseKey": "FY",
-            "courseKey": "FY15",
-            "courseNumber": "15",
-            "courseType": "K"
-        },
-        {
-            "courseBaseKey": "FY",
-            "courseKey": "FY16",
-            "courseNumber": "16",
-            "courseType": "K"
-        },
-        {
-            "courseBaseKey": "FY",
-            "courseKey": "FY17",
-            "courseNumber": "17",
-            "courseType": "K"
-        }
-    ],
-    "GC": [
-        {
-            "courseBaseKey": "GC",
-            "courseKey": "GC01",
-            "courseNumber": "01",
-            "courseType": "P"
-        }
-    ],
-    "GE": [
-        {
-            "courseBaseKey": "GE",
-            "courseKey": "GE01",
-            "courseNumber": "01",
-            "courseType": "P"
-        },
-        {
-            "after": "01",
-            "courseBaseKey": "GE",
-            "courseKey": "GE02",
-            "courseNumber": "02",
-            "courseType": "VS"
-        },
-        {
-            "after": "02",
-            "courseBaseKey": "GE",
-            "courseKey": "GE03",
-            "courseNumber": "03",
-            "courseType": "VS"
-        },
-        {
-            "after": "03",
-            "courseBaseKey": "GE",
-            "courseKey": "GE04",
-            "courseNumber": "04",
-            "courseType": "VS"
-        },
-        {
-            "after": "04",
-            "courseBaseKey": "GE",
-            "courseKey": "GE05",
-            "courseNumber": "05",
-            "courseType": "K"
-        },
-        {
-            "courseBaseKey": "GE",
-            "courseKey": "GE06",
-            "courseNumber": "06",
-            "courseType": "K"
-        }
-    ],
-    "HI": [
-        {
-            "courseBaseKey": "HI",
-            "courseKey": "HI01",
-            "courseNumber": "01",
-            "courseType": "P"
-        },
-        {
-            "after": "01",
-            "courseBaseKey": "HI",
-            "courseKey": "HI02",
-            "courseNumber": "02",
-            "courseType": "P"
-        },
-        {
-            "after": "01",
-            "courseBaseKey": "HI",
-            "courseKey": "HI03",
-            "courseNumber": "03",
-            "courseType": "P"
-        },
-        {
-            "after": "01",
-            "courseBaseKey": "HI",
-            "courseKey": "HI04",
-            "courseNumber": "04",
-            "courseType": "VS"
-        },
-        {
-            "after": "01",
-            "courseBaseKey": "HI",
-            "courseKey": "HI05",
-            "courseNumber": "05",
-            "courseType": "VS"
-        },
-        {
-            "after": "01",
-            "courseBaseKey": "HI",
-            "courseKey": "HI06",
-            "courseNumber": "06",
-            "courseType": "VS"
-        },
-        {
-            "after": "01",
-            "courseBaseKey": "HI",
-            "courseKey": "HI07",
-            "courseNumber": "07",
-            "courseType": "K"
-        },
-        {
-            "after": "01",
-            "courseBaseKey": "HI",
-            "courseKey": "HI08",
-            "courseNumber": "08",
-            "courseType": "K"
-        },
-        {
-            "after": "01",
-            "courseBaseKey": "HI",
-            "courseKey": "HI09",
-            "courseNumber": "09",
-            "courseType": "K"
-        },
-        {
-            "after": "01",
-            "courseBaseKey": "HI",
-            "courseKey": "HI10",
-            "courseNumber": "10",
-            "courseType": "K"
-        },
-        {
-            "after": "01",
-            "courseBaseKey": "HI",
-            "courseKey": "HI11",
-            "courseNumber": "11",
-            "courseType": "K"
-        },
-        {
-            "after": "01",
-            "courseBaseKey": "HI",
-            "courseKey": "HI12",
-            "courseNumber": "12",
-            "courseType": "K"
-        },
-        {
-            "after": "01",
-            "courseBaseKey": "HI",
-            "courseKey": "HI15",
-            "courseNumber": "15",
-            "courseType": "K"
-        }
-    ],
-    "IAB": [
-        {
-            "courseBaseKey": "IAB",
-            "courseKey": "IAB31",
-            "courseNumber": "31",
-            "courseType": "VS"
-        },
-        {
-            "after": "31",
-            "courseBaseKey": "IAB",
-            "courseKey": "IAB32",
-            "courseNumber": "32",
-            "courseType": "VS"
-        },
-        {
-            "after": "32",
-            "courseBaseKey": "IAB",
-            "courseKey": "IAB33",
-            "courseNumber": "33",
-            "courseType": "VS"
-        },
-        {
-            "after": "33",
-            "courseBaseKey": "IAB",
-            "courseKey": "IAB34",
-            "courseNumber": "34",
-            "courseType": "VS"
-        },
-        {
-            "after": "34",
-            "courseBaseKey": "IAB",
-            "courseKey": "IAB35",
-            "courseNumber": "35",
-            "courseType": "VS"
-        },
-        {
-            "after": "35",
-            "courseBaseKey": "IAB",
-            "courseKey": "IAB36",
-            "courseNumber": "36",
-            "courseType": "VS"
-        },
-        {
-            "after": "36",
-            "courseBaseKey": "IAB",
-            "courseKey": "IAB37",
-            "courseNumber": "37",
-            "courseType": "VS"
-        },
-        {
-            "after": "37",
-            "courseBaseKey": "IAB",
-            "courseKey": "IAB38",
-            "courseNumber": "38",
-            "courseType": "VS"
-        }
-    ],
-    "IT": [
-        {
-            "courseBaseKey": "IT",
-            "courseKey": "IT01",
-            "courseNumber": "01",
-            "courseType": "VS"
-        }
-    ],
-    "JPB": [
-        {
-            "courseBaseKey": "JPB",
-            "courseKey": "JPB31",
-            "courseNumber": "31",
-            "courseType": "VS"
-        },
-        {
-            "after": "31",
-            "courseBaseKey": "JPB",
-            "courseKey": "JPB32",
-            "courseNumber": "32",
-            "courseType": "VS"
-        },
-        {
-            "after": "32",
-            "courseBaseKey": "JPB",
-            "courseKey": "JPB33",
-            "courseNumber": "33",
-            "courseType": "VS"
-        },
-        {
-            "after": "33",
-            "courseBaseKey": "JPB",
-            "courseKey": "JPB34",
-            "courseNumber": "34",
-            "courseType": "VS"
-        },
-        {
-            "after": "34",
-            "courseBaseKey": "JPB",
-            "courseKey": "JPB35",
-            "courseNumber": "35",
-            "courseType": "VS"
-        },
-        {
-            "after": "35",
-            "courseBaseKey": "JPB",
-            "courseKey": "JPB36",
-            "courseNumber": "36",
-            "courseType": "VS"
-        },
-        {
-            "after": "36",
-            "courseBaseKey": "JPB",
-            "courseKey": "JPB37",
-            "courseNumber": "37",
-            "courseType": "VS"
-        },
-        {
-            "after": "37",
-            "courseBaseKey": "JPB",
-            "courseKey": "JPB38",
-            "courseNumber": "38",
-            "courseType": "VS"
-        }
-    ],
-    "KE": [
-        {
-            "courseBaseKey": "KE",
-            "courseKey": "KE01",
-            "courseNumber": "01",
-            "courseType": "P"
-        },
-        {
-            "after": "01",
-            "courseBaseKey": "KE",
-            "courseKey": "KE02",
-            "courseNumber": "02",
-            "courseType": "VS"
-        },
-        {
-            "after": "02",
-            "courseBaseKey": "KE",
-            "courseKey": "KE03",
-            "courseNumber": "03",
-            "courseType": "VS"
-        },
-        {
-            "after": "03",
-            "courseBaseKey": "KE",
-            "courseKey": "KE04",
-            "courseNumber": "04",
-            "courseType": "VS"
-        },
-        {
-            "after": "04",
-            "courseBaseKey": "KE",
-            "courseKey": "KE05",
-            "courseNumber": "05",
-            "courseType": "VS"
-        },
-        {
-            "after": "03",
-            "courseBaseKey": "KE",
-            "courseKey": "KE06",
-            "courseNumber": "06",
-            "courseType": "K"
-        },
-        {
-            "courseBaseKey": "KE",
-            "courseKey": "KE10",
-            "courseNumber": "10",
-            "courseType": "K"
-        },
-        {
-            "courseBaseKey": "KE",
-            "courseKey": "KE11",
-            "courseNumber": "11",
-            "courseType": "K"
-        },
-        {
-            "courseBaseKey": "KE",
-            "courseKey": "KE12",
-            "courseNumber": "12",
-            "courseType": "K"
-        },
-        {
-            "courseBaseKey": "KE",
-            "courseKey": "KE13",
-            "courseNumber": "13",
-            "courseType": "K"
-        }
-    ],
-    "KED": [
-        {
-            "courseBaseKey": "KED",
-            "courseKey": "KED7",
-            "courseNumber": "7",
-            "courseType": "K"
-        },
-        {
-            "courseBaseKey": "KED",
-            "courseKey": "KED08",
-            "courseNumber": "08",
-            "courseType": "K"
-        },
-        {
-            "courseBaseKey": "KED",
-            "courseKey": "KED09",
-            "courseNumber": "09",
-            "courseType": "K"
-        },
-        {
-            "courseBaseKey": "KED",
-            "courseKey": "KED10",
-            "courseNumber": "10",
-            "courseType": "K"
-        }
-    ],
-    "KIB": [
-        {
-            "courseBaseKey": "KIB",
-            "courseKey": "KIB31",
-            "courseNumber": "31",
-            "courseType": "VS"
-        },
-        {
-            "after": "31",
-            "courseBaseKey": "KIB",
-            "courseKey": "KIB32",
-            "courseNumber": "32",
-            "courseType": "VS"
-        },
-        {
-            "after": "32",
-            "courseBaseKey": "KIB",
-            "courseKey": "KIB33",
-            "courseNumber": "33",
-            "courseType": "VS"
-        },
-        {
-            "after": "33",
-            "courseBaseKey": "KIB",
-            "courseKey": "KIB34",
-            "courseNumber": "34",
-            "courseType": "VS"
-        },
-        {
-            "after": "34",
-            "courseBaseKey": "KIB",
-            "courseKey": "KIB35",
-            "courseNumber": "35",
-            "courseType": "VS"
-        },
-        {
-            "after": "35",
-            "courseBaseKey": "KIB",
-            "courseKey": "KIB36",
-            "courseNumber": "36",
-            "courseType": "VS"
-        },
-        {
-            "after": "36",
-            "courseBaseKey": "KIB",
-            "courseKey": "KIB37",
-            "courseNumber": "37",
-            "courseType": "VS"
-        },
-        {
-            "after": "37",
-            "courseBaseKey": "KIB",
-            "courseKey": "KIB38",
-            "courseNumber": "38",
-            "courseType": "VS"
-        }
-    ],
-    "KO": [
-        {
-            "courseBaseKey": "KO",
-            "courseKey": "KO01",
-            "courseNumber": "01",
-            "courseType": "K"
-        },
-        {
-            "after": "01",
-            "courseBaseKey": "KO",
-            "courseKey": "KO02",
-            "courseNumber": "02",
-            "courseType": "K"
-        }
-    ],
-    "KU": [
-        {
-            "courseBaseKey": "KU",
-            "courseKey": "KU01",
-            "courseNumber": "01",
-            "courseType": "P"
-        },
-        {
-            "courseBaseKey": "KU",
-            "courseKey": "KU02",
-            "courseNumber": "02",
-            "courseType": "P"
-        },
-        {
-            "courseBaseKey": "KU",
-            "courseKey": "KU03",
-            "courseNumber": "03",
-            "courseType": "VS"
-        },
-        {
-            "courseBaseKey": "KU",
-            "courseKey": "KU04",
-            "courseNumber": "04",
-            "courseType": "VS"
-        },
-        {
-            "courseBaseKey": "KU",
-            "courseKey": "KU05",
-            "courseNumber": "05",
-            "courseType": "K"
-        },
-        {
-            "courseBaseKey": "KU",
-            "courseKey": "KU06",
-            "courseNumber": "06",
-            "courseType": "K"
-        },
-        {
-            "courseBaseKey": "KU",
-            "courseKey": "KU07",
-            "courseNumber": "07",
-            "courseType": "K"
-        },
-        {
-            "courseBaseKey": "KU",
-            "courseKey": "KU08",
-            "courseNumber": "08",
-            "courseType": "K"
-        },
-        {
-            "courseBaseKey": "KU",
-            "courseKey": "KU09",
-            "courseNumber": "09",
-            "courseType": "K"
-        },
-        {
-            "courseBaseKey": "KU",
-            "courseKey": "KU10",
-            "courseNumber": "10",
-            "courseType": "K"
-        },
-        {
-            "courseBaseKey": "KU",
-            "courseKey": "KU11",
-            "courseNumber": "11",
-            "courseType": "K"
-        },
-        {
-            "courseBaseKey": "KU",
-            "courseKey": "KU12",
-            "courseNumber": "12",
-            "courseType": "K"
-        },
-        {
-            "courseBaseKey": "KU",
-            "courseKey": "KU15",
-            "courseNumber": "15",
-            "courseType": "K"
-        }
-    ],
-    "KV": [
-        {
-            "courseBaseKey": "KV",
-            "courseKey": "KV01",
-            "courseNumber": "01",
-            "courseType": "K"
-        }
-    ],
-    "LD": [
-        {
-            "courseBaseKey": "LD",
-            "courseKey": "LD01",
-            "courseNumber": "01",
-            "courseType": "VS"
-        },
-        {
-            "courseBaseKey": "LD",
-            "courseKey": "LD02",
-            "courseNumber": "02",
-            "courseType": "VS"
-        },
-        {
-            "courseBaseKey": "LD",
-            "courseKey": "LD03",
-            "courseNumber": "03",
-            "courseType": "VS"
-        },
-        {
-            "courseBaseKey": "LD",
-            "courseKey": "LD04",
-            "courseNumber": "04",
-            "courseType": "VS"
-        },
-        {
-            "courseBaseKey": "LD",
-            "courseKey": "LD05",
-            "courseNumber": "05",
-            "courseType": "VS"
-        },
-        {
-            "courseBaseKey": "LD",
-            "courseKey": "LD06",
-            "courseNumber": "06",
-            "courseType": "VS"
-        },
-        {
-            "courseBaseKey": "LD",
-            "courseKey": "LD07",
-            "courseNumber": "07",
-            "courseType": "VS"
-        },
-        {
-            "courseBaseKey": "LD",
-            "courseKey": "LD08",
-            "courseNumber": "08",
-            "courseType": "VS"
-        }
-    ],
-    "LI": [
-        {
-            "courseBaseKey": "LI",
-            "courseKey": "LI01",
-            "courseNumber": "01",
-            "courseType": "P"
-        },
-        {
-
-            "courseBaseKey": "LI",
-            "courseKey": "LI02",
-            "courseNumber": "02",
-            "courseType": "P"
-        },
-        {
-            "courseBaseKey": "LI",
-            "courseKey": "LI03",
-            "courseNumber": "03",
-            "courseType": "VS"
-        },
-        {
-            "courseBaseKey": "LI",
-            "courseKey": "LI04",
-            "courseNumber": "04",
-            "courseType": "VS"
-        },
-        {
-            "courseBaseKey": "LI",
-            "courseKey": "LI05",
-            "courseNumber": "05",
-            "courseType": "VS"
-        },
-        {
-            "courseBaseKey": "LI",
-            "courseKey": "LI06",
-            "courseNumber": "06",
-            "courseType": "K"
-        },
-        {
-            "courseBaseKey": "LI",
-            "courseKey": "LI07",
-            "courseNumber": "07",
-            "courseType": "K"
-        },
-        {
-            "courseBaseKey": "LI",
-            "courseKey": "LI08",
-            "courseNumber": "08",
-            "courseType": "K"
-        },
-        {
-            "courseBaseKey": "LI",
-            "courseKey": "LI09",
-            "courseNumber": "09",
-            "courseType": "K"
-        },
-        {
-            "courseBaseKey": "LI",
-            "courseKey": "LI10",
-            "courseNumber": "10",
-            "courseType": "K"
-        },
-        {
-            "courseBaseKey": "LI",
-            "courseKey": "LI11",
-            "courseNumber": "11",
-            "courseType": "K"
-        }
-    ],
-    "MAA": [
-        {
-            "courseBaseKey": "MAA",
-            "courseKey": "MAA01",
-            "courseNumber": "01",
-            "courseType": "P"
-        },
-        {
-            "courseBaseKey": "MAA",
-            "courseKey": "MAA02",
-            "courseNumber": "02",
-            "courseType": "P"
-        },
-        {
-            "after": "02",
-            "courseBaseKey": "MAA",
-            "courseKey": "MAA03",
-            "courseNumber": "03",
-            "courseType": "P"
-        },
-        {
-            "after": "03",
-            "courseBaseKey": "MAA",
-            "courseKey": "MAA04",
-            "courseNumber": "04",
-            "courseType": "P"
-        },
-        {
-            "after": "04",
-            "courseBaseKey": "MAA",
-            "courseKey": "MAA05",
-            "courseNumber": "05",
-            "courseType": "P"
-        },
-        {
-            "after": "05",
-            "courseBaseKey": "MAA",
-            "courseKey": "MAA06",
-            "courseNumber": "06",
-            "courseType": "P"
-        },
-        {
-            "after": "06",
-            "courseBaseKey": "MAA",
-            "courseKey": "MAA07",
-            "courseNumber": "07",
-            "courseType": "P"
-        },
-        {
-            "after": "07",
-            "courseBaseKey": "MAA",
-            "courseKey": "MAA08",
-            "courseNumber": "08",
-            "courseType": "P"
-        },
-        {
-            "after": "08",
-            "courseBaseKey": "MAA",
-            "courseKey": "MAA09",
-            "courseNumber": "09",
-            "courseType": "P"
-        },
-        {
-            "after": "09",
-            "courseBaseKey": "MAA",
-            "courseKey": "MAA10",
-            "courseNumber": "10",
-            "courseType": "P"
-        },
-        {
-            "after": "01",
-            "courseBaseKey": "MAA",
-            "courseKey": "MAA11",
-            "courseNumber": "11",
-            "courseType": "VS"
-        },
-        {
-            "after": "11",
-            "courseBaseKey": "MAA",
-            "courseKey": "MAA12",
-            "courseNumber": "12",
-            "courseType": "VS"
-        },
-        {
-            "after": "12",
-            "courseBaseKey": "MAA",
-            "courseKey": "MAA13",
-            "courseNumber": "13",
-            "courseType": "VS"
-        },
-        {
-            "after": "13",
-            "courseBaseKey": "MAA",
-            "courseKey": "MAA14",
-            "courseNumber": "14",
-            "courseType": "K"
-        },
-        {
-            "after": "06",
-            "courseBaseKey": "MAA",
-            "courseKey": "MAA15",
-            "courseNumber": "15",
-            "courseType": "K"
-        },
-        {
-            "courseBaseKey": "MAA",
-            "courseKey": "MAA16",
-            "courseNumber": "16",
-            "courseType": "K"
-        },
-        {
-            "after": "15",
-            "courseBaseKey": "MAA",
-            "courseKey": "MAA17",
-            "courseNumber": "17",
-            "courseType": "K"
-        },
-        {
-            "after": "14",
-            "courseBaseKey": "MAA",
-            "courseKey": "MAA18",
-            "courseNumber": "18",
-            "courseType": "K"
-        },
-        {
-            "courseBaseKey": "MAA",
-            "courseKey": "MAA19",
-            "courseNumber": "19",
-            "courseType": "K"
-        },
-        {
-            "courseBaseKey": "MAA",
-            "courseKey": "MAA20",
-            "courseNumber": "20",
-            "courseType": "K"
-        },
-        {
-            "courseBaseKey": "MAA",
-            "courseKey": "MAA21",
-            "courseNumber": "21",
-            "courseType": "K"
-        },
-        {
-            "courseBaseKey": "MAA",
-            "courseKey": "MAA22",
-            "courseNumber": "22",
-            "courseType": "K"
-        },
-        {
-            "courseBaseKey": "MAA",
-            "courseKey": "MAA23",
-            "courseNumber": "23",
-            "courseType": "K"
-        },
-        {
-            "courseBaseKey": "MAA",
-            "courseKey": "MAA24",
-            "courseNumber": "24",
-            "courseType": "K"
-        }
-    ],
-    "MAB": [
-        {
-            "courseBaseKey": "MAB",
-            "courseKey": "MAB01",
-            "courseNumber": "01",
-            "courseType": "P"
-        },
-        {
-            "courseBaseKey": "MAB",
-            "courseKey": "MAB02",
-            "courseNumber": "02",
-            "courseType": "P"
-        },
-        {
-            "after": "02",
-            "courseBaseKey": "MAB",
-            "courseKey": "MAB03",
-            "courseNumber": "03",
-            "courseType": "P"
-        },
-        {
-            "after": "03",
-            "courseBaseKey": "MAB",
-            "courseKey": "MAB04",
-            "courseNumber": "04",
-            "courseType": "P"
-        },
-        {
-            "after": "04",
-            "courseBaseKey": "MAB",
-            "courseKey": "MAB05",
-            "courseNumber": "05",
-            "courseType": "P"
-        },
-        {
-            "after": "05",
-            "courseBaseKey": "MAB",
-            "courseKey": "MAB06",
-            "courseNumber": "06",
-            "courseType": "P"
-        },
-        {
-            "after": "06",
-            "courseBaseKey": "MAB",
-            "courseKey": "MAB07",
-            "courseNumber": "07",
-            "courseType": "VS"
-        },
-        {
-            "after": "07",
-            "courseBaseKey": "MAB",
-            "courseKey": "MAB08",
-            "courseNumber": "08",
-            "courseType": "VS"
-        },
-        {
-            "courseBaseKey": "MAB",
-            "courseKey": "MAB09",
-            "courseNumber": "09",
-            "courseType": "K"
-        },
-        {
-            "courseBaseKey": "MAB",
-            "courseKey": "MAB15",
-            "courseNumber": "15",
-            "courseType": "K",
-            "comment": "This course might not exist"
-        },
-        {
-            "courseBaseKey": "MAB",
-            "courseKey": "MAB16",
-            "courseNumber": "16",
-            "courseType": "K",
-            "comment": "This course might not exist"
-        },
-        {
-            "courseBaseKey": "MAB",
-            "courseKey": "MAB17",
-            "courseNumber": "17",
-            "courseType": "K",
-            "comment": "This course might not exist"
-        },
-        {
-            "courseBaseKey": "MAB",
-            "courseKey": "MAB18",
-            "courseNumber": "18",
-            "courseType": "K",
-            "comment": "This course might not exist"
-        }
-    ],
-    "MAY": [
-        {
-            "courseBaseKey": "MAY",
-            "courseKey": "MAY01",
-            "courseNumber": "01",
-            "courseType": "P"
-        }
-    ],
-    "ME": [
-        {
-            "courseBaseKey": "ME",
-            "courseKey": "ME01",
-            "courseNumber": "01",
-            "courseType": "K"
-        },
-        {
-            "after": "01",
-            "courseBaseKey": "ME",
-            "courseKey": "ME02",
-            "courseNumber": "02",
-            "courseType": "K"
-        },
-        {
-            "after": "01",
-            "courseBaseKey": "ME",
-            "courseKey": "ME03",
-            "courseNumber": "03",
-            "courseType": "K"
-        },
-        {
-            "after": "02",
-            "courseBaseKey": "ME",
-            "courseKey": "ME04",
-            "courseNumber": "04",
-            "courseType": "K"
-        },
-        {
-            "courseBaseKey": "ME",
-            "courseKey": "ME05",
-            "courseNumber": "05",
-            "courseType": "K"
-        },
-        {
-            "courseBaseKey": "ME",
-            "courseKey": "ME06",
-            "courseNumber": "06",
-            "courseType": "K"
-        },
-        {
-            "courseBaseKey": "ME",
-            "courseKey": "ME07",
-            "courseNumber": "07",
-            "courseType": "K"
-        },
-        {
-            "courseBaseKey": "ME",
-            "courseKey": "ME08",
-            "courseNumber": "08",
-            "courseType": "K"
-        },
-        {
-            "courseBaseKey": "ME",
-            "courseKey": "ME09",
-            "courseNumber": "09",
-            "courseType": "K"
-        }
-    ],
-    "MU": [
-        {
-            "courseBaseKey": "MU",
-            "courseKey": "MU01",
-            "courseNumber": "01",
-            "courseType": "P"
-        },
-        {
-            "courseBaseKey": "MU",
-            "courseKey": "MU02",
-            "courseNumber": "02",
-            "courseType": "P"
-        },
-        {
-            "courseBaseKey": "MU",
-            "courseKey": "MU03",
-            "courseNumber": "03",
-            "courseType": "VS"
-        },
-        {
-            "courseBaseKey": "MU",
-            "courseKey": "MU04",
-            "courseNumber": "04",
-            "courseType": "VS"
-        },
-        {
-            "courseBaseKey": "MU",
-            "courseKey": "MU05",
-            "courseNumber": "05",
-            "courseType": "K"
-        },
-        {
-            "courseBaseKey": "MU",
-            "courseKey": "MU06",
-            "courseNumber": "06",
-            "courseType": "K"
-        },
-        {
-            "courseBaseKey": "MU",
-            "courseKey": "MU07",
-            "courseNumber": "07",
-            "courseType": "K"
-        },
-        {
-            "courseBaseKey": "MU",
-            "courseKey": "MU08",
-            "courseNumber": "08",
-            "courseType": "K"
-        },
-        {
-            "courseBaseKey": "MU",
-            "courseKey": "MU09",
-            "courseNumber": "09",
-            "courseType": "K"
-        },
-        {
-            "courseBaseKey": "MU",
-            "courseKey": "MU10",
-            "courseNumber": "10",
-            "courseType": "K"
-        },
-        {
-            "courseBaseKey": "MU",
-            "courseKey": "MU11",
-            "courseNumber": "11",
-            "courseType": "K"
-        },
-        {
-            "courseBaseKey": "MU",
-            "courseKey": "MU12",
-            "courseNumber": "12",
-            "courseType": "K"
-        }
-    ],
-    "MUU": [
-        {
-            "courseBaseKey": "MUU",
-            "courseKey": "MUU01",
-            "courseNumber": "01",
-            "courseType": "K"
-        },
-        {
-            "courseBaseKey": "MUU",
-            "courseKey": "MUU02",
-            "courseNumber": "02",
-            "courseType": "K"
-        },
-        {
-            "courseBaseKey": "MUU",
-            "courseKey": "MUU03",
-            "courseNumber": "03",
-            "courseType": "K"
-        },
-        {
-            "courseBaseKey": "MUU",
-            "courseKey": "MUU04",
-            "courseNumber": "04",
-            "courseType": "K"
-        },
-        {
-            "courseBaseKey": "MUU",
-            "courseKey": "MUU05",
-            "courseNumber": "05",
-            "courseType": "K"
-        }
-    ],
-    "OP": [
-        {
-            "courseBaseKey": "OP",
-            "courseKey": "OP01",
-            "courseNumber": "01",
-            "courseType": "P"
-        },
-        {
-            "courseBaseKey": "OP",
-            "courseKey": "OP02",
-            "courseNumber": "02",
-            "courseType": "P"
-        },
-        {
-            "courseBaseKey": "OP",
-            "courseKey": "OP03",
-            "courseNumber": "03",
-            "courseType": "K"
-        },
-        {
-            "courseBaseKey": "OP",
-            "courseKey": "OP04",
-            "courseNumber": "04",
-            "courseType": "K"
-        },
-        {
-            "courseBaseKey": "OP",
-            "courseKey": "OP05",
-            "courseNumber": "05",
-            "courseType": "K"
-        },
-        {
-            "courseBaseKey": "OP",
-            "courseKey": "OP06",
-            "courseNumber": "06",
-            "courseType": "K"
-        },
-        {
-            "courseBaseKey": "OP",
-            "courseKey": "OP07",
-            "courseNumber": "07",
-            "courseType": "K"
-        }
-    ],
-    "OÄIal": [
-        {
-            "courseBaseKey": "OÄIal",
-            "courseKey": "OÄIal01",
-            "courseNumber": "01",
-            "courseType": "P"
-        },
-        {
-            "after": "01",
-            "courseBaseKey": "OÄIal",
-            "courseKey": "OÄIal02",
-            "courseNumber": "02",
-            "courseType": "P"
-        },
-        {
-            "after": "02",
-            "courseBaseKey": "OÄIal",
-            "courseKey": "OÄIal03",
-            "courseNumber": "03",
-            "courseType": "P"
-        },
-        {
-            "after": "03",
-            "courseBaseKey": "OÄIal",
-            "courseKey": "OÄIal04",
-            "courseNumber": "04",
-            "courseType": "P"
-        },
-        {
-            "after": "04",
-            "courseBaseKey": "OÄIal",
-            "courseKey": "OÄIal05",
-            "courseNumber": "05",
-            "courseType": "P"
-        },
-        {
-            "after": "05",
-            "courseBaseKey": "OÄIal",
-            "courseKey": "OÄIal06",
-            "courseNumber": "06",
-            "courseType": "P"
-        }
-    ],
-    "OÄIar": [
-        {
-            "courseBaseKey": "OÄIar",
-            "courseKey": "OÄIar01",
-            "courseNumber": "01",
-            "courseType": "P"
-        },
-        {
-            "after": "01",
-            "courseBaseKey": "OÄIar",
-            "courseKey": "OÄIar02",
-            "courseNumber": "02",
-            "courseType": "P"
-        },
-        {
-            "after": "02",
-            "courseBaseKey": "OÄIar",
-            "courseKey": "OÄIar03",
-            "courseNumber": "03",
-            "courseType": "P"
-        },
-        {
-            "after": "03",
-            "courseBaseKey": "OÄIar",
-            "courseKey": "OÄIar04",
-            "courseNumber": "04",
-            "courseType": "P"
-        },
-        {
-            "after": "04",
-            "courseBaseKey": "OÄIar",
-            "courseKey": "OÄIar05",
-            "courseNumber": "05",
-            "courseType": "P"
-        },
-        {
-            "after": "05",
-            "courseBaseKey": "OÄIar",
-            "courseKey": "OÄIar06",
-            "courseNumber": "06",
-            "courseType": "P"
-        }
-    ],
-    "OÄIen": [
-        {
-            "courseBaseKey": "OÄIen",
-            "courseKey": "OÄIen01",
-            "courseNumber": "01",
-            "courseType": "P"
-        },
-        {
-            "after": "01",
-            "courseBaseKey": "OÄIen",
-            "courseKey": "OÄIen02",
-            "courseNumber": "02",
-            "courseType": "P"
-        },
-        {
-            "after": "02",
-            "courseBaseKey": "OÄIen",
-            "courseKey": "OÄIen03",
-            "courseNumber": "03",
-            "courseType": "P"
-        },
-        {
-            "after": "03",
-            "courseBaseKey": "OÄIen",
-            "courseKey": "OÄIen04",
-            "courseNumber": "04",
-            "courseType": "P"
-        },
-        {
-            "after": "04",
-            "courseBaseKey": "OÄIen",
-            "courseKey": "OÄIen05",
-            "courseNumber": "05",
-            "courseType": "P"
-        },
-        {
-            "after": "05",
-            "courseBaseKey": "OÄIen",
-            "courseKey": "OÄIen06",
-            "courseNumber": "06",
-            "courseType": "P"
-        }
-    ],
-    "OÄIes": [
-        {
-            "courseBaseKey": "OÄIes",
-            "courseKey": "OÄIes01",
-            "courseNumber": "01",
-            "courseType": "P"
-        },
-        {
-            "after": "01",
-            "courseBaseKey": "OÄIes",
-            "courseKey": "OÄIes02",
-            "courseNumber": "02",
-            "courseType": "P"
-        },
-        {
-            "after": "02",
-            "courseBaseKey": "OÄIes",
-            "courseKey": "OÄIes03",
-            "courseNumber": "03",
-            "courseType": "P"
-        },
-        {
-            "after": "03",
-            "courseBaseKey": "OÄIes",
-            "courseKey": "OÄIes04",
-            "courseNumber": "04",
-            "courseType": "P"
-        },
-        {
-            "after": "04",
-            "courseBaseKey": "OÄIes",
-            "courseKey": "OÄIes05",
-            "courseNumber": "05",
-            "courseType": "P"
-        },
-        {
-            "after": "05",
-            "courseBaseKey": "OÄIes",
-            "courseKey": "OÄIes06",
-            "courseNumber": "06",
-            "courseType": "P"
-        }
-    ],
-    "OÄIfa": [
-        {
-            "courseBaseKey": "OÄIfa",
-            "courseKey": "OÄIfa01",
-            "courseNumber": "01",
-            "courseType": "P"
-        },
-        {
-            "after": "01",
-            "courseBaseKey": "OÄIfa",
-            "courseKey": "OÄIfa02",
-            "courseNumber": "02",
-            "courseType": "P"
-        },
-        {
-            "after": "02",
-            "courseBaseKey": "OÄIfa",
-            "courseKey": "OÄIfa03",
-            "courseNumber": "03",
-            "courseType": "P"
-        },
-        {
-            "after": "03",
-            "courseBaseKey": "OÄIfa",
-            "courseKey": "OÄIfa04",
-            "courseNumber": "04",
-            "courseType": "P"
-        },
-        {
-            "after": "04",
-            "courseBaseKey": "OÄIfa",
-            "courseKey": "OÄIfa05",
-            "courseNumber": "05",
-            "courseType": "P"
-        },
-        {
-            "after": "05",
-            "courseBaseKey": "OÄIfa",
-            "courseKey": "OÄIfa06",
-            "courseNumber": "06",
-            "courseType": "P"
-        }
-    ],
-    "OÄIku": [
-        {
-            "courseBaseKey": "OÄIku",
-            "courseKey": "OÄIku01",
-            "courseNumber": "01",
-            "courseType": "P"
-        },
-        {
-            "after": "01",
-            "courseBaseKey": "OÄIku",
-            "courseKey": "OÄIku02",
-            "courseNumber": "02",
-            "courseType": "P"
-        },
-        {
-            "after": "02",
-            "courseBaseKey": "OÄIku",
-            "courseKey": "OÄIku03",
-            "courseNumber": "03",
-            "courseType": "P"
-        },
-        {
-            "after": "03",
-            "courseBaseKey": "OÄIku",
-            "courseKey": "OÄIku04",
-            "courseNumber": "04",
-            "courseType": "P"
-        },
-        {
-            "after": "04",
-            "courseBaseKey": "OÄIku",
-            "courseKey": "OÄIku05",
-            "courseNumber": "05",
-            "courseType": "P"
-        },
-        {
-            "after": "05",
-            "courseBaseKey": "OÄIku",
-            "courseKey": "OÄIku06",
-            "courseNumber": "06",
-            "courseType": "P"
-        }
-    ],
-    "OÄIma": [
-        {
-            "courseBaseKey": "OÄIma",
-            "courseKey": "OÄIma01",
-            "courseNumber": "01",
-            "courseType": "P"
-        },
-        {
-            "after": "01",
-            "courseBaseKey": "OÄIma",
-            "courseKey": "OÄIma02",
-            "courseNumber": "02",
-            "courseType": "P"
-        },
-        {
-            "after": "02",
-            "courseBaseKey": "OÄIma",
-            "courseKey": "OÄIma03",
-            "courseNumber": "03",
-            "courseType": "P"
-        },
-        {
-            "after": "03",
-            "courseBaseKey": "OÄIma",
-            "courseKey": "OÄIma04",
-            "courseNumber": "04",
-            "courseType": "P"
-        },
-        {
-            "after": "04",
-            "courseBaseKey": "OÄIma",
-            "courseKey": "OÄIma05",
-            "courseNumber": "05",
-            "courseType": "P"
-        },
-        {
-            "after": "05",
-            "courseBaseKey": "OÄIma",
-            "courseKey": "OÄIma06",
-            "courseNumber": "06",
-            "courseType": "P"
-        }
-    ],
-    "OÄIpo": [
-        {
-            "courseBaseKey": "OÄIpo",
-            "courseKey": "OÄIpo01",
-            "courseNumber": "01",
-            "courseType": "P"
-        },
-        {
-            "after": "01",
-            "courseBaseKey": "OÄIpo",
-            "courseKey": "OÄIpo02",
-            "courseNumber": "02",
-            "courseType": "P"
-        },
-        {
-            "after": "02",
-            "courseBaseKey": "OÄIpo",
-            "courseKey": "OÄIpo03",
-            "courseNumber": "03",
-            "courseType": "P"
-        },
-        {
-            "after": "03",
-            "courseBaseKey": "OÄIpo",
-            "courseKey": "OÄIpo04",
-            "courseNumber": "04",
-            "courseType": "P"
-        },
-        {
-            "after": "04",
-            "courseBaseKey": "OÄIpo",
-            "courseKey": "OÄIpo05",
-            "courseNumber": "05",
-            "courseType": "P"
-        },
-        {
-            "after": "05",
-            "courseBaseKey": "OÄIpo",
-            "courseKey": "OÄIpo06",
-            "courseNumber": "06",
-            "courseType": "P"
-        }
-    ],
-    "OÄIpu": [
-        {
-            "courseBaseKey": "OÄIpu",
-            "courseKey": "OÄIpu01",
-            "courseNumber": "01",
-            "courseType": "P"
-        },
-        {
-            "after": "01",
-            "courseBaseKey": "OÄIpu",
-            "courseKey": "OÄIpu02",
-            "courseNumber": "02",
-            "courseType": "P"
-        },
-        {
-            "after": "02",
-            "courseBaseKey": "OÄIpu",
-            "courseKey": "OÄIpu03",
-            "courseNumber": "03",
-            "courseType": "P"
-        },
-        {
-            "after": "03",
-            "courseBaseKey": "OÄIpu",
-            "courseKey": "OÄIpu04",
-            "courseNumber": "04",
-            "courseType": "P"
-        },
-        {
-            "after": "04",
-            "courseBaseKey": "OÄIpu",
-            "courseKey": "OÄIpu05",
-            "courseNumber": "05",
-            "courseType": "P"
-        },
-        {
-            "after": "05",
-            "courseBaseKey": "OÄIpu",
-            "courseKey": "OÄIpu06",
-            "courseNumber": "06",
-            "courseType": "P"
-        }
-    ],
-    "OÄIra": [
-        {
-            "courseBaseKey": "OÄIra",
-            "courseKey": "OÄIra01",
-            "courseNumber": "01",
-            "courseType": "P"
-        },
-        {
-            "after": "01",
-            "courseBaseKey": "OÄIra",
-            "courseKey": "OÄIra02",
-            "courseNumber": "02",
-            "courseType": "P"
-        },
-        {
-            "after": "02",
-            "courseBaseKey": "OÄIra",
-            "courseKey": "OÄIra03",
-            "courseNumber": "03",
-            "courseType": "P"
-        },
-        {
-            "after": "03",
-            "courseBaseKey": "OÄIra",
-            "courseKey": "OÄIra04",
-            "courseNumber": "04",
-            "courseType": "P"
-        },
-        {
-            "after": "04",
-            "courseBaseKey": "OÄIra",
-            "courseKey": "OÄIra05",
-            "courseNumber": "05",
-            "courseType": "P"
-        },
-        {
-            "after": "05",
-            "courseBaseKey": "OÄIra",
-            "courseKey": "OÄIra06",
-            "courseNumber": "06",
-            "courseType": "P"
-        }
-    ],
-    "OÄIsa": [
-        {
-            "courseBaseKey": "OÄIsa",
-            "courseKey": "OÄIsa01",
-            "courseNumber": "01",
-            "courseType": "P"
-        },
-        {
-            "after": "01",
-            "courseBaseKey": "OÄIsa",
-            "courseKey": "OÄIsa02",
-            "courseNumber": "02",
-            "courseType": "P"
-        },
-        {
-            "after": "02",
-            "courseBaseKey": "OÄIsa",
-            "courseKey": "OÄIsa03",
-            "courseNumber": "03",
-            "courseType": "P"
-        },
-        {
-            "after": "03",
-            "courseBaseKey": "OÄIsa",
-            "courseKey": "OÄIsa04",
-            "courseNumber": "04",
-            "courseType": "P"
-        },
-        {
-            "after": "04",
-            "courseBaseKey": "OÄIsa",
-            "courseKey": "OÄIsa05",
-            "courseNumber": "05",
-            "courseType": "P"
-        },
-        {
-            "after": "05",
-            "courseBaseKey": "OÄIsa",
-            "courseKey": "OÄIsa06",
-            "courseNumber": "06",
-            "courseType": "P"
-        }
-    ],
-    "OÄIve": [
-        {
-            "courseBaseKey": "OÄIve",
-            "courseKey": "OÄIve01",
-            "courseNumber": "01",
-            "courseType": "P"
-        },
-        {
-            "after": "01",
-            "courseBaseKey": "OÄIve",
-            "courseKey": "OÄIve02",
-            "courseNumber": "02",
-            "courseType": "P"
-        },
-        {
-            "after": "02",
-            "courseBaseKey": "OÄIve",
-            "courseKey": "OÄIve03",
-            "courseNumber": "03",
-            "courseType": "P"
-        },
-        {
-            "after": "03",
-            "courseBaseKey": "OÄIve",
-            "courseKey": "OÄIve04",
-            "courseNumber": "04",
-            "courseType": "P"
-        },
-        {
-            "after": "04",
-            "courseBaseKey": "OÄIve",
-            "courseKey": "OÄIve05",
-            "courseNumber": "05",
-            "courseType": "P"
-        },
-        {
-            "after": "05",
-            "courseBaseKey": "OÄIve",
-            "courseKey": "OÄIve06",
-            "courseNumber": "06",
-            "courseType": "P"
-        }
-    ],
-    "PS": [
-        {
-            "courseBaseKey": "PS",
-            "courseKey": "PS01",
-            "courseNumber": "01",
-            "courseType": "P"
-        },
-        {
-            "after": "01",
-            "courseBaseKey": "PS",
-            "courseKey": "PS02",
-            "courseNumber": "02",
-            "courseType": "VS"
-        },
-        {
-            "after": "01",
-            "courseBaseKey": "PS",
-            "courseKey": "PS03",
-            "courseNumber": "03",
-            "courseType": "VS"
-        },
-        {
-            "after": "01",
-            "courseBaseKey": "PS",
-            "courseKey": "PS04",
-            "courseNumber": "04",
-            "courseType": "VS"
-        },
-        {
-            "after": "01",
-            "courseBaseKey": "PS",
-            "courseKey": "PS05",
-            "courseNumber": "05",
-            "courseType": "VS"
-        },
-        {
-            "after": "01",
-            "courseBaseKey": "PS",
-            "courseKey": "PS06",
-            "courseNumber": "06",
-            "courseType": "K"
-        },
-        {
-            "after": "01",
-            "courseBaseKey": "PS",
-            "courseKey": "PS07",
-            "courseNumber": "07",
-            "courseType": "K"
-        },
-        {
-            "after": "01",
-            "courseBaseKey": "PS",
-            "courseKey": "PS08",
-            "courseNumber": "08",
-            "courseType": "K"
-        }
-    ],
-    "RAA": [
-        {
-            "courseBaseKey": "RAA",
-            "courseKey": "RAA01",
-            "courseNumber": "01",
-            "courseType": "P"
-        },
-        {
-            "after": "01",
-            "courseBaseKey": "RAA",
-            "courseKey": "RAA02",
-            "courseNumber": "02",
-            "courseType": "P"
-        },
-        {
-            "after": "02",
-            "courseBaseKey": "RAA",
-            "courseKey": "RAA03",
-            "courseNumber": "03",
-            "courseType": "P"
-        },
-        {
-            "after": "03",
-            "courseBaseKey": "RAA",
-            "courseKey": "RAA04",
-            "courseNumber": "04",
-            "courseType": "P"
-        },
-        {
-            "after": "04",
-            "courseBaseKey": "RAA",
-            "courseKey": "RAA05",
-            "courseNumber": "05",
-            "courseType": "P"
-        },
-        {
-            "after": "05",
-            "courseBaseKey": "RAA",
-            "courseKey": "RAA06",
-            "courseNumber": "06",
-            "courseType": "P"
-        },
-        {
-            "after": "06",
-            "courseBaseKey": "RAA",
-            "courseKey": "RAA07",
-            "courseNumber": "07",
-            "courseType": "VS"
-        },
-        {
-            "after": "07",
-            "courseBaseKey": "RAA",
-            "courseKey": "RAA08",
-            "courseNumber": "08",
-            "courseType": "VS"
-        },
-        {
-            "after": "08",
-            "courseBaseKey": "RAA",
-            "courseKey": "RAA09",
-            "courseNumber": "09",
-            "courseType": "K"
-        },
-        {
-            "after": "9",
-            "courseBaseKey": "RAA",
-            "courseKey": "RAA10",
-            "courseNumber": "10",
-            "courseType": "K",
-            "comment": "This course might not exist"
-        }
-    ],
-    "RAB": [
-        {
-            "courseBaseKey": "RAB",
-            "courseKey": "RAB21",
-            "courseNumber": "21",
-            "courseType": "VS"
-        },
-        {
-            "after": "21",
-            "courseBaseKey": "RAB",
-            "courseKey": "RAB22",
-            "courseNumber": "22",
-            "courseType": "VS"
-        },
-        {
-            "after": "22",
-            "courseBaseKey": "RAB",
-            "courseKey": "RAB23",
-            "courseNumber": "23",
-            "courseType": "VS"
-        },
-        {
-            "after": "23",
-            "courseBaseKey": "RAB",
-            "courseKey": "RAB24",
-            "courseNumber": "24",
-            "courseType": "VS"
-        },
-        {
-            "after": "24",
-            "courseBaseKey": "RAB",
-            "courseKey": "RAB25",
-            "courseNumber": "25",
-            "courseType": "VS"
-        },
-        {
-            "after": "25",
-            "courseBaseKey": "RAB",
-            "courseKey": "RAB26",
-            "courseNumber": "26",
-            "courseType": "VS"
-        },
-        {
-            "after": "26",
-            "courseBaseKey": "RAB",
-            "courseKey": "RAB27",
-            "courseNumber": "27",
-            "courseType": "VS"
-        },
-        {
-            "after": "27",
-            "courseBaseKey": "RAB",
-            "courseKey": "RAB28",
-            "courseNumber": "28",
-            "courseType": "VS"
-        },
-        {
-            "after": "28",
-            "courseBaseKey": "RAB",
-            "courseKey": "RAB29",
-            "courseNumber": "29",
-            "courseType": "K"
-        },
-        {
-            "after": "29",
-            "courseBaseKey": "RAB",
-            "courseKey": "RAB210",
-            "courseNumber": "210",
-            "courseType": "K",
-            "comment": "This course might not exist"
-        },
-        {
-            "after": "210",
-            "courseBaseKey": "RAB",
-            "courseKey": "RAB211",
-            "courseNumber": "211",
-            "courseType": "K",
-            "comment": "This course might not exist"
-        },
-        {
-            "courseBaseKey": "RAB",
-            "courseKey": "RAB31",
-            "courseNumber": "31",
-            "courseType": "VS"
-        },
-        {
-            "after": "31",
-            "courseBaseKey": "RAB",
-            "courseKey": "RAB32",
-            "courseNumber": "32",
-            "courseType": "VS"
-        },
-        {
-            "after": "32",
-            "courseBaseKey": "RAB",
-            "courseKey": "RAB33",
-            "courseNumber": "33",
-            "courseType": "VS"
-        },
-        {
-            "after": "33",
-            "courseBaseKey": "RAB",
-            "courseKey": "RAB34",
-            "courseNumber": "34",
-            "courseType": "VS"
-        },
-        {
-            "after": "34",
-            "courseBaseKey": "RAB",
-            "courseKey": "RAB35",
-            "courseNumber": "35",
-            "courseType": "VS"
-        },
-        {
-            "after": "35",
-            "courseBaseKey": "RAB",
-            "courseKey": "RAB36",
-            "courseNumber": "36",
-            "courseType": "VS"
-        },
-        {
-            "after": "36",
-            "courseBaseKey": "RAB",
-            "courseKey": "RAB37",
-            "courseNumber": "37",
-            "courseType": "VS"
-        },
-        {
-            "after": "37",
-            "courseBaseKey": "RAB",
-            "courseKey": "RAB38",
-            "courseNumber": "38",
-            "courseType": "VS"
-        },
-        {
-            "after": "38",
-            "courseBaseKey": "RAB",
-            "courseKey": "RAB39",
-            "courseNumber": "39",
-            "courseType": "K"
-        },
-        {
-            "after": "39",
-            "courseBaseKey": "RAB",
-            "courseKey": "RAB310",
-            "courseNumber": "310",
-            "courseType": "K"
-        },
-        {
-            "after": "38",
-            "courseBaseKey": "RAB",
-            "courseKey": "RAB309",
-            "courseNumber": "309",
-            "courseType": "K",
-            "comment": "Abikurssi, there are two courses with key RAB39, this is moved to RAB309"
-        },
-        {
-            "after": "309",
-            "courseBaseKey": "RAB",
-            "courseKey": "RAB310",
-            "courseNumber": "310",
-            "courseType": "VS",
-            "comment": "This course might not exist"
-        },
-        {
-            "after": "310",
-            "courseBaseKey": "RAB",
-            "courseKey": "RAB311",
-            "courseNumber": "311",
-            "courseType": "VS",
-            "comment": "This course might not exist"
-        }
-    ],
-    "RUA": [
-        {
-            "courseBaseKey": "RUA",
-            "courseKey": "RUA01",
-            "courseNumber": "01",
-            "courseType": "P"
-        },
-        {
-            "after": "01",
-            "courseBaseKey": "RUA",
-            "courseKey": "RUA02",
-            "courseNumber": "02",
-            "courseType": "P"
-        },
-        {
-            "after": "02",
-            "courseBaseKey": "RUA",
-            "courseKey": "RUA03",
-            "courseNumber": "03",
-            "courseType": "P"
-        },
-        {
-            "after": "03",
-            "courseBaseKey": "RUA",
-            "courseKey": "RUA04",
-            "courseNumber": "04",
-            "courseType": "P"
-        },
-        {
-            "after": "04",
-            "courseBaseKey": "RUA",
-            "courseKey": "RUA05",
-            "courseNumber": "05",
-            "courseType": "P"
-        },
-        {
-            "after": "05",
-            "courseBaseKey": "RUA",
-            "courseKey": "RUA06",
-            "courseNumber": "06",
-            "courseType": "P"
-        },
-        {
-            "after": "06",
-            "courseBaseKey": "RUA",
-            "courseKey": "RUA07",
-            "courseNumber": "07",
-            "courseType": "VS"
-        },
-        {
-            "after": "07",
-            "courseBaseKey": "RUA",
-            "courseKey": "RUA08",
-            "courseNumber": "08",
-            "courseType": "VS"
-        },
-        {
-            "after": "08",
-            "courseBaseKey": "RUA",
-            "courseKey": "RUA09",
-            "courseNumber": "09",
-            "courseType": "K"
-        },
-        {
-            "after": "09",
-            "courseBaseKey": "RUA",
-            "courseKey": "RUA10",
-            "courseNumber": "10",
-            "courseType": "K"
-        }
-    ],
-    "RUB": [
-        {
-            "courseBaseKey": "RUB",
-            "courseKey": "RUB11",
-            "courseNumber": "11",
-            "courseType": "P"
-        },
-        {
-            "after": "11",
-            "courseBaseKey": "RUB",
-            "courseKey": "RUB12",
-            "courseNumber": "12",
-            "courseType": "P"
-        },
-        {
-            "after": "12",
-            "courseBaseKey": "RUB",
-            "courseKey": "RUB13",
-            "courseNumber": "13",
-            "courseType": "P"
-        },
-        {
-            "after": "13",
-            "courseBaseKey": "RUB",
-            "courseKey": "RUB14",
-            "courseNumber": "14",
-            "courseType": "P"
-        },
-        {
-            "after": "14",
-            "courseBaseKey": "RUB",
-            "courseKey": "RUB15",
-            "courseNumber": "15",
-            "courseType": "P"
-        },
-        {
-            "after": "15",
-            "courseBaseKey": "RUB",
-            "courseKey": "RUB16",
-            "courseNumber": "16",
-            "courseType": "VS"
-        },
-        {
-            "after": "16",
-            "courseBaseKey": "RUB",
-            "courseKey": "RUB17",
-            "courseNumber": "17",
-            "courseType": "VS"
-        },
-        {
-            "after": "17",
-            "courseBaseKey": "RUB",
-            "courseKey": "RUB18",
-            "courseNumber": "18",
-            "courseType": "K"
-        },
-        {
-            "after": "18",
-            "courseBaseKey": "RUB",
-            "courseKey": "RUB19",
-            "courseNumber": "19",
-            "courseType": "K"
-        },
-        {
-            "after": "19",
-            "courseBaseKey": "RUB",
-            "courseKey": "RUB110",
-            "courseNumber": "110",
-            "courseType": "K"
-        }],
-    "RUBK": [
-        {
-            "courseBaseKey": "RUBK",
-            "courseKey": "RUB31",
-            "courseNumber": "31",
-            "courseType": "VS"
-        },
-        {
-            "after": "31",
-            "courseBaseKey": "RUBK",
-            "courseKey": "RUB32",
-            "courseNumber": "32",
-            "courseType": "VS"
-        },
-        {
-            "after": "32",
-            "courseBaseKey": "RUBK",
-            "courseKey": "RUB33",
-            "courseNumber": "33",
-            "courseType": "VS"
-        },
-        {
-            "after": "33",
-            "courseBaseKey": "RUBK",
-            "courseKey": "RUB34",
-            "courseNumber": "34",
-            "courseType": "VS"
-        },
-        {
-            "after": "34",
-            "courseBaseKey": "RUBK",
-            "courseKey": "RUB35",
-            "courseNumber": "35",
-            "courseType": "VS"
-        },
-        {
-            "after": "35",
-            "courseBaseKey": "RUBK",
-            "courseKey": "RUB36",
-            "courseNumber": "36",
-            "courseType": "VS"
-        },
-        {
-            "after": "36",
-            "courseBaseKey": "RUBK",
-            "courseKey": "RUB37",
-            "courseNumber": "37",
-            "courseType": "VS"
-        },
-        {
-            "after": "37",
-            "courseBaseKey": "RUBK",
-            "courseKey": "RUB38",
-            "courseNumber": "38",
-            "courseType": "VS"
-        }
-    ],
-    "S": [
-        {
-            "courseBaseKey": "S",
-            "courseKey": "S201",
-            "courseNumber": "201",
-            "courseType": "P"
-        },
-        {
-            "after": "201",
-            "courseBaseKey": "S",
-            "courseKey": "S202",
-            "courseNumber": "202",
-            "courseType": "P"
-        },
-        {
-            "after": "202",
-            "courseBaseKey": "S",
-            "courseKey": "S203",
-            "courseNumber": "203",
-            "courseType": "P"
-        },
-        {
-            "after": "203",
-            "courseBaseKey": "S",
-            "courseKey": "S204",
-            "courseNumber": "204",
-            "courseType": "P"
-        },
-        {
-            "after": "204",
-            "courseBaseKey": "S",
-            "courseKey": "S205",
-            "courseNumber": "205",
-            "courseType": "P"
-        },
-        {
-            "after": "205",
-            "courseBaseKey": "S",
-            "courseKey": "S206",
-            "courseNumber": "206",
-            "courseType": "P"
-        },
-        {
-            "after": "206",
-            "courseBaseKey": "S",
-            "courseKey": "S207",
-            "courseNumber": "207",
-            "courseType": "VS"
-        },
-        {
-            "after": "207",
-            "courseBaseKey": "S",
-            "courseKey": "S208",
-            "courseNumber": "208",
-            "courseType": "VS"
-        },
-        {
-            "after": "208",
-            "courseBaseKey": "S",
-            "courseKey": "S209",
-            "courseNumber": "209",
-            "courseType": "VS"
-        },
-        {
-            "courseBaseKey": "S",
-            "courseKey": "S215",
-            "courseNumber": "215",
-            "courseType": "K",
-            "comment":"This course might not exist"
-        },
-        {
-            "after": "209",
-            "courseBaseKey": "S",
-            "courseKey": "S210",
-            "courseNumber": "210",
-            "courseType": "K"
-        },
-        {
-            "after": "210",
-            "courseBaseKey": "S",
-            "courseKey": "S211",
-            "courseNumber": "211",
-            "courseType": "K"
-        },
-        {
-            "after": "211",
-            "courseBaseKey": "S",
-            "courseKey": "S212",
-            "courseNumber": "212",
-            "courseType": "K"
-        }
-    ],
-    "SAA": [
-        {
-            "courseBaseKey": "SAA",
-            "courseKey": "SAA01",
-            "courseNumber": "01",
-            "courseType": "P"
-        },
-        {
-            "after": "01",
-            "courseBaseKey": "SAA",
-            "courseKey": "SAA02",
-            "courseNumber": "02",
-            "courseType": "P"
-        },
-        {
-            "after": "02",
-            "courseBaseKey": "SAA",
-            "courseKey": "SAA03",
-            "courseNumber": "03",
-            "courseType": "P"
-        },
-        {
-            "after": "03",
-            "courseBaseKey": "SAA",
-            "courseKey": "SAA04",
-            "courseNumber": "04",
-            "courseType": "P"
-        },
-        {
-            "after": "04",
-            "courseBaseKey": "SAA",
-            "courseKey": "SAA05",
-            "courseNumber": "05",
-            "courseType": "P"
-        },
-        {
-            "after": "05",
-            "courseBaseKey": "SAA",
-            "courseKey": "SAA06",
-            "courseNumber": "06",
-            "courseType": "P"
-        },
-        {
-            "after": "06",
-            "courseBaseKey": "SAA",
-            "courseKey": "SAA07",
-            "courseNumber": "07",
-            "courseType": "VS"
-        },
-        {
-            "after": "07",
-            "courseBaseKey": "SAA",
-            "courseKey": "SAA08",
-            "courseNumber": "08",
-            "courseType": "VS"
-        },
-        {
-            "courseBaseKey": "SAA",
-            "courseKey": "SAA10",
-            "courseNumber": "10",
-            "courseType": "K",
-            "comment": "This course might not exist"
-        },
-        {
-            "after": "08",
-            "courseBaseKey": "SAA",
-            "courseKey": "SAA211",
-            "courseNumber": "211",
-            "courseType": "K"
-        }
-    ],
-    "SAB": [
-        {
-            "courseBaseKey": "SAB",
-            "courseKey": "SAB21",
-            "courseNumber": "21",
-            "courseType": "VS"
-        },
-        {
-            "after": "21",
-            "courseBaseKey": "SAB",
-            "courseKey": "SAB22",
-            "courseNumber": "22",
-            "courseType": "VS"
-        },
-        {
-            "after": "22",
-            "courseBaseKey": "SAB",
-            "courseKey": "SAB23",
-            "courseNumber": "23",
-            "courseType": "VS"
-        },
-        {
-            "after": "23",
-            "courseBaseKey": "SAB",
-            "courseKey": "SAB24",
-            "courseNumber": "24",
-            "courseType": "VS"
-        },
-        {
-            "after": "24",
-            "courseBaseKey": "SAB",
-            "courseKey": "SAB25",
-            "courseNumber": "25",
-            "courseType": "VS"
-        },
-        {
-            "after": "25",
-            "courseBaseKey": "SAB",
-            "courseKey": "SAB26",
-            "courseNumber": "26",
-            "courseType": "VS"
-        },
-        {
-            "after": "26",
-            "courseBaseKey": "SAB",
-            "courseKey": "SAB27",
-            "courseNumber": "27",
-            "courseType": "VS"
-        },
-        {
-            "after": "27",
-            "courseBaseKey": "SAB",
-            "courseKey": "SAB28",
-            "courseNumber": "28",
-            "courseType": "VS"
-        },
-        {
-            "courseBaseKey": "SAB",
-            "courseKey": "SAB211",
-            "courseNumber": "211",
-            "courseType": "K"
-        },
-        {
-            "after": "211",
-            "courseBaseKey": "SAB",
-            "courseKey": "SAB212",
-            "courseNumber": "212",
-            "courseType": "K"
-        },
-        {
-            "courseBaseKey": "SAB",
-            "courseKey": "SAB31",
-            "courseNumber": "31",
-            "courseType": "VS"
-        },
-        {
-            "after": "31",
-            "courseBaseKey": "SAB",
-            "courseKey": "SAB32",
-            "courseNumber": "32",
-            "courseType": "VS"
-        },
-        {
-            "after": "32",
-            "courseBaseKey": "SAB",
-            "courseKey": "SAB33",
-            "courseNumber": "33",
-            "courseType": "VS"
-        },
-        {
-            "after": "33",
-            "courseBaseKey": "SAB",
-            "courseKey": "SAB34",
-            "courseNumber": "34",
-            "courseType": "VS"
-        },
-        {
-            "after": "34",
-            "courseBaseKey": "SAB",
-            "courseKey": "SAB35",
-            "courseNumber": "35",
-            "courseType": "VS"
-        },
-        {
-            "after": "35",
-            "courseBaseKey": "SAB",
-            "courseKey": "SAB36",
-            "courseNumber": "36",
-            "courseType": "VS"
-        },
-        {
-            "after": "36",
-            "courseBaseKey": "SAB",
-            "courseKey": "SAB37",
-            "courseNumber": "37",
-            "courseType": "VS"
-        },
-        {
-            "after": "37",
-            "courseBaseKey": "SAB",
-            "courseKey": "SAB38",
-            "courseNumber": "38",
-            "courseType": "VS"
-        },
-        {
-            "after": "38",
-            "courseBaseKey": "SAB",
-            "courseKey": "SAB39",
-            "courseNumber": "39",
-            "courseType": "K"
-        },
-        {
-            "after": "39",
-            "courseBaseKey": "SAB",
-            "courseKey": "SAB310",
-            "courseNumber": "310",
-            "courseType": "K"
-        },
-        {
-            "after": "310",
-            "courseBaseKey": "SAB",
-            "courseKey": "SAB311",
-            "courseNumber": "311",
-            "courseType": "K"
-        }
-    ],
-    "TA": [
-        {
-            "courseBaseKey": "TA",
-            "courseKey": "TA01",
-            "courseNumber": "01",
-            "courseType": "VS"
-        },
-        {
-            "courseBaseKey": "TA",
-            "courseKey": "TA02",
-            "courseNumber": "02",
-            "courseType": "VS"
-        },
-        {
-            "courseBaseKey": "TA",
-            "courseKey": "TA03",
-            "courseNumber": "03",
-            "courseType": "VS"
-        }
-    ],
-    "TE": [
-        {
-            "courseBaseKey": "TE",
-            "courseKey": "TE01",
-            "courseNumber": "01",
-            "courseType": "P"
-        },
-        {
-            "after": "01",
-            "courseBaseKey": "TE",
-            "courseKey": "TE02",
-            "courseNumber": "02",
-            "courseType": "VS"
-        },
-        {
-            "after": "02",
-            "courseBaseKey": "TE",
-            "courseKey": "TE03",
-            "courseNumber": "03",
-            "courseType": "VS"
-        },
-        {
-            "after": "03",
-            "courseBaseKey": "TE",
-            "courseKey": "TE04",
-            "courseNumber": "04",
-            "courseType": "K"
-        }
-    ],
-    "TEA": [
-        {
-            "courseBaseKey": "TEA",
-            "courseKey": "TEA01",
-            "courseNumber": "01",
-            "courseType": "K"
-        },
-        {
-            "courseBaseKey": "TEA",
-            "courseKey": "TEA02",
-            "courseNumber": "02",
-            "courseType": "K"
-        },
-        {
-            "courseBaseKey": "TEA",
-            "courseKey": "TEA03",
-            "courseNumber": "03",
-            "courseType": "K"
-        },
-        {
-            "courseBaseKey": "TEA",
-            "courseKey": "TEA04",
-            "courseNumber": "04",
-            "courseType": "K"
-        },
-        {
-            "after": "04",
-            "courseBaseKey": "TEA",
-            "courseKey": "TEA05",
-            "courseNumber": "05",
-            "courseType": "K"
-        },
-        {
-            "after": "05",
-            "courseBaseKey": "TEA",
-            "courseKey": "TEA06",
-            "courseNumber": "06",
-            "courseType": "K"
-        },
-        {
-            "courseBaseKey": "TEA",
-            "courseKey": "TEA07",
-            "courseNumber": "07",
-            "courseType": "K"
-        },
-        {
-            "courseBaseKey": "TEA",
-            "courseKey": "TEA08",
-            "courseNumber": "08",
-            "courseType": "K"
-        },
-        {
-            "courseBaseKey": "TEA",
-            "courseKey": "TEA09",
-            "courseNumber": "09",
-            "courseType": "K"
-        },
-        {
-            "courseBaseKey": "TEA",
-            "courseKey": "TEA10",
-            "courseNumber": "10",
-            "courseType": "K"
-        },
-        {
-            "after": "10",
-            "courseBaseKey": "TEA",
-            "courseKey": "TEA11",
-            "courseNumber": "11",
-            "courseType": "K"
-        },
-        {
-            "courseBaseKey": "TEA",
-            "courseKey": "TEA12",
-            "courseNumber": "12",
-            "courseType": "K"
-        },
-        {
-            "courseBaseKey": "TEA",
-            "courseKey": "TEA13",
-            "courseNumber": "13",
-            "courseType": "K"
-        },
-        {
-            "courseBaseKey": "TEA",
-            "courseKey": "TEA14",
-            "courseNumber": "14",
-            "courseType": "P"
-        }
-    ],
-    "TEC": [
-        {
-            "courseBaseKey": "TEC",
-            "courseKey": "TEC01",
-            "courseNumber": "01",
-            "courseType": "K"
-        },
-        {
-            "courseBaseKey": "TEC",
-            "courseKey": "TEC02",
-            "courseNumber": "02",
-            "courseType": "K"
-        },
-        {
-            "courseBaseKey": "TEC",
-            "courseKey": "TEC03",
-            "courseNumber": "03",
-            "courseType": "K"
-        },
-        {
-            "courseBaseKey": "TEC",
-            "courseKey": "TEC04",
-            "courseNumber": "04",
-            "courseType": "K"
-        },
-        {
-            "courseBaseKey": "TEC",
-            "courseKey": "TEC05",
-            "courseNumber": "05",
-            "courseType": "K"
-        },
-        {
-            "courseBaseKey": "TEC",
-            "courseKey": "TEC07",
-            "courseNumber": "07",
-            "courseType": "K"
-        },
-        {
-            "courseBaseKey": "TEC",
-            "courseKey": "TEC09",
-            "courseNumber": "09",
-            "courseType": "K"
-        },
-        {
-            "courseBaseKey": "TEC",
-            "courseKey": "TEC10",
-            "courseNumber": "10",
-            "courseType": "K"
-        }
-    ],
-    "TI": [
-        {
-            "courseBaseKey": "TI",
-            "courseKey": "TI01",
-            "courseNumber": "01",
-            "courseType": "K"
-        }
-    ],
-    "TN": [
-        {
-            "courseBaseKey": "TN",
-            "courseKey": "TN01",
-            "courseNumber": "01",
-            "courseType": "P"
-        },
-        {
-            "courseBaseKey": "TN",
-            "courseKey": "TN02",
-            "courseNumber": "02",
-            "courseType": "P"
-        }
-    ],
-    "TO": [
-        {
-            "courseBaseKey": "TO",
-            "courseKey": "TO01",
-            "courseNumber": "01",
-            "courseType": "VS"
-        },
-        {
-            "courseBaseKey": "TO",
-            "courseKey": "TO02",
-            "courseNumber": "02",
-            "courseType": "VS"
-        },
-        {
-            "courseBaseKey": "TO",
-            "courseKey": "TO03",
-            "courseNumber": "03",
-            "courseType": "VS"
-        }
-    ],
-    "TT": [
-        {
-            "courseBaseKey": "TT",
-            "courseKey": "TT01",
-            "courseNumber": "01",
-            "courseType": "K"
-        }
-    ],
-    "UE": [
-        {
-            "courseBaseKey": "UE",
-            "courseKey": "UE01",
-            "courseNumber": "01",
-            "courseType": "P"
-        },
-        {
-            "after": "01",
-            "courseBaseKey": "UE",
-            "courseKey": "UE02",
-            "courseNumber": "02",
-            "courseType": "P"
-        },
-        {
-            "after": "01",
-            "courseBaseKey": "UE",
-            "courseKey": "UE03",
-            "courseNumber": "03",
-            "courseType": "VS"
-        },
-        {
-            "after": "01",
-            "courseBaseKey": "UE",
-            "courseKey": "UE04",
-            "courseNumber": "04",
-            "courseType": "VS"
-        },
-        {
-            "after": "01",
-            "courseBaseKey": "UE",
-            "courseKey": "UE05",
-            "courseNumber": "05",
-            "courseType": "VS"
-        },
-        {
-            "after": "01",
-            "courseBaseKey": "UE",
-            "courseKey": "UE06",
-            "courseNumber": "06",
-            "courseType": "VS"
-        },
-        {
-            "after": "01",
-            "courseBaseKey": "UE",
-            "courseKey": "UE07",
-            "courseNumber": "07",
-            "courseType": "K"
-        }
-    ],
-    "UI": [
-        {
-            "courseBaseKey": "UI",
-            "courseKey": "UI01",
-            "courseNumber": "01",
-            "courseType": "P"
-        },
-        {
-            "after": "01",
-            "courseBaseKey": "UI",
-            "courseKey": "UI02",
-            "courseNumber": "02",
-            "courseType": "P"
-        },
-        {
-            "after": "02",
-            "courseBaseKey": "UI",
-            "courseKey": "UI03",
-            "courseNumber": "03",
-            "courseType": "VS"
-        },
-        {
-            "after": "03",
-            "courseBaseKey": "UI",
-            "courseKey": "UI04",
-            "courseNumber": "04",
-            "courseType": "VS"
-        },
-        {
-            "after": "04",
-            "courseBaseKey": "UI",
-            "courseKey": "UI05",
-            "courseNumber": "05",
-            "courseType": "VS"
-        },
-        {
-            "after": "05",
-            "courseBaseKey": "UI",
-            "courseKey": "UI06",
-            "courseNumber": "06",
-            "courseType": "VS"
-        }
-    ],
-    "UJ": [
-        {
-            "courseBaseKey": "UJ",
-            "courseKey": "UJ01",
-            "courseNumber": "01",
-            "courseType": "P"
-        },
-        {
-            "after": "01",
-            "courseBaseKey": "UJ",
-            "courseKey": "UJ02",
-            "courseNumber": "02",
-            "courseType": "P"
-        },
-        {
-            "after": "02",
-            "courseBaseKey": "UJ",
-            "courseKey": "UJ03",
-            "courseNumber": "03",
-            "courseType": "VS"
-        },
-        {
-            "after": "03",
-            "courseBaseKey": "UJ",
-            "courseKey": "UJ04",
-            "courseNumber": "04",
-            "courseType": "VS"
-        },
-        {
-            "after": "04",
-            "courseBaseKey": "UJ",
-            "courseKey": "UJ05",
-            "courseNumber": "05",
-            "courseType": "VS"
-        },
-        {
-            "after": "05",
-            "courseBaseKey": "UJ",
-            "courseKey": "UJ06",
-            "courseNumber": "06",
-            "courseType": "VS"
-        }
-    ],
-    "UK": [
-        {
-            "courseBaseKey": "UK",
-            "courseKey": "UK01",
-            "courseNumber": "01",
-            "courseType": "P"
-        },
-        {
-            "after": "01",
-            "courseBaseKey": "UK",
-            "courseKey": "UK02",
-            "courseNumber": "02",
-            "courseType": "P"
-        },
-        {
-            "after": "02",
-            "courseBaseKey": "UK",
-            "courseKey": "UK03",
-            "courseNumber": "03",
-            "courseType": "VS"
-        },
-        {
-            "after": "03",
-            "courseBaseKey": "UK",
-            "courseKey": "UK04",
-            "courseNumber": "04",
-            "courseType": "VS"
-        },
-        {
-            "after": "04",
-            "courseBaseKey": "UK",
-            "courseKey": "UK05",
-            "courseNumber": "05",
-            "courseType": "VS"
-        },
-        {
-            "after": "05",
-            "courseBaseKey": "UK",
-            "courseKey": "UK06",
-            "courseNumber": "06",
-            "courseType": "VS"
-        }
-    ],
-    "UO": [
-        {
-            "courseBaseKey": "UO",
-            "courseKey": "UO01",
-            "courseNumber": "01",
-            "courseType": "P"
-        },
-        {
-            "after": "01",
-            "courseBaseKey": "UO",
-            "courseKey": "UO02",
-            "courseNumber": "02",
-            "courseType": "P"
-        },
-        {
-            "after": "02",
-            "courseBaseKey": "UO",
-            "courseKey": "UO03",
-            "courseNumber": "03",
-            "courseType": "VS"
-        },
-        {
-            "after": "03",
-            "courseBaseKey": "UO",
-            "courseKey": "UO04",
-            "courseNumber": "04",
-            "courseType": "VS"
-        },
-        {
-            "after": "04",
-            "courseBaseKey": "UO",
-            "courseKey": "UO05",
-            "courseNumber": "05",
-            "courseType": "VS"
-        },
-        {
-            "after": "05",
-            "courseBaseKey": "UO",
-            "courseKey": "UO06",
-            "courseNumber": "06",
-            "courseType": "VS"
-        }
-    ],
-    "UR": [
-        {
-            "courseBaseKey": "UR",
-            "courseKey": "UR01",
-            "courseNumber": "01",
-            "courseType": "K"
-        },
-        {
-            "courseBaseKey": "UR",
-            "courseKey": "UR02",
-            "courseNumber": "02",
-            "courseType": "K"
-        },
-        {
-            "courseBaseKey": "UR",
-            "courseKey": "UR03",
-            "courseNumber": "03",
-            "courseType": "K"
-        },
-        {
-            "courseBaseKey": "UR",
-            "courseKey": "UR04",
-            "courseNumber": "04",
-            "courseType": "K"
-        },
-        {
-            "courseBaseKey": "UR",
-            "courseKey": "UR05",
-            "courseNumber": "05",
-            "courseType": "K"
-        }
-    ],
-    "UX": [
-        {
-            "courseBaseKey": "UX",
-            "courseKey": "UX01",
-            "courseNumber": "01",
-            "courseType": "P"
-        },
-        {
-            "after": "01",
-            "courseBaseKey": "UX",
-            "courseKey": "UX02",
-            "courseNumber": "02",
-            "courseType": "P"
-        },
-        {
-            "after": "02",
-            "courseBaseKey": "UX",
-            "courseKey": "UX03",
-            "courseNumber": "03",
-            "courseType": "VS"
-        },
-        {
-            "after": "03",
-            "courseBaseKey": "UX",
-            "courseKey": "UX04",
-            "courseNumber": "04",
-            "courseType": "VS"
-        },
-        {
-            "after": "04",
-            "courseBaseKey": "UX",
-            "courseKey": "UX05",
-            "courseNumber": "05",
-            "courseType": "VS"
-        },
-        {
-            "after": "05",
-            "courseBaseKey": "UX",
-            "courseKey": "UX06",
-            "courseNumber": "06",
-            "courseType": "VS"
-        }
-    ],
-    "VEA": [
-        {
-            "courseBaseKey": "VEA",
-            "courseKey": "VEA01",
-            "courseNumber": "01",
-            "courseType": "P"
-        },
-        {
-            "after": "01",
-            "courseBaseKey": "VEA",
-            "courseKey": "VEA02",
-            "courseNumber": "02",
-            "courseType": "P"
-        },
-        {
-            "after": "02",
-            "courseBaseKey": "VEA",
-            "courseKey": "VEA03",
-            "courseNumber": "03",
-            "courseType": "P"
-        },
-        {
-            "after": "03",
-            "courseBaseKey": "VEA",
-            "courseKey": "VEA04",
-            "courseNumber": "04",
-            "courseType": "P"
-        },
-        {
-            "after": "04",
-            "courseBaseKey": "VEA",
-            "courseKey": "VEA05",
-            "courseNumber": "05",
-            "courseType": "P"
-        },
-        {
-            "after": "05",
-            "courseBaseKey": "VEA",
-            "courseKey": "VEA06",
-            "courseNumber": "06",
-            "courseType": "P"
-        },
-        {
-            "after": "06",
-            "courseBaseKey": "VEA",
-            "courseKey": "VEA07",
-            "courseNumber": "07",
-            "courseType": "VS"
-        },
-        {
-            "after": "07",
-            "courseBaseKey": "VEA",
-            "courseKey": "VEA08",
-            "courseNumber": "08",
-            "courseType": "VS"
-        }
-    ],
-    "VEB": [
-        {
-            "courseBaseKey": "VEB",
-            "courseKey": "VEB21",
-            "courseNumber": "21",
-            "courseType": "VS"
-        },
-        {
-            "after": "21",
-            "courseBaseKey": "VEB",
-            "courseKey": "VEB22",
-            "courseNumber": "22",
-            "courseType": "VS"
-        },
-        {
-            "after": "22",
-            "courseBaseKey": "VEB",
-            "courseKey": "VEB23",
-            "courseNumber": "23",
-            "courseType": "VS"
-        },
-        {
-            "after": "23",
-            "courseBaseKey": "VEB",
-            "courseKey": "VEB24",
-            "courseNumber": "24",
-            "courseType": "VS"
-        },
-        {
-            "after": "24",
-            "courseBaseKey": "VEB",
-            "courseKey": "VEB25",
-            "courseNumber": "25",
-            "courseType": "VS"
-        },
-        {
-            "after": "25",
-            "courseBaseKey": "VEB",
-            "courseKey": "VEB26",
-            "courseNumber": "26",
-            "courseType": "VS"
-        },
-        {
-            "after": "26",
-            "courseBaseKey": "VEB",
-            "courseKey": "VEB27",
-            "courseNumber": "27",
-            "courseType": "VS"
-        },
-        {
-            "after": "27",
-            "courseBaseKey": "VEB",
-            "courseKey": "VEB28",
-            "courseNumber": "28",
-            "courseType": "VS"
-        },
-        {
-            "courseBaseKey": "VEB",
-            "courseKey": "VEB31",
-            "courseNumber": "31",
-            "courseType": "VS"
-        },
-        {
-            "after": "31",
-            "courseBaseKey": "VEB",
-            "courseKey": "VEB32",
-            "courseNumber": "32",
-            "courseType": "VS"
-        },
-        {
-            "after": "32",
-            "courseBaseKey": "VEB",
-            "courseKey": "VEB33",
-            "courseNumber": "33",
-            "courseType": "VS"
-        },
-        {
-            "after": "33",
-            "courseBaseKey": "VEB",
-            "courseKey": "VEB34",
-            "courseNumber": "34",
-            "courseType": "VS"
-        },
-        {
-            "after": "34",
-            "courseBaseKey": "VEB",
-            "courseKey": "VEB35",
-            "courseNumber": "35",
-            "courseType": "VS"
-        },
-        {
-            "after": "35",
-            "courseBaseKey": "VEB",
-            "courseKey": "VEB36",
-            "courseNumber": "36",
-            "courseType": "VS"
-        },
-        {
-            "after": "36",
-            "courseBaseKey": "VEB",
-            "courseKey": "VEB37",
-            "courseNumber": "37",
-            "courseType": "VS"
-        },
-        {
-            "after": "37",
-            "courseBaseKey": "VEB",
-            "courseKey": "VEB38",
-            "courseNumber": "38",
-            "courseType": "VS"
-        }
-    ],
-    "YH": [
-        {
-            "courseBaseKey": "YH",
-            "courseKey": "YH01",
-            "courseNumber": "01",
-            "courseType": "P"
-        },
-        {
-            "after": "01",
-            "courseBaseKey": "YH",
-            "courseKey": "YH02",
-            "courseNumber": "02",
-            "courseType": "P"
-        },
-        {
-            "after": "02",
-            "courseBaseKey": "YH",
-            "courseKey": "YH03",
-            "courseNumber": "03",
-            "courseType": "P"
-        },
-        {
-            "after": "01",
-            "courseBaseKey": "YH",
-            "courseKey": "YH04",
-            "courseNumber": "04",
-            "courseType": "VS"
-        },
-        {
-            "after": "01",
-            "courseBaseKey": "YH",
-            "courseKey": "YH05",
-            "courseNumber": "05",
-            "courseType": "K"
-        },
-        {
-            "after": "01",
-            "courseBaseKey": "YH",
-            "courseKey": "YH06",
-            "courseNumber": "06",
-            "courseType": "K"
-        },
-        {
-            "after": "01",
-            "courseBaseKey": "YH",
-            "courseKey": "YH07",
-            "courseNumber": "07",
-            "courseType": "K"
-        },
-        {
-            "after": "01",
-            "courseBaseKey": "YH",
-            "courseKey": "YH08",
-            "courseNumber": "08",
-            "courseType": "K"
-        },
-        {
-            "after": "01",
-            "courseBaseKey": "YH",
-            "courseKey": "YH09",
-            "courseNumber": "09",
-            "courseType": "K"
-        },
-        {
-            "after": "01",
-            "courseBaseKey": "YH",
-            "courseKey": "YH10",
-            "courseNumber": "10",
-            "courseType": "K"
-        },
-        {
-            "after": "01",
-            "courseBaseKey": "YH",
-            "courseKey": "YH11",
-            "courseNumber": "11",
-            "courseType": "K"
-        },
-        {
-            "after": "01",
-            "courseBaseKey": "YH",
-            "courseKey": "YH12",
-            "courseNumber": "12",
-            "courseType": "K"
-        },
-        {
-            "after": "01",
-            "courseBaseKey": "YH",
-            "courseKey": "YH13",
-            "courseNumber": "13",
-            "courseType": "K"
-        },
-        {
-            "after": "01",
-            "courseBaseKey": "YH",
-            "courseKey": "YH14",
-            "courseNumber": "14",
-            "courseType": "K"
-        },
-        {
-            "after": "01",
-            "courseBaseKey": "YH",
-            "courseKey": "YH15",
-            "courseNumber": "15",
-            "courseType": "K"
-        },
-        {
-            "after": "01",
-            "courseBaseKey": "YH",
-            "courseKey": "YH015",
-            "courseNumber": "015",
-            "courseType": "K"
-        }
-    ],
-    "ÄI": [
-        {
-            "courseBaseKey": "ÄI",
-            "courseKey": "ÄI01",
-            "courseNumber": "01",
-            "courseType": "P"
-        },
-        {
-            "after": "01",
-            "courseBaseKey": "ÄI",
-            "courseKey": "ÄI02",
-            "courseNumber": "02",
-            "courseType": "P"
-        },
-        {
-            "after": "02",
-            "courseBaseKey": "ÄI",
-            "courseKey": "ÄI03",
-            "courseNumber": "03",
-            "courseType": "P"
-        },
-        {
-            "after": "03",
-            "courseBaseKey": "ÄI",
-            "courseKey": "ÄI04",
-            "courseNumber": "04",
-            "courseType": "P"
-        },
-        {
-            "after": "04",
-            "courseBaseKey": "ÄI",
-            "courseKey": "ÄI05",
-            "courseNumber": "05",
-            "courseType": "P"
-        },
-        {
-            "after": "05",
-            "courseBaseKey": "ÄI",
-            "courseKey": "ÄI06",
-            "courseNumber": "06",
-            "courseType": "P"
-        },
-        {
-            "courseBaseKey": "ÄI",
-            "courseKey": "ÄI07",
-            "courseNumber": "07",
-            "courseType": "VS"
-        },
-        {
-            "after": "06",
-            "courseBaseKey": "ÄI",
-            "courseKey": "ÄI08",
-            "courseNumber": "08",
-            "courseType": "VS"
-        },
-        {
-            "after": "08",
-            "courseBaseKey": "ÄI",
-            "courseKey": "ÄI09",
-            "courseNumber": "09",
-            "courseType": "VS"
-        },
-        {
-            "courseBaseKey": "ÄI",
-            "courseKey": "ÄI10",
-            "courseNumber": "10",
-            "courseType": "K"
-        },
-        {
-            "courseBaseKey": "ÄI",
-            "courseKey": "ÄI11",
-            "courseNumber": "11",
-            "courseType": "K"
-        },
-        {
-            "courseBaseKey": "ÄI",
-            "courseKey": "ÄI12",
-            "courseNumber": "12",
-            "courseType": "K"
-        },
-        {
-            "courseBaseKey": "ÄI",
-            "courseKey": "ÄI13",
-            "courseNumber": "13",
-            "courseType": "K"
-        },
-        {
-            "courseBaseKey": "ÄI",
-            "courseKey": "ÄI14",
-            "courseNumber": "14",
-            "courseType": "K"
-        },
-        {
-            "courseBaseKey": "ÄI",
-            "courseKey": "ÄI15",
-            "courseNumber": "15",
-            "courseType": "K"
-        }
-    ]
-}
+[
+    {
+        "courseBaseKey": "BI",
+        "courseKey": "BI01",
+        "courseNumber": "01",
+        "courseType": "P"
+    },
+    {
+        "after": "01",
+        "courseBaseKey": "BI",
+        "courseKey": "BI02",
+        "courseNumber": "02",
+        "courseType": "P"
+    },
+    {
+        "after": "02",
+        "courseBaseKey": "BI",
+        "courseKey": "BI03",
+        "courseNumber": "03",
+        "courseType": "VS"
+    },
+    {
+        "after": "03",
+        "courseBaseKey": "BI",
+        "courseKey": "BI04",
+        "courseNumber": "04",
+        "courseType": "VS"
+    },
+    {
+        "after": "04",
+        "courseBaseKey": "BI",
+        "courseKey": "BI05",
+        "courseNumber": "05",
+        "courseType": "VS"
+    },
+    {
+        "after": "05",
+        "courseBaseKey": "BI",
+        "courseKey": "BI06",
+        "courseNumber": "06",
+        "courseType": "K"
+    },
+    {
+        "courseBaseKey": "BI",
+        "courseKey": "BI07",
+        "courseNumber": "07",
+        "courseType": "K"
+    },
+    {
+        "courseBaseKey": "BI",
+        "courseKey": "BI08",
+        "courseNumber": "08",
+        "courseType": "K"
+    },
+    {
+        "courseBaseKey": "BI",
+        "courseKey": "BI09",
+        "courseNumber": "09",
+        "courseType": "K"
+    },
+    {
+        "courseBaseKey": "BI",
+        "courseKey": "BI10",
+        "courseNumber": "10",
+        "courseType": "K"
+    },
+    {
+        "courseBaseKey": "BI",
+        "courseKey": "BI11",
+        "courseNumber": "11",
+        "courseType": "K"
+    },
+    {
+        "courseBaseKey": "BI",
+        "courseKey": "BI12",
+        "courseNumber": "12",
+        "courseType": "K"
+    },
+    {
+        "courseBaseKey": "BI",
+        "courseKey": "BI13",
+        "courseNumber": "13",
+        "courseType": "K"
+    },
+    {
+        "courseBaseKey": "EAA",
+        "courseKey": "EAA01",
+        "courseNumber": "01",
+        "cowurseType": "P"
+    },
+    {
+        "after": "01",
+        "courseBaseKey": "EAA",
+        "courseKey": "EAA02",
+        "courseNumber": "02",
+        "courseType": "P"
+    },
+    {
+        "after": "02",
+        "courseBaseKey": "EAA",
+        "courseKey": "EAA03",
+        "courseNumber": "03",
+        "courseType": "P"
+    },
+    {
+        "after": "03",
+        "courseBaseKey": "EAA",
+        "courseKey": "EAA04",
+        "courseNumber": "04",
+        "courseType": "P"
+    },
+    {
+        "after": "04",
+        "courseBaseKey": "EAA",
+        "courseKey": "EAA05",
+        "courseNumber": "05",
+        "courseType": "P"
+    },
+    {
+        "after": "05",
+        "courseBaseKey": "EAA",
+        "courseKey": "EAA06",
+        "courseNumber": "06",
+        "courseType": "P"
+    },
+    {
+        "after": "06",
+        "courseBaseKey": "EAA",
+        "courseKey": "EAA07",
+        "courseNumber": "07",
+        "courseType": "VS"
+    },
+    {
+        "after": "07",
+        "courseBaseKey": "EAA",
+        "courseKey": "EAA08",
+        "courseNumber": "08",
+        "courseType": "VS"
+    },
+    {
+        "courseBaseKey": "EAB",
+        "courseKey": "EAB21",
+        "courseNumber": "21",
+        "courseType": "VS"
+    },
+    {
+        "after": "21",
+        "courseBaseKey": "EAB",
+        "courseKey": "EAB22",
+        "courseNumber": "22",
+        "courseType": "VS"
+    },
+    {
+        "after": "22",
+        "courseBaseKey": "EAB",
+        "courseKey": "EAB23",
+        "courseNumber": "23",
+        "courseType": "VS"
+    },
+    {
+        "after": "23",
+        "courseBaseKey": "EAB",
+        "courseKey": "EAB24",
+        "courseNumber": "24",
+        "courseType": "VS"
+    },
+    {
+        "after": "24",
+        "courseBaseKey": "EAB",
+        "courseKey": "EAB25",
+        "courseNumber": "25",
+        "courseType": "VS"
+    },
+    {
+        "after": "25",
+        "courseBaseKey": "EAB",
+        "courseKey": "EAB26",
+        "courseNumber": "26",
+        "courseType": "VS"
+    },
+    {
+        "after": "26",
+        "courseBaseKey": "EAB",
+        "courseKey": "EAB27",
+        "courseNumber": "27",
+        "courseType": "VS"
+    },
+    {
+        "after": "27",
+        "courseBaseKey": "EAB",
+        "courseKey": "EAB28",
+        "courseNumber": "28",
+        "courseType": "VS"
+    },
+    {
+        "after": "38",
+        "courseBaseKey": "EAB",
+        "courseKey": "EAB39",
+        "courseNumber": "39",
+        "courseType": "VS"
+    },
+    {
+        "courseBaseKey": "EAB",
+        "courseKey": "EAB31",
+        "courseNumber": "31",
+        "courseType": "VS"
+    },
+    {
+        "after": "31",
+        "courseBaseKey": "EAB",
+        "courseKey": "EAB32",
+        "courseNumber": "32",
+        "courseType": "VS"
+    },
+    {
+        "after": "32",
+        "courseBaseKey": "EAB",
+        "courseKey": "EAB33",
+        "courseNumber": "33",
+        "courseType": "VS"
+    },
+    {
+        "after": "33",
+        "courseBaseKey": "EAB",
+        "courseKey": "EAB34",
+        "courseNumber": "34",
+        "courseType": "VS"
+    },
+    {
+        "after": "34",
+        "courseBaseKey": "EAB",
+        "courseKey": "EAB35",
+        "courseNumber": "35",
+        "courseType": "VS"
+    },
+    {
+        "after": "35",
+        "courseBaseKey": "EAB",
+        "courseKey": "EAB36",
+        "courseNumber": "36",
+        "courseType": "VS"
+    },
+    {
+        "after": "36",
+        "courseBaseKey": "EAB",
+        "courseKey": "EAB37",
+        "courseNumber": "37",
+        "courseType": "VS"
+    },
+    {
+        "after": "37",
+        "courseBaseKey": "EAB",
+        "courseKey": "EAB38",
+        "courseNumber": "38",
+        "courseType": "VS"
+    },
+    {
+        "courseBaseKey": "EAB",
+        "courseKey": "EAB39",
+        "courseNumber": "39",
+        "courseType": "K"
+    },
+    {
+        "courseBaseKey": "ENA",
+        "courseKey": "ENA01",
+        "courseNumber": "01",
+        "courseType": "P"
+    },
+    {
+        "after": "01",
+        "courseBaseKey": "ENA",
+        "courseKey": "ENA02",
+        "courseNumber": "02",
+        "courseType": "P"
+    },
+    {
+        "after": "02",
+        "courseBaseKey": "ENA",
+        "courseKey": "ENA03",
+        "courseNumber": "03",
+        "courseType": "P"
+    },
+    {
+        "after": "03",
+        "courseBaseKey": "ENA",
+        "courseKey": "ENA04",
+        "courseNumber": "04",
+        "courseType": "P"
+    },
+    {
+        "after": "04",
+        "courseBaseKey": "ENA",
+        "courseKey": "ENA05",
+        "courseNumber": "05",
+        "courseType": "P"
+    },
+    {
+        "after": "05",
+        "courseBaseKey": "ENA",
+        "courseKey": "ENA06",
+        "courseNumber": "06",
+        "courseType": "P"
+    },
+    {
+        "after": "06",
+        "courseBaseKey": "ENA",
+        "courseKey": "ENA07",
+        "courseNumber": "07",
+        "courseType": "VS"
+    },
+    {
+        "courseBaseKey": "ENA",
+        "courseKey": "ENA08",
+        "courseNumber": "08",
+        "courseType": "VS"
+    },
+    {
+        "after": "07",
+        "courseBaseKey": "ENA",
+        "courseKey": "ENA09",
+        "courseNumber": "09",
+        "courseType": "VS"
+    },
+    {
+        "courseBaseKey": "ENA",
+        "courseKey": "ENA10",
+        "courseNumber": "10",
+        "courseType": "K"
+    },
+    {
+        "courseBaseKey": "ENA",
+        "courseKey": "ENA11",
+        "courseNumber": "11",
+        "courseType": "K"
+    },
+    {
+        "courseBaseKey": "ENA",
+        "courseKey": "ENA12",
+        "courseNumber": "12",
+        "courseType": "K"
+    },
+    {
+        "courseBaseKey": "ENA",
+        "courseKey": "ENA15",
+        "courseNumber": "15",
+        "courseType": "K"
+    },
+    {
+        "after": "15",
+        "courseBaseKey": "ENA",
+        "courseKey": "ENA16",
+        "courseNumber": "16",
+        "courseType": "K"
+    },
+    {
+        "courseBaseKey": "ENB",
+        "courseKey": "ENB31",
+        "courseNumber": "31",
+        "courseType": "VS"
+    },
+    {
+        "after": "31",
+        "courseBaseKey": "ENB",
+        "courseKey": "ENB32",
+        "courseNumber": "32",
+        "courseType": "VS"
+    },
+    {
+        "after": "32",
+        "courseBaseKey": "ENB",
+        "courseKey": "ENB33",
+        "courseNumber": "33",
+        "courseType": "VS"
+    },
+    {
+        "after": "33",
+        "courseBaseKey": "ENB",
+        "courseKey": "ENB34",
+        "courseNumber": "34",
+        "courseType": "VS"
+    },
+    {
+        "after": "34",
+        "courseBaseKey": "ENB",
+        "courseKey": "ENB35",
+        "courseNumber": "35",
+        "courseType": "VS"
+    },
+    {
+        "after": "35",
+        "courseBaseKey": "ENB",
+        "courseKey": "ENB36",
+        "courseNumber": "36",
+        "courseType": "VS"
+    },
+    {
+        "after": "36",
+        "courseBaseKey": "ENB",
+        "courseKey": "ENB37",
+        "courseNumber": "37",
+        "courseType": "VS"
+    },
+    {
+        "after": "37",
+        "courseBaseKey": "ENB",
+        "courseKey": "ENB38",
+        "courseNumber": "38",
+        "courseType": "VS"
+    },
+    {
+        "courseBaseKey": "EO",
+        "courseKey": "EO01",
+        "courseNumber": "01",
+        "courseType": "P"
+    },
+    {
+        "courseBaseKey": "ET",
+        "courseKey": "ET01",
+        "courseNumber": "01",
+        "courseType": "P"
+    },
+    {
+        "courseBaseKey": "ET",
+        "courseKey": "ET02",
+        "courseNumber": "02",
+        "courseType": "P"
+    },
+    {
+        "courseBaseKey": "ET",
+        "courseKey": "ET03",
+        "courseNumber": "03",
+        "courseType": "VS"
+    },
+    {
+        "courseBaseKey": "ET",
+        "courseKey": "ET04",
+        "courseNumber": "04",
+        "courseType": "VS"
+    },
+    {
+        "courseBaseKey": "ET",
+        "courseKey": "ET05",
+        "courseNumber": "05",
+        "courseType": "VS"
+    },
+    {
+        "courseBaseKey": "ET",
+        "courseKey": "ET06",
+        "courseNumber": "06",
+        "courseType": "VS"
+    },
+    {
+        "courseBaseKey": "FI",
+        "courseKey": "FI01",
+        "courseNumber": "01",
+        "courseType": "P"
+    },
+    {
+        "after": "01",
+        "courseBaseKey": "FI",
+        "courseKey": "FI02",
+        "courseNumber": "02",
+        "courseType": "P"
+    },
+    {
+        "after": "01",
+        "courseBaseKey": "FI",
+        "courseKey": "FI03",
+        "courseNumber": "03",
+        "courseType": "VS"
+    },
+    {
+        "after": "01",
+        "courseBaseKey": "FI",
+        "courseKey": "FI04",
+        "courseNumber": "04",
+        "courseType": "VS"
+    },
+    {
+        "after": "01",
+        "courseBaseKey": "FI",
+        "courseKey": "FI05",
+        "courseNumber": "05",
+        "courseType": "K"
+    },
+    {
+        "after": "01",
+        "courseBaseKey": "FI",
+        "courseKey": "FI06",
+        "courseNumber": "06",
+        "courseType": "K"
+    },
+    {
+        "courseBaseKey": "FY",
+        "courseKey": "FY01",
+        "courseNumber": "01",
+        "courseType": "P"
+    },
+    {
+        "after": "01",
+        "courseBaseKey": "FY",
+        "courseKey": "FY02",
+        "courseNumber": "02",
+        "courseType": "VS"
+    },
+    {
+        "after": "02",
+        "courseBaseKey": "FY",
+        "courseKey": "FY03",
+        "courseNumber": "03",
+        "courseType": "VS"
+    },
+    {
+        "after": "03",
+        "courseBaseKey": "FY",
+        "courseKey": "FY04",
+        "courseNumber": "04",
+        "courseType": "VS"
+    },
+    {
+        "after": "04",
+        "courseBaseKey": "FY",
+        "courseKey": "FY05",
+        "courseNumber": "05",
+        "courseType": "VS"
+    },
+    {
+        "after": "05",
+        "courseBaseKey": "FY",
+        "courseKey": "FY06",
+        "courseNumber": "06",
+        "courseType": "VS"
+    },
+    {
+        "after": "06",
+        "courseBaseKey": "FY",
+        "courseKey": "FY07",
+        "courseNumber": "07",
+        "courseType": "VS"
+    },
+    {
+        "after": "07",
+        "courseBaseKey": "FY",
+        "courseKey": "FY08",
+        "courseNumber": "08",
+        "courseType": "K"
+    },
+    {
+        "courseBaseKey": "FY",
+        "courseKey": "FY09",
+        "courseNumber": "09",
+        "courseType": "K"
+    },
+    {
+        "courseBaseKey": "FY",
+        "courseKey": "FY10",
+        "courseNumber": "10",
+        "courseType": "K"
+    },
+    {
+        "courseBaseKey": "FY",
+        "courseKey": "FY11",
+        "courseNumber": "11",
+        "courseType": "K"
+    },
+    {
+        "courseBaseKey": "FY",
+        "courseKey": "FY12",
+        "courseNumber": "12",
+        "courseType": "K"
+    },
+    {
+        "courseBaseKey": "FY",
+        "courseKey": "FY13",
+        "courseNumber": "13",
+        "courseType": "K"
+    },
+    {
+        "courseBaseKey": "FY",
+        "courseKey": "FY14",
+        "courseNumber": "14",
+        "courseType": "K"
+    },
+    {
+        "courseBaseKey": "FY",
+        "courseKey": "FY15",
+        "courseNumber": "15",
+        "courseType": "K"
+    },
+    {
+        "courseBaseKey": "FY",
+        "courseKey": "FY16",
+        "courseNumber": "16",
+        "courseType": "K"
+    },
+    {
+        "courseBaseKey": "FY",
+        "courseKey": "FY17",
+        "courseNumber": "17",
+        "courseType": "K"
+    },
+    {
+        "courseBaseKey": "GC",
+        "courseKey": "GC01",
+        "courseNumber": "01",
+        "courseType": "P"
+    },
+    {
+        "courseBaseKey": "GE",
+        "courseKey": "GE01",
+        "courseNumber": "01",
+        "courseType": "P"
+    },
+    {
+        "after": "01",
+        "courseBaseKey": "GE",
+        "courseKey": "GE02",
+        "courseNumber": "02",
+        "courseType": "VS"
+    },
+    {
+        "after": "02",
+        "courseBaseKey": "GE",
+        "courseKey": "GE03",
+        "courseNumber": "03",
+        "courseType": "VS"
+    },
+    {
+        "after": "03",
+        "courseBaseKey": "GE",
+        "courseKey": "GE04",
+        "courseNumber": "04",
+        "courseType": "VS"
+    },
+    {
+        "after": "04",
+        "courseBaseKey": "GE",
+        "courseKey": "GE05",
+        "courseNumber": "05",
+        "courseType": "K"
+    },
+    {
+        "courseBaseKey": "GE",
+        "courseKey": "GE06",
+        "courseNumber": "06",
+        "courseType": "K"
+    },
+    {
+        "courseBaseKey": "HI",
+        "courseKey": "HI01",
+        "courseNumber": "01",
+        "courseType": "P"
+    },
+    {
+        "after": "01",
+        "courseBaseKey": "HI",
+        "courseKey": "HI02",
+        "courseNumber": "02",
+        "courseType": "P"
+    },
+    {
+        "after": "01",
+        "courseBaseKey": "HI",
+        "courseKey": "HI03",
+        "courseNumber": "03",
+        "courseType": "P"
+    },
+    {
+        "after": "01",
+        "courseBaseKey": "HI",
+        "courseKey": "HI04",
+        "courseNumber": "04",
+        "courseType": "VS"
+    },
+    {
+        "after": "01",
+        "courseBaseKey": "HI",
+        "courseKey": "HI05",
+        "courseNumber": "05",
+        "courseType": "VS"
+    },
+    {
+        "after": "01",
+        "courseBaseKey": "HI",
+        "courseKey": "HI06",
+        "courseNumber": "06",
+        "courseType": "VS"
+    },
+    {
+        "after": "01",
+        "courseBaseKey": "HI",
+        "courseKey": "HI07",
+        "courseNumber": "07",
+        "courseType": "K"
+    },
+    {
+        "after": "01",
+        "courseBaseKey": "HI",
+        "courseKey": "HI08",
+        "courseNumber": "08",
+        "courseType": "K"
+    },
+    {
+        "after": "01",
+        "courseBaseKey": "HI",
+        "courseKey": "HI09",
+        "courseNumber": "09",
+        "courseType": "K"
+    },
+    {
+        "after": "01",
+        "courseBaseKey": "HI",
+        "courseKey": "HI10",
+        "courseNumber": "10",
+        "courseType": "K"
+    },
+    {
+        "after": "01",
+        "courseBaseKey": "HI",
+        "courseKey": "HI11",
+        "courseNumber": "11",
+        "courseType": "K"
+    },
+    {
+        "after": "01",
+        "courseBaseKey": "HI",
+        "courseKey": "HI12",
+        "courseNumber": "12",
+        "courseType": "K"
+    },
+    {
+        "after": "01",
+        "courseBaseKey": "HI",
+        "courseKey": "HI15",
+        "courseNumber": "15",
+        "courseType": "K"
+    },
+    {
+        "courseBaseKey": "IAB",
+        "courseKey": "IAB31",
+        "courseNumber": "31",
+        "courseType": "VS"
+    },
+    {
+        "after": "31",
+        "courseBaseKey": "IAB",
+        "courseKey": "IAB32",
+        "courseNumber": "32",
+        "courseType": "VS"
+    },
+    {
+        "after": "32",
+        "courseBaseKey": "IAB",
+        "courseKey": "IAB33",
+        "courseNumber": "33",
+        "courseType": "VS"
+    },
+    {
+        "after": "33",
+        "courseBaseKey": "IAB",
+        "courseKey": "IAB34",
+        "courseNumber": "34",
+        "courseType": "VS"
+    },
+    {
+        "after": "34",
+        "courseBaseKey": "IAB",
+        "courseKey": "IAB35",
+        "courseNumber": "35",
+        "courseType": "VS"
+    },
+    {
+        "after": "35",
+        "courseBaseKey": "IAB",
+        "courseKey": "IAB36",
+        "courseNumber": "36",
+        "courseType": "VS"
+    },
+    {
+        "after": "36",
+        "courseBaseKey": "IAB",
+        "courseKey": "IAB37",
+        "courseNumber": "37",
+        "courseType": "VS"
+    },
+    {
+        "after": "37",
+        "courseBaseKey": "IAB",
+        "courseKey": "IAB38",
+        "courseNumber": "38",
+        "courseType": "VS"
+    },
+    {
+        "courseBaseKey": "IT",
+        "courseKey": "IT01",
+        "courseNumber": "01",
+        "courseType": "VS"
+    },
+    {
+        "courseBaseKey": "JPB",
+        "courseKey": "JPB31",
+        "courseNumber": "31",
+        "courseType": "VS"
+    },
+    {
+        "after": "31",
+        "courseBaseKey": "JPB",
+        "courseKey": "JPB32",
+        "courseNumber": "32",
+        "courseType": "VS"
+    },
+    {
+        "after": "32",
+        "courseBaseKey": "JPB",
+        "courseKey": "JPB33",
+        "courseNumber": "33",
+        "courseType": "VS"
+    },
+    {
+        "after": "33",
+        "courseBaseKey": "JPB",
+        "courseKey": "JPB34",
+        "courseNumber": "34",
+        "courseType": "VS"
+    },
+    {
+        "after": "34",
+        "courseBaseKey": "JPB",
+        "courseKey": "JPB35",
+        "courseNumber": "35",
+        "courseType": "VS"
+    },
+    {
+        "after": "35",
+        "courseBaseKey": "JPB",
+        "courseKey": "JPB36",
+        "courseNumber": "36",
+        "courseType": "VS"
+    },
+    {
+        "after": "36",
+        "courseBaseKey": "JPB",
+        "courseKey": "JPB37",
+        "courseNumber": "37",
+        "courseType": "VS"
+    },
+    {
+        "after": "37",
+        "courseBaseKey": "JPB",
+        "courseKey": "JPB38",
+        "courseNumber": "38",
+        "courseType": "VS"
+    },
+    {
+        "courseBaseKey": "KE",
+        "courseKey": "KE01",
+        "courseNumber": "01",
+        "courseType": "P"
+    },
+    {
+        "after": "01",
+        "courseBaseKey": "KE",
+        "courseKey": "KE02",
+        "courseNumber": "02",
+        "courseType": "VS"
+    },
+    {
+        "after": "02",
+        "courseBaseKey": "KE",
+        "courseKey": "KE03",
+        "courseNumber": "03",
+        "courseType": "VS"
+    },
+    {
+        "after": "03",
+        "courseBaseKey": "KE",
+        "courseKey": "KE04",
+        "courseNumber": "04",
+        "courseType": "VS"
+    },
+    {
+        "after": "04",
+        "courseBaseKey": "KE",
+        "courseKey": "KE05",
+        "courseNumber": "05",
+        "courseType": "VS"
+    },
+    {
+        "after": "03",
+        "courseBaseKey": "KE",
+        "courseKey": "KE06",
+        "courseNumber": "06",
+        "courseType": "K"
+    },
+    {
+        "courseBaseKey": "KE",
+        "courseKey": "KE10",
+        "courseNumber": "10",
+        "courseType": "K"
+    },
+    {
+        "courseBaseKey": "KE",
+        "courseKey": "KE11",
+        "courseNumber": "11",
+        "courseType": "K"
+    },
+    {
+        "courseBaseKey": "KE",
+        "courseKey": "KE12",
+        "courseNumber": "12",
+        "courseType": "K"
+    },
+    {
+        "courseBaseKey": "KE",
+        "courseKey": "KE13",
+        "courseNumber": "13",
+        "courseType": "K"
+    },
+    {
+        "courseBaseKey": "KED",
+        "courseKey": "KED7",
+        "courseNumber": "7",
+        "courseType": "K"
+    },
+    {
+        "courseBaseKey": "KED",
+        "courseKey": "KED08",
+        "courseNumber": "08",
+        "courseType": "K"
+    },
+    {
+        "courseBaseKey": "KED",
+        "courseKey": "KED09",
+        "courseNumber": "09",
+        "courseType": "K"
+    },
+    {
+        "courseBaseKey": "KED",
+        "courseKey": "KED10",
+        "courseNumber": "10",
+        "courseType": "K"
+    },
+    {
+        "courseBaseKey": "KIB",
+        "courseKey": "KIB31",
+        "courseNumber": "31",
+        "courseType": "VS"
+    },
+    {
+        "after": "31",
+        "courseBaseKey": "KIB",
+        "courseKey": "KIB32",
+        "courseNumber": "32",
+        "courseType": "VS"
+    },
+    {
+        "after": "32",
+        "courseBaseKey": "KIB",
+        "courseKey": "KIB33",
+        "courseNumber": "33",
+        "courseType": "VS"
+    },
+    {
+        "after": "33",
+        "courseBaseKey": "KIB",
+        "courseKey": "KIB34",
+        "courseNumber": "34",
+        "courseType": "VS"
+    },
+    {
+        "after": "34",
+        "courseBaseKey": "KIB",
+        "courseKey": "KIB35",
+        "courseNumber": "35",
+        "courseType": "VS"
+    },
+    {
+        "after": "35",
+        "courseBaseKey": "KIB",
+        "courseKey": "KIB36",
+        "courseNumber": "36",
+        "courseType": "VS"
+    },
+    {
+        "after": "36",
+        "courseBaseKey": "KIB",
+        "courseKey": "KIB37",
+        "courseNumber": "37",
+        "courseType": "VS"
+    },
+    {
+        "after": "37",
+        "courseBaseKey": "KIB",
+        "courseKey": "KIB38",
+        "courseNumber": "38",
+        "courseType": "VS"
+    },
+    {
+        "courseBaseKey": "KO",
+        "courseKey": "KO01",
+        "courseNumber": "01",
+        "courseType": "K"
+    },
+    {
+        "after": "01",
+        "courseBaseKey": "KO",
+        "courseKey": "KO02",
+        "courseNumber": "02",
+        "courseType": "K"
+    },
+    {
+        "courseBaseKey": "KU",
+        "courseKey": "KU01",
+        "courseNumber": "01",
+        "courseType": "P"
+    },
+    {
+        "courseBaseKey": "KU",
+        "courseKey": "KU02",
+        "courseNumber": "02",
+        "courseType": "P"
+    },
+    {
+        "courseBaseKey": "KU",
+        "courseKey": "KU03",
+        "courseNumber": "03",
+        "courseType": "VS"
+    },
+    {
+        "courseBaseKey": "KU",
+        "courseKey": "KU04",
+        "courseNumber": "04",
+        "courseType": "VS"
+    },
+    {
+        "courseBaseKey": "KU",
+        "courseKey": "KU05",
+        "courseNumber": "05",
+        "courseType": "K"
+    },
+    {
+        "courseBaseKey": "KU",
+        "courseKey": "KU06",
+        "courseNumber": "06",
+        "courseType": "K"
+    },
+    {
+        "courseBaseKey": "KU",
+        "courseKey": "KU07",
+        "courseNumber": "07",
+        "courseType": "K"
+    },
+    {
+        "courseBaseKey": "KU",
+        "courseKey": "KU08",
+        "courseNumber": "08",
+        "courseType": "K"
+    },
+    {
+        "courseBaseKey": "KU",
+        "courseKey": "KU09",
+        "courseNumber": "09",
+        "courseType": "K"
+    },
+    {
+        "courseBaseKey": "KU",
+        "courseKey": "KU10",
+        "courseNumber": "10",
+        "courseType": "K"
+    },
+    {
+        "courseBaseKey": "KU",
+        "courseKey": "KU11",
+        "courseNumber": "11",
+        "courseType": "K"
+    },
+    {
+        "courseBaseKey": "KU",
+        "courseKey": "KU12",
+        "courseNumber": "12",
+        "courseType": "K"
+    },
+    {
+        "courseBaseKey": "KU",
+        "courseKey": "KU15",
+        "courseNumber": "15",
+        "courseType": "K"
+    },
+    {
+        "courseBaseKey": "KV",
+        "courseKey": "KV01",
+        "courseNumber": "01",
+        "courseType": "K"
+    },
+    {
+        "courseBaseKey": "LD",
+        "courseKey": "LD01",
+        "courseNumber": "01",
+        "courseType": "VS"
+    },
+    {
+        "courseBaseKey": "LD",
+        "courseKey": "LD02",
+        "courseNumber": "02",
+        "courseType": "VS"
+    },
+    {
+        "courseBaseKey": "LD",
+        "courseKey": "LD03",
+        "courseNumber": "03",
+        "courseType": "VS"
+    },
+    {
+        "courseBaseKey": "LD",
+        "courseKey": "LD04",
+        "courseNumber": "04",
+        "courseType": "VS"
+    },
+    {
+        "courseBaseKey": "LD",
+        "courseKey": "LD05",
+        "courseNumber": "05",
+        "courseType": "VS"
+    },
+    {
+        "courseBaseKey": "LD",
+        "courseKey": "LD06",
+        "courseNumber": "06",
+        "courseType": "VS"
+    },
+    {
+        "courseBaseKey": "LD",
+        "courseKey": "LD07",
+        "courseNumber": "07",
+        "courseType": "VS"
+    },
+    {
+        "courseBaseKey": "LD",
+        "courseKey": "LD08",
+        "courseNumber": "08",
+        "courseType": "VS"
+    },
+    {
+        "courseBaseKey": "LI",
+        "courseKey": "LI01",
+        "courseNumber": "01",
+        "courseType": "P"
+    },
+    {
+        "courseBaseKey": "LI",
+        "courseKey": "LI02",
+        "courseNumber": "02",
+        "courseType": "P"
+    },
+    {
+        "courseBaseKey": "LI",
+        "courseKey": "LI03",
+        "courseNumber": "03",
+        "courseType": "VS"
+    },
+    {
+        "courseBaseKey": "LI",
+        "courseKey": "LI04",
+        "courseNumber": "04",
+        "courseType": "VS"
+    },
+    {
+        "courseBaseKey": "LI",
+        "courseKey": "LI05",
+        "courseNumber": "05",
+        "courseType": "VS"
+    },
+    {
+        "courseBaseKey": "LI",
+        "courseKey": "LI06",
+        "courseNumber": "06",
+        "courseType": "K"
+    },
+    {
+        "courseBaseKey": "LI",
+        "courseKey": "LI07",
+        "courseNumber": "07",
+        "courseType": "K"
+    },
+    {
+        "courseBaseKey": "LI",
+        "courseKey": "LI08",
+        "courseNumber": "08",
+        "courseType": "K"
+    },
+    {
+        "courseBaseKey": "LI",
+        "courseKey": "LI09",
+        "courseNumber": "09",
+        "courseType": "K"
+    },
+    {
+        "courseBaseKey": "LI",
+        "courseKey": "LI10",
+        "courseNumber": "10",
+        "courseType": "K"
+    },
+    {
+        "courseBaseKey": "LI",
+        "courseKey": "LI11",
+        "courseNumber": "11",
+        "courseType": "K"
+    },
+    {
+        "courseBaseKey": "MAA",
+        "courseKey": "MAA01",
+        "courseNumber": "01",
+        "courseType": "P"
+    },
+    {
+        "courseBaseKey": "MAA",
+        "courseKey": "MAA02",
+        "courseNumber": "02",
+        "courseType": "P"
+    },
+    {
+        "after": "02",
+        "courseBaseKey": "MAA",
+        "courseKey": "MAA03",
+        "courseNumber": "03",
+        "courseType": "P"
+    },
+    {
+        "after": "03",
+        "courseBaseKey": "MAA",
+        "courseKey": "MAA04",
+        "courseNumber": "04",
+        "courseType": "P"
+    },
+    {
+        "after": "04",
+        "courseBaseKey": "MAA",
+        "courseKey": "MAA05",
+        "courseNumber": "05",
+        "courseType": "P"
+    },
+    {
+        "after": "05",
+        "courseBaseKey": "MAA",
+        "courseKey": "MAA06",
+        "courseNumber": "06",
+        "courseType": "P"
+    },
+    {
+        "after": "06",
+        "courseBaseKey": "MAA",
+        "courseKey": "MAA07",
+        "courseNumber": "07",
+        "courseType": "P"
+    },
+    {
+        "after": "07",
+        "courseBaseKey": "MAA",
+        "courseKey": "MAA08",
+        "courseNumber": "08",
+        "courseType": "P"
+    },
+    {
+        "after": "08",
+        "courseBaseKey": "MAA",
+        "courseKey": "MAA09",
+        "courseNumber": "09",
+        "courseType": "P"
+    },
+    {
+        "after": "09",
+        "courseBaseKey": "MAA",
+        "courseKey": "MAA10",
+        "courseNumber": "10",
+        "courseType": "P"
+    },
+    {
+        "after": "01",
+        "courseBaseKey": "MAA",
+        "courseKey": "MAA11",
+        "courseNumber": "11",
+        "courseType": "VS"
+    },
+    {
+        "after": "11",
+        "courseBaseKey": "MAA",
+        "courseKey": "MAA12",
+        "courseNumber": "12",
+        "courseType": "VS"
+    },
+    {
+        "after": "12",
+        "courseBaseKey": "MAA",
+        "courseKey": "MAA13",
+        "courseNumber": "13",
+        "courseType": "VS"
+    },
+    {
+        "after": "13",
+        "courseBaseKey": "MAA",
+        "courseKey": "MAA14",
+        "courseNumber": "14",
+        "courseType": "K"
+    },
+    {
+        "after": "06",
+        "courseBaseKey": "MAA",
+        "courseKey": "MAA15",
+        "courseNumber": "15",
+        "courseType": "K"
+    },
+    {
+        "courseBaseKey": "MAA",
+        "courseKey": "MAA16",
+        "courseNumber": "16",
+        "courseType": "K"
+    },
+    {
+        "after": "15",
+        "courseBaseKey": "MAA",
+        "courseKey": "MAA17",
+        "courseNumber": "17",
+        "courseType": "K"
+    },
+    {
+        "after": "14",
+        "courseBaseKey": "MAA",
+        "courseKey": "MAA18",
+        "courseNumber": "18",
+        "courseType": "K"
+    },
+    {
+        "courseBaseKey": "MAA",
+        "courseKey": "MAA19",
+        "courseNumber": "19",
+        "courseType": "K"
+    },
+    {
+        "courseBaseKey": "MAA",
+        "courseKey": "MAA20",
+        "courseNumber": "20",
+        "courseType": "K"
+    },
+    {
+        "courseBaseKey": "MAA",
+        "courseKey": "MAA21",
+        "courseNumber": "21",
+        "courseType": "K"
+    },
+    {
+        "courseBaseKey": "MAA",
+        "courseKey": "MAA22",
+        "courseNumber": "22",
+        "courseType": "K"
+    },
+    {
+        "courseBaseKey": "MAA",
+        "courseKey": "MAA23",
+        "courseNumber": "23",
+        "courseType": "K"
+    },
+    {
+        "courseBaseKey": "MAA",
+        "courseKey": "MAA24",
+        "courseNumber": "24",
+        "courseType": "K"
+    },
+    {
+        "courseBaseKey": "MAB",
+        "courseKey": "MAB01",
+        "courseNumber": "01",
+        "courseType": "P"
+    },
+    {
+        "courseBaseKey": "MAB",
+        "courseKey": "MAB02",
+        "courseNumber": "02",
+        "courseType": "P"
+    },
+    {
+        "after": "02",
+        "courseBaseKey": "MAB",
+        "courseKey": "MAB03",
+        "courseNumber": "03",
+        "courseType": "P"
+    },
+    {
+        "after": "03",
+        "courseBaseKey": "MAB",
+        "courseKey": "MAB04",
+        "courseNumber": "04",
+        "courseType": "P"
+    },
+    {
+        "after": "04",
+        "courseBaseKey": "MAB",
+        "courseKey": "MAB05",
+        "courseNumber": "05",
+        "courseType": "P"
+    },
+    {
+        "after": "05",
+        "courseBaseKey": "MAB",
+        "courseKey": "MAB06",
+        "courseNumber": "06",
+        "courseType": "P"
+    },
+    {
+        "after": "06",
+        "courseBaseKey": "MAB",
+        "courseKey": "MAB07",
+        "courseNumber": "07",
+        "courseType": "VS"
+    },
+    {
+        "after": "07",
+        "courseBaseKey": "MAB",
+        "courseKey": "MAB08",
+        "courseNumber": "08",
+        "courseType": "VS"
+    },
+    {
+        "courseBaseKey": "MAB",
+        "courseKey": "MAB09",
+        "courseNumber": "09",
+        "courseType": "K"
+    },
+    {
+        "courseBaseKey": "MAB",
+        "courseKey": "MAB15",
+        "courseNumber": "15",
+        "courseType": "K",
+        "comment": "This course might not exist"
+    },
+    {
+        "courseBaseKey": "MAB",
+        "courseKey": "MAB16",
+        "courseNumber": "16",
+        "courseType": "K",
+        "comment": "This course might not exist"
+    },
+    {
+        "courseBaseKey": "MAB",
+        "courseKey": "MAB17",
+        "courseNumber": "17",
+        "courseType": "K",
+        "comment": "This course might not exist"
+    },
+    {
+        "courseBaseKey": "MAB",
+        "courseKey": "MAB18",
+        "courseNumber": "18",
+        "courseType": "K",
+        "comment": "This course might not exist"
+    },
+    {
+        "courseBaseKey": "MAY",
+        "courseKey": "MAY01",
+        "courseNumber": "01",
+        "courseType": "P"
+    },
+    {
+        "courseBaseKey": "ME",
+        "courseKey": "ME01",
+        "courseNumber": "01",
+        "courseType": "K"
+    },
+    {
+        "after": "01",
+        "courseBaseKey": "ME",
+        "courseKey": "ME02",
+        "courseNumber": "02",
+        "courseType": "K"
+    },
+    {
+        "after": "01",
+        "courseBaseKey": "ME",
+        "courseKey": "ME03",
+        "courseNumber": "03",
+        "courseType": "K"
+    },
+    {
+        "after": "02",
+        "courseBaseKey": "ME",
+        "courseKey": "ME04",
+        "courseNumber": "04",
+        "courseType": "K"
+    },
+    {
+        "courseBaseKey": "ME",
+        "courseKey": "ME05",
+        "courseNumber": "05",
+        "courseType": "K"
+    },
+    {
+        "courseBaseKey": "ME",
+        "courseKey": "ME06",
+        "courseNumber": "06",
+        "courseType": "K"
+    },
+    {
+        "courseBaseKey": "ME",
+        "courseKey": "ME07",
+        "courseNumber": "07",
+        "courseType": "K"
+    },
+    {
+        "courseBaseKey": "ME",
+        "courseKey": "ME08",
+        "courseNumber": "08",
+        "courseType": "K"
+    },
+    {
+        "courseBaseKey": "ME",
+        "courseKey": "ME09",
+        "courseNumber": "09",
+        "courseType": "K"
+    },
+    {
+        "courseBaseKey": "MU",
+        "courseKey": "MU01",
+        "courseNumber": "01",
+        "courseType": "P"
+    },
+    {
+        "courseBaseKey": "MU",
+        "courseKey": "MU02",
+        "courseNumber": "02",
+        "courseType": "P"
+    },
+    {
+        "courseBaseKey": "MU",
+        "courseKey": "MU03",
+        "courseNumber": "03",
+        "courseType": "VS"
+    },
+    {
+        "courseBaseKey": "MU",
+        "courseKey": "MU04",
+        "courseNumber": "04",
+        "courseType": "VS"
+    },
+    {
+        "courseBaseKey": "MU",
+        "courseKey": "MU05",
+        "courseNumber": "05",
+        "courseType": "K"
+    },
+    {
+        "courseBaseKey": "MU",
+        "courseKey": "MU06",
+        "courseNumber": "06",
+        "courseType": "K"
+    },
+    {
+        "courseBaseKey": "MU",
+        "courseKey": "MU07",
+        "courseNumber": "07",
+        "courseType": "K"
+    },
+    {
+        "courseBaseKey": "MU",
+        "courseKey": "MU08",
+        "courseNumber": "08",
+        "courseType": "K"
+    },
+    {
+        "courseBaseKey": "MU",
+        "courseKey": "MU09",
+        "courseNumber": "09",
+        "courseType": "K"
+    },
+    {
+        "courseBaseKey": "MU",
+        "courseKey": "MU10",
+        "courseNumber": "10",
+        "courseType": "K"
+    },
+    {
+        "courseBaseKey": "MU",
+        "courseKey": "MU11",
+        "courseNumber": "11",
+        "courseType": "K"
+    },
+    {
+        "courseBaseKey": "MU",
+        "courseKey": "MU12",
+        "courseNumber": "12",
+        "courseType": "K"
+    },
+    {
+        "courseBaseKey": "MUU",
+        "courseKey": "MUU01",
+        "courseNumber": "01",
+        "courseType": "K"
+    },
+    {
+        "courseBaseKey": "MUU",
+        "courseKey": "MUU02",
+        "courseNumber": "02",
+        "courseType": "K"
+    },
+    {
+        "courseBaseKey": "MUU",
+        "courseKey": "MUU03",
+        "courseNumber": "03",
+        "courseType": "K"
+    },
+    {
+        "courseBaseKey": "MUU",
+        "courseKey": "MUU04",
+        "courseNumber": "04",
+        "courseType": "K"
+    },
+    {
+        "courseBaseKey": "MUU",
+        "courseKey": "MUU05",
+        "courseNumber": "05",
+        "courseType": "K"
+    },
+    {
+        "courseBaseKey": "OP",
+        "courseKey": "OP01",
+        "courseNumber": "01",
+        "courseType": "P"
+    },
+    {
+        "courseBaseKey": "OP",
+        "courseKey": "OP02",
+        "courseNumber": "02",
+        "courseType": "P"
+    },
+    {
+        "courseBaseKey": "OP",
+        "courseKey": "OP03",
+        "courseNumber": "03",
+        "courseType": "K"
+    },
+    {
+        "courseBaseKey": "OP",
+        "courseKey": "OP04",
+        "courseNumber": "04",
+        "courseType": "K"
+    },
+    {
+        "courseBaseKey": "OP",
+        "courseKey": "OP05",
+        "courseNumber": "05",
+        "courseType": "K"
+    },
+    {
+        "courseBaseKey": "OP",
+        "courseKey": "OP06",
+        "courseNumber": "06",
+        "courseType": "K"
+    },
+    {
+        "courseBaseKey": "OP",
+        "courseKey": "OP07",
+        "courseNumber": "07",
+        "courseType": "K"
+    },
+    {
+        "courseBaseKey": "OÄIal",
+        "courseKey": "OÄIal01",
+        "courseNumber": "01",
+        "courseType": "P"
+    },
+    {
+        "after": "01",
+        "courseBaseKey": "OÄIal",
+        "courseKey": "OÄIal02",
+        "courseNumber": "02",
+        "courseType": "P"
+    },
+    {
+        "after": "02",
+        "courseBaseKey": "OÄIal",
+        "courseKey": "OÄIal03",
+        "courseNumber": "03",
+        "courseType": "P"
+    },
+    {
+        "after": "03",
+        "courseBaseKey": "OÄIal",
+        "courseKey": "OÄIal04",
+        "courseNumber": "04",
+        "courseType": "P"
+    },
+    {
+        "after": "04",
+        "courseBaseKey": "OÄIal",
+        "courseKey": "OÄIal05",
+        "courseNumber": "05",
+        "courseType": "P"
+    },
+    {
+        "after": "05",
+        "courseBaseKey": "OÄIal",
+        "courseKey": "OÄIal06",
+        "courseNumber": "06",
+        "courseType": "P"
+    },
+    {
+        "courseBaseKey": "OÄIar",
+        "courseKey": "OÄIar01",
+        "courseNumber": "01",
+        "courseType": "P"
+    },
+    {
+        "after": "01",
+        "courseBaseKey": "OÄIar",
+        "courseKey": "OÄIar02",
+        "courseNumber": "02",
+        "courseType": "P"
+    },
+    {
+        "after": "02",
+        "courseBaseKey": "OÄIar",
+        "courseKey": "OÄIar03",
+        "courseNumber": "03",
+        "courseType": "P"
+    },
+    {
+        "after": "03",
+        "courseBaseKey": "OÄIar",
+        "courseKey": "OÄIar04",
+        "courseNumber": "04",
+        "courseType": "P"
+    },
+    {
+        "after": "04",
+        "courseBaseKey": "OÄIar",
+        "courseKey": "OÄIar05",
+        "courseNumber": "05",
+        "courseType": "P"
+    },
+    {
+        "after": "05",
+        "courseBaseKey": "OÄIar",
+        "courseKey": "OÄIar06",
+        "courseNumber": "06",
+        "courseType": "P"
+    },
+    {
+        "courseBaseKey": "OÄIen",
+        "courseKey": "OÄIen01",
+        "courseNumber": "01",
+        "courseType": "P"
+    },
+    {
+        "after": "01",
+        "courseBaseKey": "OÄIen",
+        "courseKey": "OÄIen02",
+        "courseNumber": "02",
+        "courseType": "P"
+    },
+    {
+        "after": "02",
+        "courseBaseKey": "OÄIen",
+        "courseKey": "OÄIen03",
+        "courseNumber": "03",
+        "courseType": "P"
+    },
+    {
+        "after": "03",
+        "courseBaseKey": "OÄIen",
+        "courseKey": "OÄIen04",
+        "courseNumber": "04",
+        "courseType": "P"
+    },
+    {
+        "after": "04",
+        "courseBaseKey": "OÄIen",
+        "courseKey": "OÄIen05",
+        "courseNumber": "05",
+        "courseType": "P"
+    },
+    {
+        "after": "05",
+        "courseBaseKey": "OÄIen",
+        "courseKey": "OÄIen06",
+        "courseNumber": "06",
+        "courseType": "P"
+    },
+    {
+        "courseBaseKey": "OÄIes",
+        "courseKey": "OÄIes01",
+        "courseNumber": "01",
+        "courseType": "P"
+    },
+    {
+        "after": "01",
+        "courseBaseKey": "OÄIes",
+        "courseKey": "OÄIes02",
+        "courseNumber": "02",
+        "courseType": "P"
+    },
+    {
+        "after": "02",
+        "courseBaseKey": "OÄIes",
+        "courseKey": "OÄIes03",
+        "courseNumber": "03",
+        "courseType": "P"
+    },
+    {
+        "after": "03",
+        "courseBaseKey": "OÄIes",
+        "courseKey": "OÄIes04",
+        "courseNumber": "04",
+        "courseType": "P"
+    },
+    {
+        "after": "04",
+        "courseBaseKey": "OÄIes",
+        "courseKey": "OÄIes05",
+        "courseNumber": "05",
+        "courseType": "P"
+    },
+    {
+        "after": "05",
+        "courseBaseKey": "OÄIes",
+        "courseKey": "OÄIes06",
+        "courseNumber": "06",
+        "courseType": "P"
+    },
+    {
+        "courseBaseKey": "OÄIfa",
+        "courseKey": "OÄIfa01",
+        "courseNumber": "01",
+        "courseType": "P"
+    },
+    {
+        "after": "01",
+        "courseBaseKey": "OÄIfa",
+        "courseKey": "OÄIfa02",
+        "courseNumber": "02",
+        "courseType": "P"
+    },
+    {
+        "after": "02",
+        "courseBaseKey": "OÄIfa",
+        "courseKey": "OÄIfa03",
+        "courseNumber": "03",
+        "courseType": "P"
+    },
+    {
+        "after": "03",
+        "courseBaseKey": "OÄIfa",
+        "courseKey": "OÄIfa04",
+        "courseNumber": "04",
+        "courseType": "P"
+    },
+    {
+        "after": "04",
+        "courseBaseKey": "OÄIfa",
+        "courseKey": "OÄIfa05",
+        "courseNumber": "05",
+        "courseType": "P"
+    },
+    {
+        "after": "05",
+        "courseBaseKey": "OÄIfa",
+        "courseKey": "OÄIfa06",
+        "courseNumber": "06",
+        "courseType": "P"
+    },
+    {
+        "courseBaseKey": "OÄIku",
+        "courseKey": "OÄIku01",
+        "courseNumber": "01",
+        "courseType": "P"
+    },
+    {
+        "after": "01",
+        "courseBaseKey": "OÄIku",
+        "courseKey": "OÄIku02",
+        "courseNumber": "02",
+        "courseType": "P"
+    },
+    {
+        "after": "02",
+        "courseBaseKey": "OÄIku",
+        "courseKey": "OÄIku03",
+        "courseNumber": "03",
+        "courseType": "P"
+    },
+    {
+        "after": "03",
+        "courseBaseKey": "OÄIku",
+        "courseKey": "OÄIku04",
+        "courseNumber": "04",
+        "courseType": "P"
+    },
+    {
+        "after": "04",
+        "courseBaseKey": "OÄIku",
+        "courseKey": "OÄIku05",
+        "courseNumber": "05",
+        "courseType": "P"
+    },
+    {
+        "after": "05",
+        "courseBaseKey": "OÄIku",
+        "courseKey": "OÄIku06",
+        "courseNumber": "06",
+        "courseType": "P"
+    },
+    {
+        "courseBaseKey": "OÄIma",
+        "courseKey": "OÄIma01",
+        "courseNumber": "01",
+        "courseType": "P"
+    },
+    {
+        "after": "01",
+        "courseBaseKey": "OÄIma",
+        "courseKey": "OÄIma02",
+        "courseNumber": "02",
+        "courseType": "P"
+    },
+    {
+        "after": "02",
+        "courseBaseKey": "OÄIma",
+        "courseKey": "OÄIma03",
+        "courseNumber": "03",
+        "courseType": "P"
+    },
+    {
+        "after": "03",
+        "courseBaseKey": "OÄIma",
+        "courseKey": "OÄIma04",
+        "courseNumber": "04",
+        "courseType": "P"
+    },
+    {
+        "after": "04",
+        "courseBaseKey": "OÄIma",
+        "courseKey": "OÄIma05",
+        "courseNumber": "05",
+        "courseType": "P"
+    },
+    {
+        "after": "05",
+        "courseBaseKey": "OÄIma",
+        "courseKey": "OÄIma06",
+        "courseNumber": "06",
+        "courseType": "P"
+    },
+    {
+        "courseBaseKey": "OÄIpo",
+        "courseKey": "OÄIpo01",
+        "courseNumber": "01",
+        "courseType": "P"
+    },
+    {
+        "after": "01",
+        "courseBaseKey": "OÄIpo",
+        "courseKey": "OÄIpo02",
+        "courseNumber": "02",
+        "courseType": "P"
+    },
+    {
+        "after": "02",
+        "courseBaseKey": "OÄIpo",
+        "courseKey": "OÄIpo03",
+        "courseNumber": "03",
+        "courseType": "P"
+    },
+    {
+        "after": "03",
+        "courseBaseKey": "OÄIpo",
+        "courseKey": "OÄIpo04",
+        "courseNumber": "04",
+        "courseType": "P"
+    },
+    {
+        "after": "04",
+        "courseBaseKey": "OÄIpo",
+        "courseKey": "OÄIpo05",
+        "courseNumber": "05",
+        "courseType": "P"
+    },
+    {
+        "after": "05",
+        "courseBaseKey": "OÄIpo",
+        "courseKey": "OÄIpo06",
+        "courseNumber": "06",
+        "courseType": "P"
+    },
+    {
+        "courseBaseKey": "OÄIpu",
+        "courseKey": "OÄIpu01",
+        "courseNumber": "01",
+        "courseType": "P"
+    },
+    {
+        "after": "01",
+        "courseBaseKey": "OÄIpu",
+        "courseKey": "OÄIpu02",
+        "courseNumber": "02",
+        "courseType": "P"
+    },
+    {
+        "after": "02",
+        "courseBaseKey": "OÄIpu",
+        "courseKey": "OÄIpu03",
+        "courseNumber": "03",
+        "courseType": "P"
+    },
+    {
+        "after": "03",
+        "courseBaseKey": "OÄIpu",
+        "courseKey": "OÄIpu04",
+        "courseNumber": "04",
+        "courseType": "P"
+    },
+    {
+        "after": "04",
+        "courseBaseKey": "OÄIpu",
+        "courseKey": "OÄIpu05",
+        "courseNumber": "05",
+        "courseType": "P"
+    },
+    {
+        "after": "05",
+        "courseBaseKey": "OÄIpu",
+        "courseKey": "OÄIpu06",
+        "courseNumber": "06",
+        "courseType": "P"
+    },
+    {
+        "courseBaseKey": "OÄIra",
+        "courseKey": "OÄIra01",
+        "courseNumber": "01",
+        "courseType": "P"
+    },
+    {
+        "after": "01",
+        "courseBaseKey": "OÄIra",
+        "courseKey": "OÄIra02",
+        "courseNumber": "02",
+        "courseType": "P"
+    },
+    {
+        "after": "02",
+        "courseBaseKey": "OÄIra",
+        "courseKey": "OÄIra03",
+        "courseNumber": "03",
+        "courseType": "P"
+    },
+    {
+        "after": "03",
+        "courseBaseKey": "OÄIra",
+        "courseKey": "OÄIra04",
+        "courseNumber": "04",
+        "courseType": "P"
+    },
+    {
+        "after": "04",
+        "courseBaseKey": "OÄIra",
+        "courseKey": "OÄIra05",
+        "courseNumber": "05",
+        "courseType": "P"
+    },
+    {
+        "after": "05",
+        "courseBaseKey": "OÄIra",
+        "courseKey": "OÄIra06",
+        "courseNumber": "06",
+        "courseType": "P"
+    },
+    {
+        "courseBaseKey": "OÄIsa",
+        "courseKey": "OÄIsa01",
+        "courseNumber": "01",
+        "courseType": "P"
+    },
+    {
+        "after": "01",
+        "courseBaseKey": "OÄIsa",
+        "courseKey": "OÄIsa02",
+        "courseNumber": "02",
+        "courseType": "P"
+    },
+    {
+        "after": "02",
+        "courseBaseKey": "OÄIsa",
+        "courseKey": "OÄIsa03",
+        "courseNumber": "03",
+        "courseType": "P"
+    },
+    {
+        "after": "03",
+        "courseBaseKey": "OÄIsa",
+        "courseKey": "OÄIsa04",
+        "courseNumber": "04",
+        "courseType": "P"
+    },
+    {
+        "after": "04",
+        "courseBaseKey": "OÄIsa",
+        "courseKey": "OÄIsa05",
+        "courseNumber": "05",
+        "courseType": "P"
+    },
+    {
+        "after": "05",
+        "courseBaseKey": "OÄIsa",
+        "courseKey": "OÄIsa06",
+        "courseNumber": "06",
+        "courseType": "P"
+    },
+    {
+        "courseBaseKey": "OÄIve",
+        "courseKey": "OÄIve01",
+        "courseNumber": "01",
+        "courseType": "P"
+    },
+    {
+        "after": "01",
+        "courseBaseKey": "OÄIve",
+        "courseKey": "OÄIve02",
+        "courseNumber": "02",
+        "courseType": "P"
+    },
+    {
+        "after": "02",
+        "courseBaseKey": "OÄIve",
+        "courseKey": "OÄIve03",
+        "courseNumber": "03",
+        "courseType": "P"
+    },
+    {
+        "after": "03",
+        "courseBaseKey": "OÄIve",
+        "courseKey": "OÄIve04",
+        "courseNumber": "04",
+        "courseType": "P"
+    },
+    {
+        "after": "04",
+        "courseBaseKey": "OÄIve",
+        "courseKey": "OÄIve05",
+        "courseNumber": "05",
+        "courseType": "P"
+    },
+    {
+        "after": "05",
+        "courseBaseKey": "OÄIve",
+        "courseKey": "OÄIve06",
+        "courseNumber": "06",
+        "courseType": "P"
+    },
+    {
+        "courseBaseKey": "PS",
+        "courseKey": "PS01",
+        "courseNumber": "01",
+        "courseType": "P"
+    },
+    {
+        "after": "01",
+        "courseBaseKey": "PS",
+        "courseKey": "PS02",
+        "courseNumber": "02",
+        "courseType": "VS"
+    },
+    {
+        "after": "01",
+        "courseBaseKey": "PS",
+        "courseKey": "PS03",
+        "courseNumber": "03",
+        "courseType": "VS"
+    },
+    {
+        "after": "01",
+        "courseBaseKey": "PS",
+        "courseKey": "PS04",
+        "courseNumber": "04",
+        "courseType": "VS"
+    },
+    {
+        "after": "01",
+        "courseBaseKey": "PS",
+        "courseKey": "PS05",
+        "courseNumber": "05",
+        "courseType": "VS"
+    },
+    {
+        "after": "01",
+        "courseBaseKey": "PS",
+        "courseKey": "PS06",
+        "courseNumber": "06",
+        "courseType": "K"
+    },
+    {
+        "after": "01",
+        "courseBaseKey": "PS",
+        "courseKey": "PS07",
+        "courseNumber": "07",
+        "courseType": "K"
+    },
+    {
+        "after": "01",
+        "courseBaseKey": "PS",
+        "courseKey": "PS08",
+        "courseNumber": "08",
+        "courseType": "K"
+    },
+    {
+        "courseBaseKey": "RAA",
+        "courseKey": "RAA01",
+        "courseNumber": "01",
+        "courseType": "P"
+    },
+    {
+        "after": "01",
+        "courseBaseKey": "RAA",
+        "courseKey": "RAA02",
+        "courseNumber": "02",
+        "courseType": "P"
+    },
+    {
+        "after": "02",
+        "courseBaseKey": "RAA",
+        "courseKey": "RAA03",
+        "courseNumber": "03",
+        "courseType": "P"
+    },
+    {
+        "after": "03",
+        "courseBaseKey": "RAA",
+        "courseKey": "RAA04",
+        "courseNumber": "04",
+        "courseType": "P"
+    },
+    {
+        "after": "04",
+        "courseBaseKey": "RAA",
+        "courseKey": "RAA05",
+        "courseNumber": "05",
+        "courseType": "P"
+    },
+    {
+        "after": "05",
+        "courseBaseKey": "RAA",
+        "courseKey": "RAA06",
+        "courseNumber": "06",
+        "courseType": "P"
+    },
+    {
+        "after": "06",
+        "courseBaseKey": "RAA",
+        "courseKey": "RAA07",
+        "courseNumber": "07",
+        "courseType": "VS"
+    },
+    {
+        "after": "07",
+        "courseBaseKey": "RAA",
+        "courseKey": "RAA08",
+        "courseNumber": "08",
+        "courseType": "VS"
+    },
+    {
+        "after": "08",
+        "courseBaseKey": "RAA",
+        "courseKey": "RAA09",
+        "courseNumber": "09",
+        "courseType": "K"
+    },
+    {
+        "after": "9",
+        "courseBaseKey": "RAA",
+        "courseKey": "RAA10",
+        "courseNumber": "10",
+        "courseType": "K",
+        "comment": "This course might not exist"
+    },
+    {
+        "courseBaseKey": "RAB",
+        "courseKey": "RAB21",
+        "courseNumber": "21",
+        "courseType": "VS"
+    },
+    {
+        "after": "21",
+        "courseBaseKey": "RAB",
+        "courseKey": "RAB22",
+        "courseNumber": "22",
+        "courseType": "VS"
+    },
+    {
+        "after": "22",
+        "courseBaseKey": "RAB",
+        "courseKey": "RAB23",
+        "courseNumber": "23",
+        "courseType": "VS"
+    },
+    {
+        "after": "23",
+        "courseBaseKey": "RAB",
+        "courseKey": "RAB24",
+        "courseNumber": "24",
+        "courseType": "VS"
+    },
+    {
+        "after": "24",
+        "courseBaseKey": "RAB",
+        "courseKey": "RAB25",
+        "courseNumber": "25",
+        "courseType": "VS"
+    },
+    {
+        "after": "25",
+        "courseBaseKey": "RAB",
+        "courseKey": "RAB26",
+        "courseNumber": "26",
+        "courseType": "VS"
+    },
+    {
+        "after": "26",
+        "courseBaseKey": "RAB",
+        "courseKey": "RAB27",
+        "courseNumber": "27",
+        "courseType": "VS"
+    },
+    {
+        "after": "27",
+        "courseBaseKey": "RAB",
+        "courseKey": "RAB28",
+        "courseNumber": "28",
+        "courseType": "VS"
+    },
+    {
+        "after": "28",
+        "courseBaseKey": "RAB",
+        "courseKey": "RAB29",
+        "courseNumber": "29",
+        "courseType": "K"
+    },
+    {
+        "after": "29",
+        "courseBaseKey": "RAB",
+        "courseKey": "RAB210",
+        "courseNumber": "210",
+        "courseType": "K",
+        "comment": "This course might not exist"
+    },
+    {
+        "after": "210",
+        "courseBaseKey": "RAB",
+        "courseKey": "RAB211",
+        "courseNumber": "211",
+        "courseType": "K",
+        "comment": "This course might not exist"
+    },
+    {
+        "courseBaseKey": "RAB",
+        "courseKey": "RAB31",
+        "courseNumber": "31",
+        "courseType": "VS"
+    },
+    {
+        "after": "31",
+        "courseBaseKey": "RAB",
+        "courseKey": "RAB32",
+        "courseNumber": "32",
+        "courseType": "VS"
+    },
+    {
+        "after": "32",
+        "courseBaseKey": "RAB",
+        "courseKey": "RAB33",
+        "courseNumber": "33",
+        "courseType": "VS"
+    },
+    {
+        "after": "33",
+        "courseBaseKey": "RAB",
+        "courseKey": "RAB34",
+        "courseNumber": "34",
+        "courseType": "VS"
+    },
+    {
+        "after": "34",
+        "courseBaseKey": "RAB",
+        "courseKey": "RAB35",
+        "courseNumber": "35",
+        "courseType": "VS"
+    },
+    {
+        "after": "35",
+        "courseBaseKey": "RAB",
+        "courseKey": "RAB36",
+        "courseNumber": "36",
+        "courseType": "VS"
+    },
+    {
+        "after": "36",
+        "courseBaseKey": "RAB",
+        "courseKey": "RAB37",
+        "courseNumber": "37",
+        "courseType": "VS"
+    },
+    {
+        "after": "37",
+        "courseBaseKey": "RAB",
+        "courseKey": "RAB38",
+        "courseNumber": "38",
+        "courseType": "VS"
+    },
+    {
+        "after": "38",
+        "courseBaseKey": "RAB",
+        "courseKey": "RAB39",
+        "courseNumber": "39",
+        "courseType": "K"
+    },
+    {
+        "after": "39",
+        "courseBaseKey": "RAB",
+        "courseKey": "RAB310",
+        "courseNumber": "310",
+        "courseType": "K"
+    },
+    {
+        "after": "38",
+        "courseBaseKey": "RAB",
+        "courseKey": "RAB309",
+        "courseNumber": "309",
+        "courseType": "K",
+        "comment": "Abikurssi, there are two courses with key RAB39, this is moved to RAB309"
+    },
+    {
+        "after": "309",
+        "courseBaseKey": "RAB",
+        "courseKey": "RAB310",
+        "courseNumber": "310",
+        "courseType": "VS",
+        "comment": "This course might not exist"
+    },
+    {
+        "after": "310",
+        "courseBaseKey": "RAB",
+        "courseKey": "RAB311",
+        "courseNumber": "311",
+        "courseType": "VS",
+        "comment": "This course might not exist"
+    },
+    {
+        "courseBaseKey": "RUA",
+        "courseKey": "RUA01",
+        "courseNumber": "01",
+        "courseType": "P"
+    },
+    {
+        "after": "01",
+        "courseBaseKey": "RUA",
+        "courseKey": "RUA02",
+        "courseNumber": "02",
+        "courseType": "P"
+    },
+    {
+        "after": "02",
+        "courseBaseKey": "RUA",
+        "courseKey": "RUA03",
+        "courseNumber": "03",
+        "courseType": "P"
+    },
+    {
+        "after": "03",
+        "courseBaseKey": "RUA",
+        "courseKey": "RUA04",
+        "courseNumber": "04",
+        "courseType": "P"
+    },
+    {
+        "after": "04",
+        "courseBaseKey": "RUA",
+        "courseKey": "RUA05",
+        "courseNumber": "05",
+        "courseType": "P"
+    },
+    {
+        "after": "05",
+        "courseBaseKey": "RUA",
+        "courseKey": "RUA06",
+        "courseNumber": "06",
+        "courseType": "P"
+    },
+    {
+        "after": "06",
+        "courseBaseKey": "RUA",
+        "courseKey": "RUA07",
+        "courseNumber": "07",
+        "courseType": "VS"
+    },
+    {
+        "after": "07",
+        "courseBaseKey": "RUA",
+        "courseKey": "RUA08",
+        "courseNumber": "08",
+        "courseType": "VS"
+    },
+    {
+        "after": "08",
+        "courseBaseKey": "RUA",
+        "courseKey": "RUA09",
+        "courseNumber": "09",
+        "courseType": "K"
+    },
+    {
+        "after": "09",
+        "courseBaseKey": "RUA",
+        "courseKey": "RUA10",
+        "courseNumber": "10",
+        "courseType": "K"
+    },
+    {
+        "courseBaseKey": "RUB",
+        "courseKey": "RUB11",
+        "courseNumber": "11",
+        "courseType": "P"
+    },
+    {
+        "after": "11",
+        "courseBaseKey": "RUB",
+        "courseKey": "RUB12",
+        "courseNumber": "12",
+        "courseType": "P"
+    },
+    {
+        "after": "12",
+        "courseBaseKey": "RUB",
+        "courseKey": "RUB13",
+        "courseNumber": "13",
+        "courseType": "P"
+    },
+    {
+        "after": "13",
+        "courseBaseKey": "RUB",
+        "courseKey": "RUB14",
+        "courseNumber": "14",
+        "courseType": "P"
+    },
+    {
+        "after": "14",
+        "courseBaseKey": "RUB",
+        "courseKey": "RUB15",
+        "courseNumber": "15",
+        "courseType": "P"
+    },
+    {
+        "after": "15",
+        "courseBaseKey": "RUB",
+        "courseKey": "RUB16",
+        "courseNumber": "16",
+        "courseType": "VS"
+    },
+    {
+        "after": "16",
+        "courseBaseKey": "RUB",
+        "courseKey": "RUB17",
+        "courseNumber": "17",
+        "courseType": "VS"
+    },
+    {
+        "after": "17",
+        "courseBaseKey": "RUB",
+        "courseKey": "RUB18",
+        "courseNumber": "18",
+        "courseType": "K"
+    },
+    {
+        "after": "18",
+        "courseBaseKey": "RUB",
+        "courseKey": "RUB19",
+        "courseNumber": "19",
+        "courseType": "K"
+    },
+    {
+        "after": "19",
+        "courseBaseKey": "RUB",
+        "courseKey": "RUB110",
+        "courseNumber": "110",
+        "courseType": "K"
+    },
+    {
+        "courseBaseKey": "RUBK",
+        "courseKey": "RUB31",
+        "courseNumber": "31",
+        "courseType": "VS"
+    },
+    {
+        "after": "31",
+        "courseBaseKey": "RUBK",
+        "courseKey": "RUB32",
+        "courseNumber": "32",
+        "courseType": "VS"
+    },
+    {
+        "after": "32",
+        "courseBaseKey": "RUBK",
+        "courseKey": "RUB33",
+        "courseNumber": "33",
+        "courseType": "VS"
+    },
+    {
+        "after": "33",
+        "courseBaseKey": "RUBK",
+        "courseKey": "RUB34",
+        "courseNumber": "34",
+        "courseType": "VS"
+    },
+    {
+        "after": "34",
+        "courseBaseKey": "RUBK",
+        "courseKey": "RUB35",
+        "courseNumber": "35",
+        "courseType": "VS"
+    },
+    {
+        "after": "35",
+        "courseBaseKey": "RUBK",
+        "courseKey": "RUB36",
+        "courseNumber": "36",
+        "courseType": "VS"
+    },
+    {
+        "after": "36",
+        "courseBaseKey": "RUBK",
+        "courseKey": "RUB37",
+        "courseNumber": "37",
+        "courseType": "VS"
+    },
+    {
+        "after": "37",
+        "courseBaseKey": "RUBK",
+        "courseKey": "RUB38",
+        "courseNumber": "38",
+        "courseType": "VS"
+    },
+    {
+        "courseBaseKey": "S",
+        "courseKey": "S201",
+        "courseNumber": "201",
+        "courseType": "P"
+    },
+    {
+        "after": "201",
+        "courseBaseKey": "S",
+        "courseKey": "S202",
+        "courseNumber": "202",
+        "courseType": "P"
+    },
+    {
+        "after": "202",
+        "courseBaseKey": "S",
+        "courseKey": "S203",
+        "courseNumber": "203",
+        "courseType": "P"
+    },
+    {
+        "after": "203",
+        "courseBaseKey": "S",
+        "courseKey": "S204",
+        "courseNumber": "204",
+        "courseType": "P"
+    },
+    {
+        "after": "204",
+        "courseBaseKey": "S",
+        "courseKey": "S205",
+        "courseNumber": "205",
+        "courseType": "P"
+    },
+    {
+        "after": "205",
+        "courseBaseKey": "S",
+        "courseKey": "S206",
+        "courseNumber": "206",
+        "courseType": "P"
+    },
+    {
+        "after": "206",
+        "courseBaseKey": "S",
+        "courseKey": "S207",
+        "courseNumber": "207",
+        "courseType": "VS"
+    },
+    {
+        "after": "207",
+        "courseBaseKey": "S",
+        "courseKey": "S208",
+        "courseNumber": "208",
+        "courseType": "VS"
+    },
+    {
+        "after": "208",
+        "courseBaseKey": "S",
+        "courseKey": "S209",
+        "courseNumber": "209",
+        "courseType": "VS"
+    },
+    {
+        "courseBaseKey": "S",
+        "courseKey": "S215",
+        "courseNumber": "215",
+        "courseType": "K",
+        "comment": "This course might not exist"
+    },
+    {
+        "after": "209",
+        "courseBaseKey": "S",
+        "courseKey": "S210",
+        "courseNumber": "210",
+        "courseType": "K"
+    },
+    {
+        "after": "210",
+        "courseBaseKey": "S",
+        "courseKey": "S211",
+        "courseNumber": "211",
+        "courseType": "K"
+    },
+    {
+        "after": "211",
+        "courseBaseKey": "S",
+        "courseKey": "S212",
+        "courseNumber": "212",
+        "courseType": "K"
+    },
+    {
+        "courseBaseKey": "SAA",
+        "courseKey": "SAA01",
+        "courseNumber": "01",
+        "courseType": "P"
+    },
+    {
+        "after": "01",
+        "courseBaseKey": "SAA",
+        "courseKey": "SAA02",
+        "courseNumber": "02",
+        "courseType": "P"
+    },
+    {
+        "after": "02",
+        "courseBaseKey": "SAA",
+        "courseKey": "SAA03",
+        "courseNumber": "03",
+        "courseType": "P"
+    },
+    {
+        "after": "03",
+        "courseBaseKey": "SAA",
+        "courseKey": "SAA04",
+        "courseNumber": "04",
+        "courseType": "P"
+    },
+    {
+        "after": "04",
+        "courseBaseKey": "SAA",
+        "courseKey": "SAA05",
+        "courseNumber": "05",
+        "courseType": "P"
+    },
+    {
+        "after": "05",
+        "courseBaseKey": "SAA",
+        "courseKey": "SAA06",
+        "courseNumber": "06",
+        "courseType": "P"
+    },
+    {
+        "after": "06",
+        "courseBaseKey": "SAA",
+        "courseKey": "SAA07",
+        "courseNumber": "07",
+        "courseType": "VS"
+    },
+    {
+        "after": "07",
+        "courseBaseKey": "SAA",
+        "courseKey": "SAA08",
+        "courseNumber": "08",
+        "courseType": "VS"
+    },
+    {
+        "courseBaseKey": "SAA",
+        "courseKey": "SAA10",
+        "courseNumber": "10",
+        "courseType": "K",
+        "comment": "This course might not exist"
+    },
+    {
+        "after": "08",
+        "courseBaseKey": "SAA",
+        "courseKey": "SAA211",
+        "courseNumber": "211",
+        "courseType": "K"
+    },
+    {
+        "courseBaseKey": "SAB",
+        "courseKey": "SAB21",
+        "courseNumber": "21",
+        "courseType": "VS"
+    },
+    {
+        "after": "21",
+        "courseBaseKey": "SAB",
+        "courseKey": "SAB22",
+        "courseNumber": "22",
+        "courseType": "VS"
+    },
+    {
+        "after": "22",
+        "courseBaseKey": "SAB",
+        "courseKey": "SAB23",
+        "courseNumber": "23",
+        "courseType": "VS"
+    },
+    {
+        "after": "23",
+        "courseBaseKey": "SAB",
+        "courseKey": "SAB24",
+        "courseNumber": "24",
+        "courseType": "VS"
+    },
+    {
+        "after": "24",
+        "courseBaseKey": "SAB",
+        "courseKey": "SAB25",
+        "courseNumber": "25",
+        "courseType": "VS"
+    },
+    {
+        "after": "25",
+        "courseBaseKey": "SAB",
+        "courseKey": "SAB26",
+        "courseNumber": "26",
+        "courseType": "VS"
+    },
+    {
+        "after": "26",
+        "courseBaseKey": "SAB",
+        "courseKey": "SAB27",
+        "courseNumber": "27",
+        "courseType": "VS"
+    },
+    {
+        "after": "27",
+        "courseBaseKey": "SAB",
+        "courseKey": "SAB28",
+        "courseNumber": "28",
+        "courseType": "VS"
+    },
+    {
+        "courseBaseKey": "SAB",
+        "courseKey": "SAB211",
+        "courseNumber": "211",
+        "courseType": "K"
+    },
+    {
+        "after": "211",
+        "courseBaseKey": "SAB",
+        "courseKey": "SAB212",
+        "courseNumber": "212",
+        "courseType": "K"
+    },
+    {
+        "courseBaseKey": "SAB",
+        "courseKey": "SAB31",
+        "courseNumber": "31",
+        "courseType": "VS"
+    },
+    {
+        "after": "31",
+        "courseBaseKey": "SAB",
+        "courseKey": "SAB32",
+        "courseNumber": "32",
+        "courseType": "VS"
+    },
+    {
+        "after": "32",
+        "courseBaseKey": "SAB",
+        "courseKey": "SAB33",
+        "courseNumber": "33",
+        "courseType": "VS"
+    },
+    {
+        "after": "33",
+        "courseBaseKey": "SAB",
+        "courseKey": "SAB34",
+        "courseNumber": "34",
+        "courseType": "VS"
+    },
+    {
+        "after": "34",
+        "courseBaseKey": "SAB",
+        "courseKey": "SAB35",
+        "courseNumber": "35",
+        "courseType": "VS"
+    },
+    {
+        "after": "35",
+        "courseBaseKey": "SAB",
+        "courseKey": "SAB36",
+        "courseNumber": "36",
+        "courseType": "VS"
+    },
+    {
+        "after": "36",
+        "courseBaseKey": "SAB",
+        "courseKey": "SAB37",
+        "courseNumber": "37",
+        "courseType": "VS"
+    },
+    {
+        "after": "37",
+        "courseBaseKey": "SAB",
+        "courseKey": "SAB38",
+        "courseNumber": "38",
+        "courseType": "VS"
+    },
+    {
+        "after": "38",
+        "courseBaseKey": "SAB",
+        "courseKey": "SAB39",
+        "courseNumber": "39",
+        "courseType": "K"
+    },
+    {
+        "after": "39",
+        "courseBaseKey": "SAB",
+        "courseKey": "SAB310",
+        "courseNumber": "310",
+        "courseType": "K"
+    },
+    {
+        "after": "310",
+        "courseBaseKey": "SAB",
+        "courseKey": "SAB311",
+        "courseNumber": "311",
+        "courseType": "K"
+    },
+    {
+        "courseBaseKey": "TA",
+        "courseKey": "TA01",
+        "courseNumber": "01",
+        "courseType": "VS"
+    },
+    {
+        "courseBaseKey": "TA",
+        "courseKey": "TA02",
+        "courseNumber": "02",
+        "courseType": "VS"
+    },
+    {
+        "courseBaseKey": "TA",
+        "courseKey": "TA03",
+        "courseNumber": "03",
+        "courseType": "VS"
+    },
+    {
+        "courseBaseKey": "TE",
+        "courseKey": "TE01",
+        "courseNumber": "01",
+        "courseType": "P"
+    },
+    {
+        "after": "01",
+        "courseBaseKey": "TE",
+        "courseKey": "TE02",
+        "courseNumber": "02",
+        "courseType": "VS"
+    },
+    {
+        "after": "02",
+        "courseBaseKey": "TE",
+        "courseKey": "TE03",
+        "courseNumber": "03",
+        "courseType": "VS"
+    },
+    {
+        "after": "03",
+        "courseBaseKey": "TE",
+        "courseKey": "TE04",
+        "courseNumber": "04",
+        "courseType": "K"
+    },
+    {
+        "courseBaseKey": "TEA",
+        "courseKey": "TEA01",
+        "courseNumber": "01",
+        "courseType": "K"
+    },
+    {
+        "courseBaseKey": "TEA",
+        "courseKey": "TEA02",
+        "courseNumber": "02",
+        "courseType": "K"
+    },
+    {
+        "courseBaseKey": "TEA",
+        "courseKey": "TEA03",
+        "courseNumber": "03",
+        "courseType": "K"
+    },
+    {
+        "courseBaseKey": "TEA",
+        "courseKey": "TEA04",
+        "courseNumber": "04",
+        "courseType": "K"
+    },
+    {
+        "after": "04",
+        "courseBaseKey": "TEA",
+        "courseKey": "TEA05",
+        "courseNumber": "05",
+        "courseType": "K"
+    },
+    {
+        "after": "05",
+        "courseBaseKey": "TEA",
+        "courseKey": "TEA06",
+        "courseNumber": "06",
+        "courseType": "K"
+    },
+    {
+        "courseBaseKey": "TEA",
+        "courseKey": "TEA07",
+        "courseNumber": "07",
+        "courseType": "K"
+    },
+    {
+        "courseBaseKey": "TEA",
+        "courseKey": "TEA08",
+        "courseNumber": "08",
+        "courseType": "K"
+    },
+    {
+        "courseBaseKey": "TEA",
+        "courseKey": "TEA09",
+        "courseNumber": "09",
+        "courseType": "K"
+    },
+    {
+        "courseBaseKey": "TEA",
+        "courseKey": "TEA10",
+        "courseNumber": "10",
+        "courseType": "K"
+    },
+    {
+        "after": "10",
+        "courseBaseKey": "TEA",
+        "courseKey": "TEA11",
+        "courseNumber": "11",
+        "courseType": "K"
+    },
+    {
+        "courseBaseKey": "TEA",
+        "courseKey": "TEA12",
+        "courseNumber": "12",
+        "courseType": "K"
+    },
+    {
+        "courseBaseKey": "TEA",
+        "courseKey": "TEA13",
+        "courseNumber": "13",
+        "courseType": "K"
+    },
+    {
+        "courseBaseKey": "TEA",
+        "courseKey": "TEA14",
+        "courseNumber": "14",
+        "courseType": "P"
+    },
+    {
+        "courseBaseKey": "TEC",
+        "courseKey": "TEC01",
+        "courseNumber": "01",
+        "courseType": "K"
+    },
+    {
+        "courseBaseKey": "TEC",
+        "courseKey": "TEC02",
+        "courseNumber": "02",
+        "courseType": "K"
+    },
+    {
+        "courseBaseKey": "TEC",
+        "courseKey": "TEC03",
+        "courseNumber": "03",
+        "courseType": "K"
+    },
+    {
+        "courseBaseKey": "TEC",
+        "courseKey": "TEC04",
+        "courseNumber": "04",
+        "courseType": "K"
+    },
+    {
+        "courseBaseKey": "TEC",
+        "courseKey": "TEC05",
+        "courseNumber": "05",
+        "courseType": "K"
+    },
+    {
+        "courseBaseKey": "TEC",
+        "courseKey": "TEC07",
+        "courseNumber": "07",
+        "courseType": "K"
+    },
+    {
+        "courseBaseKey": "TEC",
+        "courseKey": "TEC09",
+        "courseNumber": "09",
+        "courseType": "K"
+    },
+    {
+        "courseBaseKey": "TEC",
+        "courseKey": "TEC10",
+        "courseNumber": "10",
+        "courseType": "K"
+    },
+    {
+        "courseBaseKey": "TI",
+        "courseKey": "TI01",
+        "courseNumber": "01",
+        "courseType": "K"
+    },
+    {
+        "courseBaseKey": "TN",
+        "courseKey": "TN01",
+        "courseNumber": "01",
+        "courseType": "P"
+    },
+    {
+        "courseBaseKey": "TN",
+        "courseKey": "TN02",
+        "courseNumber": "02",
+        "courseType": "P"
+    },
+    {
+        "courseBaseKey": "TO",
+        "courseKey": "TO01",
+        "courseNumber": "01",
+        "courseType": "VS"
+    },
+    {
+        "courseBaseKey": "TO",
+        "courseKey": "TO02",
+        "courseNumber": "02",
+        "courseType": "VS"
+    },
+    {
+        "courseBaseKey": "TO",
+        "courseKey": "TO03",
+        "courseNumber": "03",
+        "courseType": "VS"
+    },
+    {
+        "courseBaseKey": "TT",
+        "courseKey": "TT01",
+        "courseNumber": "01",
+        "courseType": "K"
+    },
+    {
+        "courseBaseKey": "UE",
+        "courseKey": "UE01",
+        "courseNumber": "01",
+        "courseType": "P"
+    },
+    {
+        "after": "01",
+        "courseBaseKey": "UE",
+        "courseKey": "UE02",
+        "courseNumber": "02",
+        "courseType": "P"
+    },
+    {
+        "after": "01",
+        "courseBaseKey": "UE",
+        "courseKey": "UE03",
+        "courseNumber": "03",
+        "courseType": "VS"
+    },
+    {
+        "after": "01",
+        "courseBaseKey": "UE",
+        "courseKey": "UE04",
+        "courseNumber": "04",
+        "courseType": "VS"
+    },
+    {
+        "after": "01",
+        "courseBaseKey": "UE",
+        "courseKey": "UE05",
+        "courseNumber": "05",
+        "courseType": "VS"
+    },
+    {
+        "after": "01",
+        "courseBaseKey": "UE",
+        "courseKey": "UE06",
+        "courseNumber": "06",
+        "courseType": "VS"
+    },
+    {
+        "after": "01",
+        "courseBaseKey": "UE",
+        "courseKey": "UE07",
+        "courseNumber": "07",
+        "courseType": "K"
+    },
+    {
+        "courseBaseKey": "UI",
+        "courseKey": "UI01",
+        "courseNumber": "01",
+        "courseType": "P"
+    },
+    {
+        "after": "01",
+        "courseBaseKey": "UI",
+        "courseKey": "UI02",
+        "courseNumber": "02",
+        "courseType": "P"
+    },
+    {
+        "after": "02",
+        "courseBaseKey": "UI",
+        "courseKey": "UI03",
+        "courseNumber": "03",
+        "courseType": "VS"
+    },
+    {
+        "after": "03",
+        "courseBaseKey": "UI",
+        "courseKey": "UI04",
+        "courseNumber": "04",
+        "courseType": "VS"
+    },
+    {
+        "after": "04",
+        "courseBaseKey": "UI",
+        "courseKey": "UI05",
+        "courseNumber": "05",
+        "courseType": "VS"
+    },
+    {
+        "after": "05",
+        "courseBaseKey": "UI",
+        "courseKey": "UI06",
+        "courseNumber": "06",
+        "courseType": "VS"
+    },
+    {
+        "courseBaseKey": "UJ",
+        "courseKey": "UJ01",
+        "courseNumber": "01",
+        "courseType": "P"
+    },
+    {
+        "after": "01",
+        "courseBaseKey": "UJ",
+        "courseKey": "UJ02",
+        "courseNumber": "02",
+        "courseType": "P"
+    },
+    {
+        "after": "02",
+        "courseBaseKey": "UJ",
+        "courseKey": "UJ03",
+        "courseNumber": "03",
+        "courseType": "VS"
+    },
+    {
+        "after": "03",
+        "courseBaseKey": "UJ",
+        "courseKey": "UJ04",
+        "courseNumber": "04",
+        "courseType": "VS"
+    },
+    {
+        "after": "04",
+        "courseBaseKey": "UJ",
+        "courseKey": "UJ05",
+        "courseNumber": "05",
+        "courseType": "VS"
+    },
+    {
+        "after": "05",
+        "courseBaseKey": "UJ",
+        "courseKey": "UJ06",
+        "courseNumber": "06",
+        "courseType": "VS"
+    },
+    {
+        "courseBaseKey": "UK",
+        "courseKey": "UK01",
+        "courseNumber": "01",
+        "courseType": "P"
+    },
+    {
+        "after": "01",
+        "courseBaseKey": "UK",
+        "courseKey": "UK02",
+        "courseNumber": "02",
+        "courseType": "P"
+    },
+    {
+        "after": "02",
+        "courseBaseKey": "UK",
+        "courseKey": "UK03",
+        "courseNumber": "03",
+        "courseType": "VS"
+    },
+    {
+        "after": "03",
+        "courseBaseKey": "UK",
+        "courseKey": "UK04",
+        "courseNumber": "04",
+        "courseType": "VS"
+    },
+    {
+        "after": "04",
+        "courseBaseKey": "UK",
+        "courseKey": "UK05",
+        "courseNumber": "05",
+        "courseType": "VS"
+    },
+    {
+        "after": "05",
+        "courseBaseKey": "UK",
+        "courseKey": "UK06",
+        "courseNumber": "06",
+        "courseType": "VS"
+    },
+    {
+        "courseBaseKey": "UO",
+        "courseKey": "UO01",
+        "courseNumber": "01",
+        "courseType": "P"
+    },
+    {
+        "after": "01",
+        "courseBaseKey": "UO",
+        "courseKey": "UO02",
+        "courseNumber": "02",
+        "courseType": "P"
+    },
+    {
+        "after": "02",
+        "courseBaseKey": "UO",
+        "courseKey": "UO03",
+        "courseNumber": "03",
+        "courseType": "VS"
+    },
+    {
+        "after": "03",
+        "courseBaseKey": "UO",
+        "courseKey": "UO04",
+        "courseNumber": "04",
+        "courseType": "VS"
+    },
+    {
+        "after": "04",
+        "courseBaseKey": "UO",
+        "courseKey": "UO05",
+        "courseNumber": "05",
+        "courseType": "VS"
+    },
+    {
+        "after": "05",
+        "courseBaseKey": "UO",
+        "courseKey": "UO06",
+        "courseNumber": "06",
+        "courseType": "VS"
+    },
+    {
+        "courseBaseKey": "UR",
+        "courseKey": "UR01",
+        "courseNumber": "01",
+        "courseType": "K"
+    },
+    {
+        "courseBaseKey": "UR",
+        "courseKey": "UR02",
+        "courseNumber": "02",
+        "courseType": "K"
+    },
+    {
+        "courseBaseKey": "UR",
+        "courseKey": "UR03",
+        "courseNumber": "03",
+        "courseType": "K"
+    },
+    {
+        "courseBaseKey": "UR",
+        "courseKey": "UR04",
+        "courseNumber": "04",
+        "courseType": "K"
+    },
+    {
+        "courseBaseKey": "UR",
+        "courseKey": "UR05",
+        "courseNumber": "05",
+        "courseType": "K"
+    },
+    {
+        "courseBaseKey": "UX",
+        "courseKey": "UX01",
+        "courseNumber": "01",
+        "courseType": "P"
+    },
+    {
+        "after": "01",
+        "courseBaseKey": "UX",
+        "courseKey": "UX02",
+        "courseNumber": "02",
+        "courseType": "P"
+    },
+    {
+        "after": "02",
+        "courseBaseKey": "UX",
+        "courseKey": "UX03",
+        "courseNumber": "03",
+        "courseType": "VS"
+    },
+    {
+        "after": "03",
+        "courseBaseKey": "UX",
+        "courseKey": "UX04",
+        "courseNumber": "04",
+        "courseType": "VS"
+    },
+    {
+        "after": "04",
+        "courseBaseKey": "UX",
+        "courseKey": "UX05",
+        "courseNumber": "05",
+        "courseType": "VS"
+    },
+    {
+        "after": "05",
+        "courseBaseKey": "UX",
+        "courseKey": "UX06",
+        "courseNumber": "06",
+        "courseType": "VS"
+    },
+    {
+        "courseBaseKey": "VEA",
+        "courseKey": "VEA01",
+        "courseNumber": "01",
+        "courseType": "P"
+    },
+    {
+        "after": "01",
+        "courseBaseKey": "VEA",
+        "courseKey": "VEA02",
+        "courseNumber": "02",
+        "courseType": "P"
+    },
+    {
+        "after": "02",
+        "courseBaseKey": "VEA",
+        "courseKey": "VEA03",
+        "courseNumber": "03",
+        "courseType": "P"
+    },
+    {
+        "after": "03",
+        "courseBaseKey": "VEA",
+        "courseKey": "VEA04",
+        "courseNumber": "04",
+        "courseType": "P"
+    },
+    {
+        "after": "04",
+        "courseBaseKey": "VEA",
+        "courseKey": "VEA05",
+        "courseNumber": "05",
+        "courseType": "P"
+    },
+    {
+        "after": "05",
+        "courseBaseKey": "VEA",
+        "courseKey": "VEA06",
+        "courseNumber": "06",
+        "courseType": "P"
+    },
+    {
+        "after": "06",
+        "courseBaseKey": "VEA",
+        "courseKey": "VEA07",
+        "courseNumber": "07",
+        "courseType": "VS"
+    },
+    {
+        "after": "07",
+        "courseBaseKey": "VEA",
+        "courseKey": "VEA08",
+        "courseNumber": "08",
+        "courseType": "VS"
+    },
+    {
+        "courseBaseKey": "VEB",
+        "courseKey": "VEB21",
+        "courseNumber": "21",
+        "courseType": "VS"
+    },
+    {
+        "after": "21",
+        "courseBaseKey": "VEB",
+        "courseKey": "VEB22",
+        "courseNumber": "22",
+        "courseType": "VS"
+    },
+    {
+        "after": "22",
+        "courseBaseKey": "VEB",
+        "courseKey": "VEB23",
+        "courseNumber": "23",
+        "courseType": "VS"
+    },
+    {
+        "after": "23",
+        "courseBaseKey": "VEB",
+        "courseKey": "VEB24",
+        "courseNumber": "24",
+        "courseType": "VS"
+    },
+    {
+        "after": "24",
+        "courseBaseKey": "VEB",
+        "courseKey": "VEB25",
+        "courseNumber": "25",
+        "courseType": "VS"
+    },
+    {
+        "after": "25",
+        "courseBaseKey": "VEB",
+        "courseKey": "VEB26",
+        "courseNumber": "26",
+        "courseType": "VS"
+    },
+    {
+        "after": "26",
+        "courseBaseKey": "VEB",
+        "courseKey": "VEB27",
+        "courseNumber": "27",
+        "courseType": "VS"
+    },
+    {
+        "after": "27",
+        "courseBaseKey": "VEB",
+        "courseKey": "VEB28",
+        "courseNumber": "28",
+        "courseType": "VS"
+    },
+    {
+        "courseBaseKey": "VEB",
+        "courseKey": "VEB31",
+        "courseNumber": "31",
+        "courseType": "VS"
+    },
+    {
+        "after": "31",
+        "courseBaseKey": "VEB",
+        "courseKey": "VEB32",
+        "courseNumber": "32",
+        "courseType": "VS"
+    },
+    {
+        "after": "32",
+        "courseBaseKey": "VEB",
+        "courseKey": "VEB33",
+        "courseNumber": "33",
+        "courseType": "VS"
+    },
+    {
+        "after": "33",
+        "courseBaseKey": "VEB",
+        "courseKey": "VEB34",
+        "courseNumber": "34",
+        "courseType": "VS"
+    },
+    {
+        "after": "34",
+        "courseBaseKey": "VEB",
+        "courseKey": "VEB35",
+        "courseNumber": "35",
+        "courseType": "VS"
+    },
+    {
+        "after": "35",
+        "courseBaseKey": "VEB",
+        "courseKey": "VEB36",
+        "courseNumber": "36",
+        "courseType": "VS"
+    },
+    {
+        "after": "36",
+        "courseBaseKey": "VEB",
+        "courseKey": "VEB37",
+        "courseNumber": "37",
+        "courseType": "VS"
+    },
+    {
+        "after": "37",
+        "courseBaseKey": "VEB",
+        "courseKey": "VEB38",
+        "courseNumber": "38",
+        "courseType": "VS"
+    },
+    {
+        "courseBaseKey": "YH",
+        "courseKey": "YH01",
+        "courseNumber": "01",
+        "courseType": "P"
+    },
+    {
+        "after": "01",
+        "courseBaseKey": "YH",
+        "courseKey": "YH02",
+        "courseNumber": "02",
+        "courseType": "P"
+    },
+    {
+        "after": "02",
+        "courseBaseKey": "YH",
+        "courseKey": "YH03",
+        "courseNumber": "03",
+        "courseType": "P"
+    },
+    {
+        "after": "01",
+        "courseBaseKey": "YH",
+        "courseKey": "YH04",
+        "courseNumber": "04",
+        "courseType": "VS"
+    },
+    {
+        "after": "01",
+        "courseBaseKey": "YH",
+        "courseKey": "YH05",
+        "courseNumber": "05",
+        "courseType": "K"
+    },
+    {
+        "after": "01",
+        "courseBaseKey": "YH",
+        "courseKey": "YH06",
+        "courseNumber": "06",
+        "courseType": "K"
+    },
+    {
+        "after": "01",
+        "courseBaseKey": "YH",
+        "courseKey": "YH07",
+        "courseNumber": "07",
+        "courseType": "K"
+    },
+    {
+        "after": "01",
+        "courseBaseKey": "YH",
+        "courseKey": "YH08",
+        "courseNumber": "08",
+        "courseType": "K"
+    },
+    {
+        "after": "01",
+        "courseBaseKey": "YH",
+        "courseKey": "YH09",
+        "courseNumber": "09",
+        "courseType": "K"
+    },
+    {
+        "after": "01",
+        "courseBaseKey": "YH",
+        "courseKey": "YH10",
+        "courseNumber": "10",
+        "courseType": "K"
+    },
+    {
+        "after": "01",
+        "courseBaseKey": "YH",
+        "courseKey": "YH11",
+        "courseNumber": "11",
+        "courseType": "K"
+    },
+    {
+        "after": "01",
+        "courseBaseKey": "YH",
+        "courseKey": "YH12",
+        "courseNumber": "12",
+        "courseType": "K"
+    },
+    {
+        "after": "01",
+        "courseBaseKey": "YH",
+        "courseKey": "YH13",
+        "courseNumber": "13",
+        "courseType": "K"
+    },
+    {
+        "after": "01",
+        "courseBaseKey": "YH",
+        "courseKey": "YH14",
+        "courseNumber": "14",
+        "courseType": "K"
+    },
+    {
+        "after": "01",
+        "courseBaseKey": "YH",
+        "courseKey": "YH15",
+        "courseNumber": "15",
+        "courseType": "K"
+    },
+    {
+        "after": "01",
+        "courseBaseKey": "YH",
+        "courseKey": "YH015",
+        "courseNumber": "015",
+        "courseType": "K"
+    },
+    {
+        "courseBaseKey": "ÄI",
+        "courseKey": "ÄI01",
+        "courseNumber": "01",
+        "courseType": "P"
+    },
+    {
+        "after": "01",
+        "courseBaseKey": "ÄI",
+        "courseKey": "ÄI02",
+        "courseNumber": "02",
+        "courseType": "P"
+    },
+    {
+        "after": "02",
+        "courseBaseKey": "ÄI",
+        "courseKey": "ÄI03",
+        "courseNumber": "03",
+        "courseType": "P"
+    },
+    {
+        "after": "03",
+        "courseBaseKey": "ÄI",
+        "courseKey": "ÄI04",
+        "courseNumber": "04",
+        "courseType": "P"
+    },
+    {
+        "after": "04",
+        "courseBaseKey": "ÄI",
+        "courseKey": "ÄI05",
+        "courseNumber": "05",
+        "courseType": "P"
+    },
+    {
+        "after": "05",
+        "courseBaseKey": "ÄI",
+        "courseKey": "ÄI06",
+        "courseNumber": "06",
+        "courseType": "P"
+    },
+    {
+        "courseBaseKey": "ÄI",
+        "courseKey": "ÄI07",
+        "courseNumber": "07",
+        "courseType": "VS"
+    },
+    {
+        "after": "06",
+        "courseBaseKey": "ÄI",
+        "courseKey": "ÄI08",
+        "courseNumber": "08",
+        "courseType": "VS"
+    },
+    {
+        "after": "08",
+        "courseBaseKey": "ÄI",
+        "courseKey": "ÄI09",
+        "courseNumber": "09",
+        "courseType": "VS"
+    },
+    {
+        "courseBaseKey": "ÄI",
+        "courseKey": "ÄI10",
+        "courseNumber": "10",
+        "courseType": "K"
+    },
+    {
+        "courseBaseKey": "ÄI",
+        "courseKey": "ÄI11",
+        "courseNumber": "11",
+        "courseType": "K"
+    },
+    {
+        "courseBaseKey": "ÄI",
+        "courseKey": "ÄI12",
+        "courseNumber": "12",
+        "courseType": "K"
+    },
+    {
+        "courseBaseKey": "ÄI",
+        "courseKey": "ÄI13",
+        "courseNumber": "13",
+        "courseType": "K"
+    },
+    {
+        "courseBaseKey": "ÄI",
+        "courseKey": "ÄI14",
+        "courseNumber": "14",
+        "courseType": "K"
+    },
+    {
+        "courseBaseKey": "ÄI",
+        "courseKey": "ÄI15",
+        "courseNumber": "15",
+        "courseType": "K"
+    }
+]

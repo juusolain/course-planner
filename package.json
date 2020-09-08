@@ -17,13 +17,17 @@
     "core-js": "^3.6.5",
     "eslint-plugin-standard": "^4.0.1",
     "jspdf": "^2.1.0",
+    "pouchdb-adapter-indexeddb": "^7.2.2",
+    "rxdb": "^9.6.0",
+    "rxjs": "^6.6.3",
     "standard": "^14.3.4",
     "vue": "^2.6.12",
     "vue-async-computed": "^3.9.0",
     "vue-gapi": "^0.3.1",
     "vue-google-login": "^2.0.5",
     "vue-nprogress": "^0.1.5",
-    "vue-router": "^3.2.0"
+    "vue-router": "^3.2.0",
+    "vue-rx": "^6.2.0"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "~4.5.4",

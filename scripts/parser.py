@@ -12,7 +12,7 @@ soup = BeautifulSoup(data)
 root = soup.find('div', attrs={'id': 'main-tray-parent'})
 trayDivs = soup.find_all('div', attrs={'class': 'tray-container'})
 
-result = {}
+result = []
 
 for ti, div in enumerate(trayDivs):
     tray = div.find('ul')
@@ -20,12 +20,10 @@ for ti, div in enumerate(trayDivs):
     header = div.find('h2')
     headerText = header.contents[1]
     trayName = re.search('[0-9](?=\.jakso)', headerText)[0]
-    trayResult = {}
     for i, bar in enumerate(bars):
         title = bar.find('span')
         groups = bar.find_all('a')
         barNumber = i+1
-        trayResult[barNumber] = []
         for group in groups:
             key = group.string
             courseKey = key.split('.', 1)[0]
@@ -46,8 +44,7 @@ for ti, div in enumerate(trayDivs):
                 'bar': str(barNumber),
                 'tray': trayName
             }
-            trayResult[barNumber].append(groupObject)
-    result[trayName] = trayResult
+            result.append(groupObject)
 
 out = json.dumps(result, sort_keys=True, indent=4, ensure_ascii=False)
 

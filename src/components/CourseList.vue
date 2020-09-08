@@ -32,13 +32,15 @@ export default {
   },
   computed: {
     visibileCourses () {
-      const returnObj = {}
-      for (const courseBaseKey in this.courses) {
-        if (!this.hiddenCourseBaseKeys.includes(courseBaseKey)) {
-          returnObj[courseBaseKey] = this.courses[courseBaseKey]
-        }
-      }
-      return returnObj
+      const res = {}
+      const query = CourseManager.courses.find()
+      query.$.subscribe(results => {
+        results.forEach(course => {
+          res[course.courseBaseKey] = res[course.courseBaseKey] || []
+          res[course.courseBaseKey].push(course)
+        })
+      })
+      return res
     }
   },
   methods: {
