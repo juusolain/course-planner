@@ -3,7 +3,7 @@ import GoogleApi from './googleapi'
 class SyncManager {
   constructor () {
     console.log('Start syncmanager')
-    this.syncing = Boolean(window.localStorage.getItem('syncEnabled')) || false
+    this.syncing = JSON.parse(window.localStorage.getItem('syncEnabled')) || false
   }
 
   async enableSync () {
@@ -14,12 +14,12 @@ class SyncManager {
       this.syncing = false
       throw new Error('Not authorized to enable sync')
     }
-    window.localStorage.setItem('syncEnabled', this.syncing)
+    window.localStorage.setItem('syncEnabled', JSON.stringify(this.syncing))
   }
 
   disableSync () {
     this.syncing = false
-    window.localStorage.setItem('syncEnabled', this.syncing)
+    window.localStorage.setItem('syncEnabled', JSON.stringify(this.syncing))
   }
 
   async syncSelections (localData, localTimestamp) {
