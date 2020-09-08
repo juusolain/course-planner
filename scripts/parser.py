@@ -38,7 +38,7 @@ for ti, div in enumerate(trayDivs):
             groupObject = {
                 'groupKey': key,
                 'courseKey': courseKey,
-                'courseNumber': courseNumber,
+                'courseNumber': str(courseNumber),
                 'courseBaseKey': courseBaseKey,
                 'teacher': teacher,
                 'bar': str(barNumber),

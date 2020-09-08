@@ -1,6 +1,6 @@
 import courseJSON from '../assets/courses.json'
 import courseTrayJSON from '../assets/coursetray.json'
-import { createRxDatabase, addRxPlugin } from 'rxdb'
+import { createRxDatabase, addRxPlugin, removeRxDatabase } from 'rxdb'
 
 import { groupSchema, courseSchema } from './schemas'
 import Vue from 'vue'
@@ -41,11 +41,18 @@ class Courses {
     // this.loadTrays()
   }
 
+  resetDB = async () => {
+    await this.db.destroy()
+    await removeRxDatabase('courseplannerdb', 'indexeddb')
+    await this.loadDatabase()
+  }
+
   loadDatabase = async () => {
     this.db = await createRxDatabase({
       name: 'courseplannerdb',
       adapter: 'indexeddb'
     })
+    console.log(courseSchema, groupSchema)
     this.courses = await this.db.collection({
       name: 'courses',
       schema: courseSchema
@@ -60,12 +67,13 @@ class Courses {
 
   doCourseUpdate = async () => {
     this.allCourses.forEach(async course => {
-      console.log(course)
       const doc = await this.courses.findOne().where('courseKey').eq(course.courseKey).exec()
+      console.log(doc)
       if (doc === null) {
-        this.courses.insert(course)
+        await this.courses.insert(course)
       } else {
-        this.courses.upsert({ wanted: doc.wanted, ...course })
+        const newDoc = { wanted: doc.wanted, ...course }
+        await this.courses.atomicUpsert(newDoc)
       }
     })
   }
@@ -74,9 +82,9 @@ class Courses {
     this.originalTrays.forEach(async group => {
       const doc = await this.groups.findOne().where('groupKey').eq(group.groupKey).exec()
       if (doc === null) {
-        this.courses.insert(group)
+        this.groups.insert(group)
       } else {
-        this.courses.upsert({ selected: doc.selected, ...group })
+        this.groups.upsert({ selected: doc.selected, ...group })
       }
     })
   }

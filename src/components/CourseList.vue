@@ -35,6 +35,7 @@ export default {
       const res = {}
       const query = CourseManager.courses.find()
       query.$.subscribe(results => {
+        console.log(results)
         results.forEach(course => {
           res[course.courseBaseKey] = res[course.courseBaseKey] || []
           res[course.courseBaseKey].push(course)
