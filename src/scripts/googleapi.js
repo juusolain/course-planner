@@ -1,6 +1,8 @@
 import axios from 'axios'
 import SyncManager from './sync'
 
+console.log(process.env)
+
 const googleConfig = {
   auth: {
     client_id: process.env.VUE_APP_GOOGLE_CLIENT_ID,

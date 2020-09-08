@@ -27,7 +27,6 @@ class Exporter {
           var text = ''
           if (group !== null) text = group.groupKey
           doc.text(text, x, y)
-          console.log(group)
         }
         x += xDiff
       }
