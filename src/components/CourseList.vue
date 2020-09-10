@@ -32,14 +32,14 @@ export default {
   },
   computed: {
     visibileCourses () {
-      const res = {}
+      var res
       const query = CourseManager.courses.find()
       query.$.subscribe(results => {
-        console.log(results)
-        results.forEach(course => {
+        res = results
+        /* results.forEach(course => {
           res[course.courseBaseKey] = res[course.courseBaseKey] || []
           res[course.courseBaseKey].push(course)
-        })
+        }) */
       })
       return res
     }
