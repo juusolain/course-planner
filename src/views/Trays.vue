@@ -1,18 +1,18 @@
 <template>
   <section class="section trays container">
     <div v-for="(tray, trayNum) in trays" class="container box notification" :key="trayNum">
-        <CourseBar v-for="(groups, barNum) in tray" :activeYear="activeYear" :key="barNum" :name="barNum" :groups='groups'/>
+        <GroupBar v-for="(groups, barNum) in tray" :activeYear="activeYear" :key="barNum" :name="barNum" :groups='groups'/>
     </div>
   </section>
 </template>
 
 <script>
-import CourseBar from '@/components/Tray/CourseBar.vue'
+import GroupBar from '@/components/Tray/GroupBar.vue'
 import CourseManager from '@/scripts/courses.js'
 
 export default {
   components: {
-    CourseBar
+    GroupBar
   },
   data () {
     return {

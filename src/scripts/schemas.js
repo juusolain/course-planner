@@ -32,41 +32,48 @@ const groupSchema = {
     }
   },
   required: ['courseKey', 'courseBaseKey', 'groupKey', 'courseNumber', 'bar', 'tray'],
-  indexes: ['groupKey']
+  indexes: ['groupKey', 'bar', 'tray', 'courseKey']
 }
 
-const courseSchema = {
+const subjectSchema = {
   version: 0,
   keyCompression: true,
-  title: 'Group schema',
+  title: 'Subject schema',
   type: 'object',
   properties: {
-    after: {
+    subjectKey: { // subject key like MAA for math
       type: 'string'
     },
-    courseKey: {
-      type: 'string',
-      primary: true
-    },
-    courseBaseKey: {
-      type: 'string'
-    },
-    courseNumber: {
-      type: 'string'
-    },
-    courseType: {
-      type: 'string'
-    },
-    wanted: {
-      type: 'boolean',
-      default: false
-    },
-    comment: {
-      type: 'string'
+    courses: { // array of courses of this subject
+      type: 'array',
+      items: {
+        type: 'object',
+        properties: {
+          after: {
+            type: 'string'
+          },
+          courseKey: {
+            type: 'string',
+            primary: true
+          },
+          courseNumber: {
+            type: 'string'
+          },
+          courseType: {
+            type: 'string'
+          },
+          selectionYear: {
+            type: 'integer'
+          },
+          comment: {
+            type: 'string'
+          }
+        }
+      }
     }
   },
-  required: ['courseKey', 'courseBaseKey', 'courseNumber', 'courseType'],
-  indexes: ['courseKey']
+  required: ['subjectKey'],
+  indexes: ['courses.[].courseKey', 'subjectKey']
 }
 
-export { groupSchema, courseSchema }
+export { groupSchema, subjectSchema }

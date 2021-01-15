@@ -7,7 +7,7 @@ import Vue from 'vue'
 
 import SyncManager from './sync.js'
 
-addRxPlugin(require('pouchdb-adapter-indexeddb'))
+import databasePromise from './database.js'
 
 class Courses {
   constructor () {
@@ -36,55 +36,46 @@ class Courses {
     if (SyncManager.syncing) {
       // this.syncAll()
     }
-    this.db = null
-    this.loadDatabase()
     // this.loadTrays()
+    // this.doCourseUpdate()
+    // this.doGroupUpdate()
   }
 
   resetDB = async () => {
-    await this.db.destroy()
-    await removeRxDatabase('courseplannerdb', 'indexeddb')
-    await this.loadDatabase()
-  }
-
-  loadDatabase = async () => {
-    this.db = await createRxDatabase({
-      name: 'courseplannerdb',
-      adapter: 'indexeddb'
-    })
-    console.log(courseSchema, groupSchema)
-    this.courses = await this.db.collection({
-      name: 'courses',
-      schema: courseSchema
-    })
-    this.groups = await this.db.collection({
-      name: 'groups',
-      schema: groupSchema
-    })
-    this.doGroupUpdate()
-    this.doCourseUpdate()
+    // await this.db.destroy()
+    await removeRxDatabase('courseplannerdb', 'idb')
+    // await this.loadDatabase()
   }
 
   doCourseUpdate = async () => {
+    const db = await databasePromise
     this.allCourses.forEach(async course => {
-      const doc = await this.courses.findOne().where('courseKey').eq(course.courseKey).exec()
-      console.log(doc)
+      const doc = await db.courses.findOne().where('courseKey').eq(course.courseKey).exec()
       if (doc === null) {
-        await this.courses.insert(course)
+        try {
+          await db.courses.insert(course)
+        } catch (error) {
+          console.error(error)
+        }
       } else {
         const newDoc = { wanted: doc.wanted, ...course }
-        await this.courses.atomicUpsert(newDoc)
+        try {
+          await db.courses.atomicUpsert(newDoc)
+        } catch (error) {
+          console.error(error)
+        }
       }
     })
   }
 
   doGroupUpdate = async () => {
+    const db = await databasePromise
     this.originalTrays.forEach(async group => {
-      const doc = await this.groups.findOne().where('groupKey').eq(group.groupKey).exec()
+      const doc = await db.groups.findOne().where('groupKey').eq(group.groupKey).exec()
       if (doc === null) {
-        this.groups.insert(group)
+        db.groups.insert(group)
       } else {
-        this.groups.upsert({ selected: doc.selected, ...group })
+        db.groups.upsert({ selected: doc.selected, ...group })
       }
     })
   }

@@ -16,6 +16,7 @@ import SyncManager from './scripts/sync'
 import CourseManager from './scripts/courses'
 import Exporter from './scripts/export'
 import GoogleApi from './scripts/googleapi'
+import db from './scripts/database'
 
 Vue.config.productionTip = false
 
@@ -24,6 +25,7 @@ Vue.use(Buefy)
 Vue.use(AsyncComputed)
 
 window.sync = SyncManager
+window.db = db
 window.courses = CourseManager
 window.export = Exporter
 window.google = GoogleApi

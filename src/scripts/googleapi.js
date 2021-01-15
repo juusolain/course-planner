@@ -1,8 +1,6 @@
 import axios from 'axios'
 import SyncManager from './sync'
 
-console.log(process.env)
-
 const googleConfig = {
   auth: {
     client_id: process.env.VUE_APP_GOOGLE_CLIENT_ID,
@@ -45,8 +43,6 @@ class GoogleApi {
   }
 
   returnedCode = async code => {
-    console.log(code)
-    console.log('Apparently logged in')
     const res = await axios.post('https://oauth2.googleapis.com/token', {
       client_id: this.googleConfig.auth.client_id,
       client_secret: this.googleConfig.auth.client_secret,
@@ -54,7 +50,6 @@ class GoogleApi {
       grant_type: 'authorization_code',
       redirect_uri: process.env.NODE_ENV === 'production' ? 'https://courses.jusola.xyz/' : 'http://localhost:8080/'
     })
-    console.log(res)
     this.setAccessToken(res.data.access_token, Date.now() + res.data.expires_in)
     this.setRefreshToken(res.data.refresh_token)
   }
@@ -83,7 +78,6 @@ class GoogleApi {
         refresh_token: this.refreshToken,
         grant_type: 'refresh_token'
       })
-      console.log(res)
       this.setAccessToken(res.data.access_token, Date.now() + res.data.expires_in)
       return true
     } catch (error) {
@@ -95,8 +89,8 @@ class GoogleApi {
 
   isAuthorized = async () => {
     try {
-      if (!this.getAccessToken()) throw new Error('didn\'t get accesstoken')
-      const res = await axios.get('https://www.googleapis.com/drive/v3/files', {
+      if (!this.getAccessToken()) throw new Error("Didn't get accesstoken")
+      await axios.get('https://www.googleapis.com/drive/v3/files', {
         params: {
           spaces: 'appDataFolder'
         },
@@ -104,7 +98,7 @@ class GoogleApi {
           Authorization: `Bearer ${await this.getAccessToken()}`
         }
       })
-      console.log('authorized')
+      // authorized now
       return true
     } catch (error) {
       if (error.response.status === 401) {

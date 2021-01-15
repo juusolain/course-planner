@@ -1,55 +1,42 @@
 <template>
   <div class="container">
-    <div class="columns box notification" v-for="(courseNumbers, courseName) in visibileCourses" :key="courseName">
-      <div class="column is-narrow is-flex basecoursediv">
-        <p class="is-size-5 coursetext">{{courseName}}</p>
-        <b-button type="is-primary is-light" size="is-small" class="coursebutton" @click="hideCourses(courseName)" icon-right="eye-off"></b-button>
-      </div>
-      <div class="column">
-        <div class="is-flex courselist">
-          <div v-for="(courseObj, index) of courseNumbers" :key="courseObj.courseKey+index">
-            <CourseButton :courseObj="courseObj" :courseName="courseName" :activeYear="activeYear" />
-          </div>
-        </div>
-      </div>
-    </div>
+    <CourseBar v-for="courseBaseKey in visibleBaseKeys" :key="courseBaseKey" :courseBaseKey="courseBaseKey" />
   </div>
 </template>
 
 <script>
 import CourseManager from '@/scripts/courses.js'
-import CourseButton from '@/components/Courses/CourseButton.vue'
+import databasePromise from '@/scripts/database.js'
+import CourseBar from '@/components/Courses/CourseBar.vue'
 
 export default {
   name: 'CourseList',
-  components: { CourseButton },
+  components: { CourseBar },
   props: ['activeYear'],
   data () {
     return {
       courses: CourseManager.allCourses,
-      hiddenCourseBaseKeys: CourseManager.hiddenCourseBaseKeys
+      hiddenCourseBaseKeys: CourseManager.hiddenCourseBaseKeys,
+      visibleBaseKeys: []
     }
   },
-  computed: {
-    visibileCourses () {
-      var res
-      const query = CourseManager.courses.find()
-      query.$.subscribe(results => {
-        res = results
-        /* results.forEach(course => {
-          res[course.courseBaseKey] = res[course.courseBaseKey] || []
-          res[course.courseBaseKey].push(course)
-        }) */
-      })
-      return res
-    }
+  mounted () {
+    this.loadBaseKeys()
   },
   methods: {
     hideCourses (courseBaseKey) {
       CourseManager.hideCourses(courseBaseKey)
+    },
+    async loadBaseKeys () {
+      const db = await databasePromise
+      const query = db.courses.find()
+      query.$.subscribe((rxReturn) => {
+        console.log(rxReturn.toJSON())
+      })
     }
   }
 }
+
 </script>
 
 <style lang="scss" scoped>
